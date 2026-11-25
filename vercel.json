@@ -3,6 +3,7 @@
   "services": {
     "web": {
       "root": ".",
+      "framework": "nextjs",
       "buildCommand": "npm run build",
       "outputDirectory": "apps/web/out"
     }
