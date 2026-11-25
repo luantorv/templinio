@@ -2,10 +2,8 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "services": {
     "web": {
-      "root": ".",
-      "framework": "nextjs",
-      "buildCommand": "npm run build",
-      "outputDirectory": "apps/web/out"
+      "root": "apps/web",
+      "framework": "nextjs"
     }
   },
   "rewrites": [
