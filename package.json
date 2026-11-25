@@ -1,0 +1,34 @@
+{
+  "name": "templinio",
+  "version": "0.0.0",
+  "private": true,
+  "license": "AGPL-3.0-only",
+  "engines": {
+    "node": ">=20.9"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspace @templinio/web",
+    "dev": "npm run dev --workspace @templinio/web",
+    "lint": "eslint . && ruff check pipelines",
+    "lint:fix": "eslint . --fix && ruff check pipelines --fix",
+    "test": "npm run test --workspaces --if-present && python -m unittest discover -s pipelines/tests -v",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "validate:data": "python -m pipelines.templinio_etl.cli validate data/fixtures/templinio.fixture.json",
+    "etl:fixture": "python -m pipelines.templinio_etl.cli transform data/fixtures/endoflife-date.nodejs.json apps/web/public/datasets/nodejs.json",
+    "etl:fetch": "python -m pipelines.templinio_etl.cli fetch nodejs apps/web/public/datasets/nodejs.json",
+    "check": "npm run lint && npm run typecheck && npm run test && npm run validate:data && npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.10",
+    "@types/react": "19.3.3",
+    "@types/react-dom": "19.3.0",
+    "eslint": "9.39.5",
+    "eslint-config-next": "16.4.6",
+    "typescript": "6.0.3",
+    "vitest": "5.1.2"
+  }
+}

@@ -1,0 +1,13 @@
+[project]
+name = "templinio-etl"
+version = "0.0.0"
+description = "Small, auditable ETL pipeline for Templinio lifecycle data"
+requires-python = ">=3.13"
+license = "AGPL-3.0-only"
+
+[tool.ruff]
+target-version = "py313"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]

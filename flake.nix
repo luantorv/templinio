@@ -1,5 +1,7 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+
 {
-  description = "Node devShell";
+  description = "Reproducible Templinio development environment";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
@@ -13,10 +15,11 @@
       in {
         devShells.default = pkgs.mkShell {
           packages = with pkgs; [
-            nodejs_26
+            nodejs_24
+            python313
+            ruff
+            uv
           ];
-
-          # shellHook = '''';
         };
       }
     );

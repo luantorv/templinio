@@ -1,1 +1,15 @@
+# Private working context; never publish this directory
 notas/
+
+# Dependencies and generated output
+node_modules/
+.next/
+out/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Python
+__pycache__/
+*.py[cod]
+.mypy_cache/
