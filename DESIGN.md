@@ -1,4 +1,4 @@
-# Horologium — Design System
+# Templinio — Design System
 
 > Relojería analógica · instrumentación digital · cartografía celeste
 
@@ -23,7 +23,7 @@ Este documento define un lenguaje visual, no una aplicación concreta. Debe pode
 
 ### 1.1. Concepto
 
-Horologium imagina una interfaz como un instrumento de precisión: una máquina capaz de medir, ordenar y revelar información. Sus mecanismos recuerdan tanto a un reloj antiguo como a un dispositivo electrónico contemporáneo.
+Templinio imagina una interfaz como un instrumento de precisión: una máquina capaz de medir, ordenar y revelar información. Sus mecanismos recuerdan tanto a un reloj antiguo como a un dispositivo electrónico contemporáneo.
 
 La estética debe expresar precisión, curiosidad, calma, sofisticación y una complejidad que se vuelve inteligible mediante geometría.
 
