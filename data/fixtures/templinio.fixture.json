@@ -1,0 +1,89 @@
+{
+  "schemaVersion": "0.1.0",
+  "generatedAt": "2026-11-25T14:15:22+00:00",
+  "sources": [
+    {
+      "id": "endoflife-date-nodejs",
+      "name": "endoflife.date — Node.js",
+      "url": "https://endoflife.date/nodejs",
+      "retrievedAt": "2026-11-25T14:15:22+00:00",
+      "license": "MIT",
+      "licenseUrl": "https://github.com/endoflife-date/endoflife.date/blob/master/LICENSE"
+    }
+  ],
+  "technologies": [
+    {
+      "id": "nodejs",
+      "name": "Node.js",
+      "description": "JavaScript runtime built on the V8 engine.",
+      "category": "runtime",
+      "homepage": "https://nodejs.org/",
+      "aliases": ["node"],
+      "sourceIds": ["endoflife-date-nodejs"]
+    }
+  ],
+  "releaseCycles": [
+    {
+      "id": "nodejs-26",
+      "technologyId": "nodejs",
+      "name": "26",
+      "releaseDate": "2026-05-05",
+      "eolDate": "2029-04-30",
+      "isLts": true,
+      "status": "active",
+      "sourceIds": ["endoflife-date-nodejs"]
+    },
+    {
+      "id": "nodejs-25",
+      "technologyId": "nodejs",
+      "name": "25",
+      "releaseDate": "2025-10-15",
+      "eolDate": "2026-06-01",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": ["endoflife-date-nodejs"]
+    },
+    {
+      "id": "nodejs-3",
+      "technologyId": "nodejs",
+      "name": "3",
+      "releaseDate": "2015-08-04",
+      "eolDate": null,
+      "isLts": false,
+      "status": "unknown",
+      "sourceIds": ["endoflife-date-nodejs"]
+    }
+  ],
+  "events": [
+    {
+      "id": "nodejs-26-release",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-26",
+      "type": "release",
+      "title": "Node.js 26 released",
+      "date": "2026-05-05",
+      "dateStatus": "occurred",
+      "sourceIds": ["endoflife-date-nodejs"]
+    },
+    {
+      "id": "nodejs-26-eol",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-26",
+      "type": "end-of-life",
+      "title": "Node.js 26 scheduled end of life",
+      "date": "2029-04-30",
+      "dateStatus": "scheduled",
+      "sourceIds": ["endoflife-date-nodejs"]
+    },
+    {
+      "id": "nodejs-3-eol",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-3",
+      "type": "end-of-life",
+      "title": "Node.js 3 end-of-life date is unknown",
+      "date": null,
+      "dateStatus": "unknown",
+      "sourceIds": ["endoflife-date-nodejs"]
+    }
+  ]
+}

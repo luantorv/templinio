@@ -1,0 +1,969 @@
+{
+  "schemaVersion": "0.1.0",
+  "generatedAt": "2026-11-25T21:29:01+00:00",
+  "sources": [
+    {
+      "id": "endoflife-date-nodejs",
+      "name": "endoflife.date — Node.js",
+      "url": "https://endoflife.date/nodejs",
+      "retrievedAt": "2026-11-25T21:29:01+00:00",
+      "license": "MIT",
+      "licenseUrl": "https://github.com/endoflife-date/endoflife.date/blob/master/LICENSE"
+    }
+  ],
+  "technologies": [
+    {
+      "id": "nodejs",
+      "name": "Node.js",
+      "description": "Lifecycle information for Node.js.",
+      "category": "runtime",
+      "homepage": "https://nodejs.org/en/about/previous-releases",
+      "aliases": [
+        "node"
+      ],
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    }
+  ],
+  "releaseCycles": [
+    {
+      "id": "nodejs-26",
+      "technologyId": "nodejs",
+      "name": "26",
+      "releaseDate": "2026-05-05",
+      "eolDate": "2029-04-30",
+      "isLts": true,
+      "status": "active",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-25",
+      "technologyId": "nodejs",
+      "name": "25",
+      "releaseDate": "2025-10-15",
+      "eolDate": "2026-06-01",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-24",
+      "technologyId": "nodejs",
+      "name": "24",
+      "releaseDate": "2025-05-06",
+      "eolDate": "2028-04-30",
+      "isLts": true,
+      "status": "active",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-23",
+      "technologyId": "nodejs",
+      "name": "23",
+      "releaseDate": "2024-10-16",
+      "eolDate": "2025-06-01",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-22",
+      "technologyId": "nodejs",
+      "name": "22",
+      "releaseDate": "2024-04-24",
+      "eolDate": "2027-04-30",
+      "isLts": true,
+      "status": "active",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-21",
+      "technologyId": "nodejs",
+      "name": "21",
+      "releaseDate": "2023-10-17",
+      "eolDate": "2024-06-01",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-20",
+      "technologyId": "nodejs",
+      "name": "20",
+      "releaseDate": "2023-04-18",
+      "eolDate": "2026-04-30",
+      "isLts": true,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-19",
+      "technologyId": "nodejs",
+      "name": "19",
+      "releaseDate": "2022-10-18",
+      "eolDate": "2023-06-01",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-18",
+      "technologyId": "nodejs",
+      "name": "18",
+      "releaseDate": "2022-04-19",
+      "eolDate": "2025-04-30",
+      "isLts": true,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-17",
+      "technologyId": "nodejs",
+      "name": "17",
+      "releaseDate": "2021-10-19",
+      "eolDate": "2022-06-01",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-16",
+      "technologyId": "nodejs",
+      "name": "16",
+      "releaseDate": "2021-04-20",
+      "eolDate": "2023-09-11",
+      "isLts": true,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-15",
+      "technologyId": "nodejs",
+      "name": "15",
+      "releaseDate": "2020-10-20",
+      "eolDate": "2021-06-01",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-14",
+      "technologyId": "nodejs",
+      "name": "14",
+      "releaseDate": "2020-04-21",
+      "eolDate": "2023-04-30",
+      "isLts": true,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-13",
+      "technologyId": "nodejs",
+      "name": "13",
+      "releaseDate": "2019-10-22",
+      "eolDate": "2020-06-01",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-12",
+      "technologyId": "nodejs",
+      "name": "12",
+      "releaseDate": "2019-04-23",
+      "eolDate": "2022-04-30",
+      "isLts": true,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-11",
+      "technologyId": "nodejs",
+      "name": "11",
+      "releaseDate": "2018-10-23",
+      "eolDate": "2019-06-30",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-10",
+      "technologyId": "nodejs",
+      "name": "10",
+      "releaseDate": "2018-04-24",
+      "eolDate": "2021-04-30",
+      "isLts": true,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-9",
+      "technologyId": "nodejs",
+      "name": "9",
+      "releaseDate": "2017-10-31",
+      "eolDate": "2018-06-30",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-8",
+      "technologyId": "nodejs",
+      "name": "8",
+      "releaseDate": "2017-05-30",
+      "eolDate": "2019-12-31",
+      "isLts": true,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-7",
+      "technologyId": "nodejs",
+      "name": "7",
+      "releaseDate": "2016-10-25",
+      "eolDate": "2017-06-30",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-6",
+      "technologyId": "nodejs",
+      "name": "6",
+      "releaseDate": "2016-04-26",
+      "eolDate": "2019-04-30",
+      "isLts": true,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-5",
+      "technologyId": "nodejs",
+      "name": "5",
+      "releaseDate": "2015-10-30",
+      "eolDate": "2016-06-30",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-4",
+      "technologyId": "nodejs",
+      "name": "4",
+      "releaseDate": "2015-09-09",
+      "eolDate": "2018-04-30",
+      "isLts": true,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-3",
+      "technologyId": "nodejs",
+      "name": "3",
+      "releaseDate": "2015-08-04",
+      "eolDate": null,
+      "isLts": false,
+      "status": "unknown",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-2",
+      "technologyId": "nodejs",
+      "name": "2",
+      "releaseDate": "2015-05-04",
+      "eolDate": null,
+      "isLts": false,
+      "status": "unknown",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-1",
+      "technologyId": "nodejs",
+      "name": "1",
+      "releaseDate": "2015-01-20",
+      "eolDate": null,
+      "isLts": false,
+      "status": "unknown",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "nodejs-26-release",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-26",
+      "type": "release",
+      "title": "Node.js 26 released",
+      "date": "2026-05-05",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-26-eol",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-26",
+      "type": "end-of-life",
+      "title": "Node.js 26 end of life",
+      "date": "2029-04-30",
+      "dateStatus": "scheduled",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-25-release",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-25",
+      "type": "release",
+      "title": "Node.js 25 released",
+      "date": "2025-10-15",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-25-eol",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-25",
+      "type": "end-of-life",
+      "title": "Node.js 25 end of life",
+      "date": "2026-06-01",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-24-release",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-24",
+      "type": "release",
+      "title": "Node.js 24 released",
+      "date": "2025-05-06",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-24-eol",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-24",
+      "type": "end-of-life",
+      "title": "Node.js 24 end of life",
+      "date": "2028-04-30",
+      "dateStatus": "scheduled",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-23-release",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-23",
+      "type": "release",
+      "title": "Node.js 23 released",
+      "date": "2024-10-16",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-23-eol",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-23",
+      "type": "end-of-life",
+      "title": "Node.js 23 end of life",
+      "date": "2025-06-01",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-22-release",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-22",
+      "type": "release",
+      "title": "Node.js 22 released",
+      "date": "2024-04-24",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-22-eol",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-22",
+      "type": "end-of-life",
+      "title": "Node.js 22 end of life",
+      "date": "2027-04-30",
+      "dateStatus": "scheduled",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-21-release",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-21",
+      "type": "release",
+      "title": "Node.js 21 released",
+      "date": "2023-10-17",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-21-eol",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-21",
+      "type": "end-of-life",
+      "title": "Node.js 21 end of life",
+      "date": "2024-06-01",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-20-release",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-20",
+      "type": "release",
+      "title": "Node.js 20 released",
+      "date": "2023-04-18",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-20-eol",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-20",
+      "type": "end-of-life",
+      "title": "Node.js 20 end of life",
+      "date": "2026-04-30",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-19-release",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-19",
+      "type": "release",
+      "title": "Node.js 19 released",
+      "date": "2022-10-18",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-19-eol",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-19",
+      "type": "end-of-life",
+      "title": "Node.js 19 end of life",
+      "date": "2023-06-01",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-18-release",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-18",
+      "type": "release",
+      "title": "Node.js 18 released",
+      "date": "2022-04-19",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-18-eol",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-18",
+      "type": "end-of-life",
+      "title": "Node.js 18 end of life",
+      "date": "2025-04-30",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-17-release",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-17",
+      "type": "release",
+      "title": "Node.js 17 released",
+      "date": "2021-10-19",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-17-eol",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-17",
+      "type": "end-of-life",
+      "title": "Node.js 17 end of life",
+      "date": "2022-06-01",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-16-release",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-16",
+      "type": "release",
+      "title": "Node.js 16 released",
+      "date": "2021-04-20",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-16-eol",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-16",
+      "type": "end-of-life",
+      "title": "Node.js 16 end of life",
+      "date": "2023-09-11",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-15-release",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-15",
+      "type": "release",
+      "title": "Node.js 15 released",
+      "date": "2020-10-20",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-15-eol",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-15",
+      "type": "end-of-life",
+      "title": "Node.js 15 end of life",
+      "date": "2021-06-01",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-14-release",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-14",
+      "type": "release",
+      "title": "Node.js 14 released",
+      "date": "2020-04-21",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-14-eol",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-14",
+      "type": "end-of-life",
+      "title": "Node.js 14 end of life",
+      "date": "2023-04-30",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-13-release",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-13",
+      "type": "release",
+      "title": "Node.js 13 released",
+      "date": "2019-10-22",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-13-eol",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-13",
+      "type": "end-of-life",
+      "title": "Node.js 13 end of life",
+      "date": "2020-06-01",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-12-release",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-12",
+      "type": "release",
+      "title": "Node.js 12 released",
+      "date": "2019-04-23",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-12-eol",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-12",
+      "type": "end-of-life",
+      "title": "Node.js 12 end of life",
+      "date": "2022-04-30",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-11-release",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-11",
+      "type": "release",
+      "title": "Node.js 11 released",
+      "date": "2018-10-23",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-11-eol",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-11",
+      "type": "end-of-life",
+      "title": "Node.js 11 end of life",
+      "date": "2019-06-30",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-10-release",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-10",
+      "type": "release",
+      "title": "Node.js 10 released",
+      "date": "2018-04-24",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-10-eol",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-10",
+      "type": "end-of-life",
+      "title": "Node.js 10 end of life",
+      "date": "2021-04-30",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-9-release",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-9",
+      "type": "release",
+      "title": "Node.js 9 released",
+      "date": "2017-10-31",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-9-eol",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-9",
+      "type": "end-of-life",
+      "title": "Node.js 9 end of life",
+      "date": "2018-06-30",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-8-release",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-8",
+      "type": "release",
+      "title": "Node.js 8 released",
+      "date": "2017-05-30",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-8-eol",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-8",
+      "type": "end-of-life",
+      "title": "Node.js 8 end of life",
+      "date": "2019-12-31",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-7-release",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-7",
+      "type": "release",
+      "title": "Node.js 7 released",
+      "date": "2016-10-25",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-7-eol",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-7",
+      "type": "end-of-life",
+      "title": "Node.js 7 end of life",
+      "date": "2017-06-30",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-6-release",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-6",
+      "type": "release",
+      "title": "Node.js 6 released",
+      "date": "2016-04-26",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-6-eol",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-6",
+      "type": "end-of-life",
+      "title": "Node.js 6 end of life",
+      "date": "2019-04-30",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-5-release",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-5",
+      "type": "release",
+      "title": "Node.js 5 released",
+      "date": "2015-10-30",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-5-eol",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-5",
+      "type": "end-of-life",
+      "title": "Node.js 5 end of life",
+      "date": "2016-06-30",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-4-release",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-4",
+      "type": "release",
+      "title": "Node.js 4 released",
+      "date": "2015-09-09",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-4-eol",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-4",
+      "type": "end-of-life",
+      "title": "Node.js 4 end of life",
+      "date": "2018-04-30",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-3-release",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-3",
+      "type": "release",
+      "title": "Node.js 3 released",
+      "date": "2015-08-04",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-3-eol",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-3",
+      "type": "end-of-life",
+      "title": "Node.js 3 end-of-life date is unknown",
+      "date": null,
+      "dateStatus": "unknown",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-2-release",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-2",
+      "type": "release",
+      "title": "Node.js 2 released",
+      "date": "2015-05-04",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-2-eol",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-2",
+      "type": "end-of-life",
+      "title": "Node.js 2 end-of-life date is unknown",
+      "date": null,
+      "dateStatus": "unknown",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-1-release",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-1",
+      "type": "release",
+      "title": "Node.js 1 released",
+      "date": "2015-01-20",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-1-eol",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-1",
+      "type": "end-of-life",
+      "title": "Node.js 1 end-of-life date is unknown",
+      "date": null,
+      "dateStatus": "unknown",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    }
+  ]
+}
