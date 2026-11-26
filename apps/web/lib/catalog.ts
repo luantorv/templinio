@@ -1,32 +1,10 @@
 // SPDX-License-Identifier: AGPL-3.0-only
 
 import { templinioDatasetSchema } from "@templinio/schema";
-import fixture from "../../../data/fixtures/templinio.fixture.json";
+import snapshot from "../public/datasets/catalog.json";
+import { categoryLabels } from "./lifecycle";
 
-export const dataset = templinioDatasetSchema.parse(fixture);
-
-export const categoryLabels = {
-  runtime: "Runtime",
-  language: "Language",
-  framework: "Framework",
-  database: "Database",
-  "operating-system": "Operating system",
-  tool: "Tool",
-} as const;
-
-export const cycleStatusLabels = {
-  active: "Active",
-  "end-of-life": "End of life",
-  scheduled: "Scheduled",
-  unknown: "Unknown",
-} as const;
-
-export const dateStatusLabels = {
-  occurred: "Occurred",
-  scheduled: "Scheduled",
-  estimated: "Estimated",
-  unknown: "Unknown",
-} as const;
+export const dataset = templinioDatasetSchema.parse(snapshot);
 
 export const catalog = dataset.technologies.map((technology) => {
   const cycles = dataset.releaseCycles.filter(({ technologyId }) => technologyId === technology.id);

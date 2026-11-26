@@ -2,17 +2,12 @@
 
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { DisplayDate } from "@/components/display-date";
+import { ExpandableEvents } from "@/components/expandable-events";
+import { ExpandableReleaseCycles } from "@/components/expandable-release-cycles";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
-import {
-  catalog,
-  categoryLabels,
-  cycleStatusLabels,
-  dataset,
-  dateStatusLabels,
-  getTechnologyRecord,
-} from "@/lib/catalog";
+import { catalog, dataset, getTechnologyRecord } from "@/lib/catalog";
+import { categoryLabels } from "@/lib/lifecycle";
 
 type TechnologyPageProps = {
   params: Promise<{ technology: string }>;
@@ -84,26 +79,7 @@ export default async function TechnologyPage({ params }: TechnologyPageProps) {
             </div>
             <p>Dates reflect the cited sources. Unknown values are preserved explicitly.</p>
           </div>
-          <div className="table-panel">
-            <div className="table-scroll">
-              <table>
-                <caption className="sr-only">{technology.name} release cycles</caption>
-                <thead>
-                  <tr><th scope="col">Cycle</th><th scope="col">Released</th><th scope="col">EOL</th><th scope="col">Status</th></tr>
-                </thead>
-                <tbody>
-                  {releaseCycles.map((cycle) => (
-                    <tr key={cycle.id}>
-                      <th scope="row">{cycle.name}{cycle.isLts ? <small>LTS</small> : null}</th>
-                      <td><DisplayDate value={cycle.releaseDate} /></td>
-                      <td><DisplayDate value={cycle.eolDate} /></td>
-                      <td><span className={`status status--${cycle.status}`}><i aria-hidden="true" />{cycleStatusLabels[cycle.status]}</span></td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </div>
+          <ExpandableReleaseCycles cycles={releaseCycles} technologyName={technology.name} />
         </section>
 
         <section className="section" aria-labelledby="evidence-title">
@@ -115,18 +91,7 @@ export default async function TechnologyPage({ params }: TechnologyPageProps) {
             <p>Temporal claims and their provenance remain inspectable side by side.</p>
           </div>
           <div className="data-layout">
-            <div className="event-list technology-events" aria-label="Temporal evidence">
-              <h3>Temporal evidence</h3>
-              {events.map((event) => (
-                <article className="event" key={event.id}>
-                  <span className={`event__node event__node--${event.dateStatus}`} aria-hidden="true" />
-                  <div>
-                    <strong>{event.title}</strong>
-                    <span><DisplayDate value={event.date} /> · {dateStatusLabels[event.dateStatus]}</span>
-                  </div>
-                </article>
-              ))}
-            </div>
+            <ExpandableEvents events={events} />
             <div className="source-stack">
               {sources.map((source, index) => (
                 <aside className="evidence-panel" key={source.id}>

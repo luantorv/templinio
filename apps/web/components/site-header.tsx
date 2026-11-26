@@ -14,7 +14,7 @@ export function SiteHeader() {
       <nav aria-label="Primary navigation" className="site-nav">
         <a href="/atlas">Atlas</a>
         <a href="/#foundation">Foundation</a>
-        <a href="/datasets/nodejs.json">JSON</a>
+        <a href="/datasets/catalog.json">JSON</a>
         <ThemeToggle />
       </nav>
     </header>

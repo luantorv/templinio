@@ -5,21 +5,19 @@ import { catalog, getTechnologyRecord } from "./catalog";
 
 describe("catalog", () => {
   it("summarizes technologies from the validated dataset", () => {
-    expect(catalog).toEqual([
-      expect.objectContaining({
-        id: "nodejs",
-        categoryLabel: "Runtime",
-        cycleCount: 3,
-        activeCycleCount: 1,
-      }),
-    ]);
+    const node = catalog.find(({ id }) => id === "nodejs");
+
+    expect(catalog).toHaveLength(15);
+    expect(node).toEqual(expect.objectContaining({ id: "nodejs", categoryLabel: "Runtime" }));
+    expect(node?.cycleCount).toBeGreaterThan(0);
+    expect(node?.activeCycleCount).toBeGreaterThan(0);
   });
 
   it("collects lifecycle records and their referenced sources", () => {
     const record = getTechnologyRecord("nodejs");
 
-    expect(record?.releaseCycles).toHaveLength(3);
-    expect(record?.events).toHaveLength(3);
+    expect(record?.releaseCycles.length).toBeGreaterThan(0);
+    expect(record?.events).toHaveLength((record?.releaseCycles.length ?? 0) * 2);
     expect(record?.sources.map(({ id }) => id)).toEqual(["endoflife-date-nodejs"]);
   });
 

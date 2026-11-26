@@ -4,10 +4,15 @@ import { BrokenDial } from "@/components/broken-dial";
 import { DisplayDate } from "@/components/display-date";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
-import { cycleStatusLabels, dataset, dateStatusLabels } from "@/lib/catalog";
+import { dataset, getTechnologyRecord } from "@/lib/catalog";
+import { cycleStatusLabels, dateStatusLabels } from "@/lib/lifecycle";
 
 export default function Home() {
-  const source = dataset.sources[0];
+  const nodeRecord = getTechnologyRecord("nodejs");
+  if (!nodeRecord) {
+    throw new Error("The Atlas catalog must include Node.js");
+  }
+  const source = nodeRecord.sources[0];
 
   return (
     <div id="top">
@@ -111,7 +116,7 @@ export default function Home() {
                     <tr><th scope="col">Cycle</th><th scope="col">Released</th><th scope="col">EOL</th><th scope="col">Status</th></tr>
                   </thead>
                   <tbody>
-                    {dataset.releaseCycles.map((cycle) => (
+                    {nodeRecord.releaseCycles.slice(0, 6).map((cycle) => (
                       <tr key={cycle.id}>
                         <th scope="row">{cycle.name}{cycle.isLts ? <small>LTS</small> : null}</th>
                       <td><DisplayDate value={cycle.releaseDate} /></td>
@@ -139,7 +144,7 @@ export default function Home() {
 
           <div className="event-list" aria-labelledby="events-title">
             <h3 id="events-title">Temporal evidence</h3>
-            {dataset.events.map((event) => (
+            {nodeRecord.events.slice(0, 3).map((event) => (
               <article className="event" key={event.id}>
                 <span className={`event__node event__node--${event.dateStatus}`} aria-hidden="true" />
                 <div>
