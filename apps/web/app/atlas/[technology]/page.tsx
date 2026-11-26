@@ -1,0 +1,154 @@
+// SPDX-License-Identifier: AGPL-3.0-only
+
+import type { Metadata } from "next";
+import { notFound } from "next/navigation";
+import { DisplayDate } from "@/components/display-date";
+import { SiteFooter } from "@/components/site-footer";
+import { SiteHeader } from "@/components/site-header";
+import {
+  catalog,
+  categoryLabels,
+  cycleStatusLabels,
+  dataset,
+  dateStatusLabels,
+  getTechnologyRecord,
+} from "@/lib/catalog";
+
+type TechnologyPageProps = {
+  params: Promise<{ technology: string }>;
+};
+
+export const dynamicParams = false;
+
+export function generateStaticParams() {
+  return catalog.map(({ id }) => ({ technology: id }));
+}
+
+export async function generateMetadata({ params }: TechnologyPageProps): Promise<Metadata> {
+  const { technology: technologyId } = await params;
+  const record = getTechnologyRecord(technologyId);
+
+  return record
+    ? {
+        title: `${record.technology.name} lifecycle`,
+        description: record.technology.description,
+      }
+    : { title: "Technology not found" };
+}
+
+export default async function TechnologyPage({ params }: TechnologyPageProps) {
+  const { technology: technologyId } = await params;
+  const record = getTechnologyRecord(technologyId);
+
+  if (!record) {
+    notFound();
+  }
+
+  const { technology, releaseCycles, events, sources } = record;
+
+  return (
+    <div id="top">
+      <a className="skip-link" href="#main-content">Skip to content</a>
+      <SiteHeader />
+
+      <main id="main-content">
+        <header className="technology-hero">
+          <nav aria-label="Breadcrumb">
+            <a href="/atlas">Atlas</a><span aria-hidden="true">/</span><span>{technology.name}</span>
+          </nav>
+          <div className="technology-hero__layout">
+            <div>
+              <p className="eyebrow">{categoryLabels[technology.category]} / Lifecycle record</p>
+              <h1>{technology.name}</h1>
+              <p className="technology-hero__lead">{technology.description}</p>
+              <div className="hero__actions">
+                <a className="button button--primary" href="#release-cycles">Inspect release cycles</a>
+                <a className="button" href={technology.homepage} rel="noreferrer" target="_blank">
+                  Official website <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </div>
+            <dl className="technology-summary">
+              <div><dt>Release cycles</dt><dd>{releaseCycles.length}</dd></div>
+              <div><dt>Evidence records</dt><dd>{sources.length}</dd></div>
+              <div><dt>Dataset updated</dt><dd><time dateTime={dataset.generatedAt}>{dataset.generatedAt.slice(0, 10)}</time></dd></div>
+            </dl>
+          </div>
+        </header>
+
+        <section className="section" id="release-cycles" aria-labelledby="release-cycles-title">
+          <div className="section-heading">
+            <div>
+              <p className="eyebrow">Branches / Versions</p>
+              <h2 id="release-cycles-title">Release cycles</h2>
+            </div>
+            <p>Dates reflect the cited sources. Unknown values are preserved explicitly.</p>
+          </div>
+          <div className="table-panel">
+            <div className="table-scroll">
+              <table>
+                <caption className="sr-only">{technology.name} release cycles</caption>
+                <thead>
+                  <tr><th scope="col">Cycle</th><th scope="col">Released</th><th scope="col">EOL</th><th scope="col">Status</th></tr>
+                </thead>
+                <tbody>
+                  {releaseCycles.map((cycle) => (
+                    <tr key={cycle.id}>
+                      <th scope="row">{cycle.name}{cycle.isLts ? <small>LTS</small> : null}</th>
+                      <td><DisplayDate value={cycle.releaseDate} /></td>
+                      <td><DisplayDate value={cycle.eolDate} /></td>
+                      <td><span className={`status status--${cycle.status}`}><i aria-hidden="true" />{cycleStatusLabels[cycle.status]}</span></td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        <section className="section" aria-labelledby="evidence-title">
+          <div className="section-heading">
+            <div>
+              <p className="eyebrow">Trace / Evidence</p>
+              <h2 id="evidence-title">Events and sources</h2>
+            </div>
+            <p>Temporal claims and their provenance remain inspectable side by side.</p>
+          </div>
+          <div className="data-layout">
+            <div className="event-list technology-events" aria-label="Temporal evidence">
+              <h3>Temporal evidence</h3>
+              {events.map((event) => (
+                <article className="event" key={event.id}>
+                  <span className={`event__node event__node--${event.dateStatus}`} aria-hidden="true" />
+                  <div>
+                    <strong>{event.title}</strong>
+                    <span><DisplayDate value={event.date} /> · {dateStatusLabels[event.dateStatus]}</span>
+                  </div>
+                </article>
+              ))}
+            </div>
+            <div className="source-stack">
+              {sources.map((source, index) => (
+                <aside className="evidence-panel" key={source.id}>
+                  <span className="technical-label">Evidence / {String(index + 1).padStart(2, "0")}</span>
+                  <h3>{source.name}</h3>
+                  <dl>
+                    <div><dt>Retrieved</dt><dd><time dateTime={source.retrievedAt}>{source.retrievedAt.slice(0, 10)}</time></dd></div>
+                    <div><dt>License</dt><dd><a href={source.licenseUrl} rel="noreferrer" target="_blank">{source.license} <span aria-hidden="true">↗</span></a></dd></div>
+                    <div><dt>Schema</dt><dd>{dataset.schemaVersion}</dd></div>
+                  </dl>
+                  <a className="source-link" href={source.url} rel="noreferrer" target="_blank">Open source record <span aria-hidden="true">↗</span></a>
+                </aside>
+              ))}
+            </div>
+          </div>
+          <p className="dataset-download">
+            Machine-readable record: <a href={`/datasets/${technology.id}.json`}>download JSON</a>
+          </p>
+        </section>
+      </main>
+
+      <SiteFooter />
+    </div>
+  );
+}
