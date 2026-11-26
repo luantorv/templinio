@@ -18,20 +18,25 @@ The operating budget is **USD 0/month** until the maintainer explicitly authoriz
 not attach a payment method, enable metered add-ons, analytics, image optimization, databases, or
 on-demand services as part of an ordinary deployment.
 
-The proposed host is Vercel Hobby for personal, non-commercial use. As checked on 2026-11-25, its
-documented general limits include 100 GB fast data transfer, 6,000 build minutes, 100 deployments
-per day, a 45-minute build limit, and a 100 MB CLI source upload limit. The local static proof is
-about 1 MB across 33 files and contains no functions, comfortably below the relevant build and
-file limits.
+The production landing is hosted on [Vercel Hobby](https://templinio.vercel.app/) for personal,
+non-commercial use. As checked on 2026-11-25, its documented general limits include 100 GB fast
+data transfer, 6,000 build minutes, 100 deployments per day, a 45-minute build limit, and a 100 MB
+CLI source upload limit. The static proof is about 1.1 MB and contains no functions, comfortably
+below the relevant build and file limits.
 
 Limits and terms can change. Recheck [Vercel limits](https://vercel.com/docs/limits), the
-[Hobby plan](https://vercel.com/docs/plans/hobby), and its non-commercial restriction before the
-first deployment. If a free quota is exhausted, the expected response is degraded availability
-or a paused update—not variable billing.
+[Hobby plan](https://vercel.com/docs/plans/hobby), and its non-commercial restriction periodically
+and before changing the deployment model. If a free quota is exhausted, the expected response is
+degraded availability or a paused update—not variable billing.
 
-## Deployment gate
+## Deployment status
 
-Before publishing:
+As of 2026-11-26, `main` deploys to production and `staging` creates persistent preview
+deployments. Vercel records the Git commit for each deployment, and the landing links to the
+matching source repository. The initial production deployment was checked for a successful page
+response, static assets, and a valid downloadable dataset.
+
+Before each substantive public release:
 
 - run `npm ci && npm run check` from a clean checkout;
 - verify output size and that no secrets or private notes are in `apps/web/out`;
@@ -39,5 +44,3 @@ Before publishing:
 - record the deployed commit and expose the matching source repository link;
 - confirm analytics and paid features remain disabled;
 - smoke-test source links, keyboard use, both themes, and a narrow viewport.
-
-No production deployment has been made as part of Phase 0 in this repository.

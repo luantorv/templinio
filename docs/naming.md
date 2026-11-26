@@ -18,13 +18,13 @@ time of the check:
 
 The workspace packages use the private scope `@templinio/*`; that npm scope has not been
 reserved. No domain is claimed by the project yet, so the JSON Schema uses a stable URN rather
-than a domain-based identifier. The local directory and current GitHub repository may retain the
-old slug until the remote repository is renamed.
+than a domain-based identifier. The local directory and GitHub repository already use the
+`templinio` slug.
 
-Before public launch, reserve the intended package scope and domain, rename the GitHub
-repository, repeat the registry checks, and perform a jurisdiction-specific trademark search
-that includes similar names. WIPO explicitly recommends searching similar as well as identical
-marks and consulting national or regional registers.
+Before publishing packages, adopting a custom domain, or making a substantial brand investment,
+reserve the intended package scope and domain, repeat the registry checks, and perform a
+jurisdiction-specific trademark search that includes similar names. WIPO explicitly recommends
+searching similar as well as identical marks and consulting national or regional registers.
 
 ## Evidence
 
