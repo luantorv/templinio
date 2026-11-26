@@ -4,10 +4,12 @@
 
 from __future__ import annotations
 
+import re
 from datetime import date, datetime
 from typing import Any
 
 SOURCE_LICENSE_URL = "https://github.com/endoflife-date/endoflife.date/blob/master/LICENSE"
+NON_IDENTIFIER_CHARACTERS = re.compile(r"[^a-z0-9]+")
 
 
 def _event_date_status(value: str | None, generated_on: date) -> str:
@@ -30,15 +32,25 @@ def _category(product: dict[str, Any]) -> str:
     tags = set(product.get("tags", []))
     if "javascript-runtime" in tags:
         return "runtime"
+    if "lang" in tags:
+        return "language"
     category = product.get("category")
     if category in {"runtime", "language", "framework", "database", "operating-system", "tool"}:
         return category
+    if category in {"lang", "programming-language"}:
+        return "language"
     if category in {"os", "linux-distribution"}:
         return "operating-system"
     return "tool"
 
 
-def normalize_endoflife_product(payload: dict[str, Any]) -> dict[str, Any]:
+def _identifier_part(value: str) -> str:
+    return NON_IDENTIFIER_CHARACTERS.sub("-", value.lower()).strip("-")
+
+
+def normalize_endoflife_product(
+    payload: dict[str, Any], *, description: str | None = None
+) -> dict[str, Any]:
     """Convert a documented API v1 product response to the Templinio schema."""
     product = payload["result"]
     generated_at = payload["generated_at"]
@@ -50,7 +62,7 @@ def normalize_endoflife_product(payload: dict[str, Any]) -> dict[str, Any]:
     cycles: list[dict[str, Any]] = []
     events: list[dict[str, Any]] = []
     for release in product.get("releases", []):
-        cycle_id = f"{technology_id}-{release['name'].lower()}"
+        cycle_id = f"{technology_id}-{_identifier_part(release['name'])}"
         release_date = release.get("releaseDate")
         eol_date = release.get("eolFrom")
         cycles.append(
@@ -111,7 +123,7 @@ def normalize_endoflife_product(payload: dict[str, Any]) -> dict[str, Any]:
             {
                 "id": technology_id,
                 "name": product["label"],
-                "description": f"Lifecycle information for {product['label']}.",
+                "description": description or f"Lifecycle information for {product['label']}.",
                 "category": _category(product),
                 "homepage": product.get("links", {}).get("releasePolicy", source_url),
                 "aliases": product.get("aliases", []),

@@ -1,0 +1,537 @@
+{
+  "schemaVersion": "0.1.0",
+  "generatedAt": "2026-11-26T11:01:05+00:00",
+  "sources": [
+    {
+      "id": "endoflife-date-dotnet",
+      "name": "endoflife.date — Microsoft .NET",
+      "url": "https://endoflife.date/dotnet",
+      "retrievedAt": "2026-11-26T11:01:05+00:00",
+      "license": "MIT",
+      "licenseUrl": "https://github.com/endoflife-date/endoflife.date/blob/master/LICENSE"
+    }
+  ],
+  "technologies": [
+    {
+      "id": "dotnet",
+      "name": "Microsoft .NET",
+      "description": "Cross-platform developer platform maintained by Microsoft.",
+      "category": "framework",
+      "homepage": "https://dotnet.microsoft.com/platform/support/policy/dotnet-core",
+      "aliases": [
+        "dotnetcore"
+      ],
+      "sourceIds": [
+        "endoflife-date-dotnet"
+      ]
+    }
+  ],
+  "releaseCycles": [
+    {
+      "id": "dotnet-11",
+      "technologyId": "dotnet",
+      "name": "11",
+      "releaseDate": "2026-11-10",
+      "eolDate": "2028-11-14",
+      "isLts": false,
+      "status": "active",
+      "sourceIds": [
+        "endoflife-date-dotnet"
+      ]
+    },
+    {
+      "id": "dotnet-10",
+      "technologyId": "dotnet",
+      "name": "10",
+      "releaseDate": "2025-11-11",
+      "eolDate": "2028-11-14",
+      "isLts": true,
+      "status": "active",
+      "sourceIds": [
+        "endoflife-date-dotnet"
+      ]
+    },
+    {
+      "id": "dotnet-9",
+      "technologyId": "dotnet",
+      "name": "9",
+      "releaseDate": "2024-11-12",
+      "eolDate": "2026-11-10",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-dotnet"
+      ]
+    },
+    {
+      "id": "dotnet-8",
+      "technologyId": "dotnet",
+      "name": "8",
+      "releaseDate": "2023-11-14",
+      "eolDate": "2026-11-10",
+      "isLts": true,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-dotnet"
+      ]
+    },
+    {
+      "id": "dotnet-7",
+      "technologyId": "dotnet",
+      "name": "7",
+      "releaseDate": "2022-11-08",
+      "eolDate": "2024-05-14",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-dotnet"
+      ]
+    },
+    {
+      "id": "dotnet-6",
+      "technologyId": "dotnet",
+      "name": "6",
+      "releaseDate": "2021-11-08",
+      "eolDate": "2024-11-12",
+      "isLts": true,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-dotnet"
+      ]
+    },
+    {
+      "id": "dotnet-5",
+      "technologyId": "dotnet",
+      "name": "5",
+      "releaseDate": "2020-11-10",
+      "eolDate": "2022-05-10",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-dotnet"
+      ]
+    },
+    {
+      "id": "dotnet-3-1",
+      "technologyId": "dotnet",
+      "name": "3.1",
+      "releaseDate": "2019-12-03",
+      "eolDate": "2022-12-13",
+      "isLts": true,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-dotnet"
+      ]
+    },
+    {
+      "id": "dotnet-3-0",
+      "technologyId": "dotnet",
+      "name": "3.0",
+      "releaseDate": "2019-09-23",
+      "eolDate": "2020-03-03",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-dotnet"
+      ]
+    },
+    {
+      "id": "dotnet-2-2",
+      "technologyId": "dotnet",
+      "name": "2.2",
+      "releaseDate": "2018-12-04",
+      "eolDate": "2019-12-23",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-dotnet"
+      ]
+    },
+    {
+      "id": "dotnet-2-1",
+      "technologyId": "dotnet",
+      "name": "2.1",
+      "releaseDate": "2018-05-30",
+      "eolDate": "2021-08-21",
+      "isLts": true,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-dotnet"
+      ]
+    },
+    {
+      "id": "dotnet-2-0",
+      "technologyId": "dotnet",
+      "name": "2.0",
+      "releaseDate": "2017-08-14",
+      "eolDate": "2018-10-01",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-dotnet"
+      ]
+    },
+    {
+      "id": "dotnet-1-1",
+      "technologyId": "dotnet",
+      "name": "1.1",
+      "releaseDate": "2016-11-16",
+      "eolDate": "2019-06-27",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-dotnet"
+      ]
+    },
+    {
+      "id": "dotnet-1-0",
+      "technologyId": "dotnet",
+      "name": "1.0",
+      "releaseDate": "2016-06-27",
+      "eolDate": "2019-06-27",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-dotnet"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "dotnet-11-release",
+      "technologyId": "dotnet",
+      "releaseCycleId": "dotnet-11",
+      "type": "release",
+      "title": "Microsoft .NET 11 released",
+      "date": "2026-11-10",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-dotnet"
+      ]
+    },
+    {
+      "id": "dotnet-11-eol",
+      "technologyId": "dotnet",
+      "releaseCycleId": "dotnet-11",
+      "type": "end-of-life",
+      "title": "Microsoft .NET 11 end of life",
+      "date": "2028-11-14",
+      "dateStatus": "scheduled",
+      "sourceIds": [
+        "endoflife-date-dotnet"
+      ]
+    },
+    {
+      "id": "dotnet-10-release",
+      "technologyId": "dotnet",
+      "releaseCycleId": "dotnet-10",
+      "type": "release",
+      "title": "Microsoft .NET 10 released",
+      "date": "2025-11-11",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-dotnet"
+      ]
+    },
+    {
+      "id": "dotnet-10-eol",
+      "technologyId": "dotnet",
+      "releaseCycleId": "dotnet-10",
+      "type": "end-of-life",
+      "title": "Microsoft .NET 10 end of life",
+      "date": "2028-11-14",
+      "dateStatus": "scheduled",
+      "sourceIds": [
+        "endoflife-date-dotnet"
+      ]
+    },
+    {
+      "id": "dotnet-9-release",
+      "technologyId": "dotnet",
+      "releaseCycleId": "dotnet-9",
+      "type": "release",
+      "title": "Microsoft .NET 9 released",
+      "date": "2024-11-12",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-dotnet"
+      ]
+    },
+    {
+      "id": "dotnet-9-eol",
+      "technologyId": "dotnet",
+      "releaseCycleId": "dotnet-9",
+      "type": "end-of-life",
+      "title": "Microsoft .NET 9 end of life",
+      "date": "2026-11-10",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-dotnet"
+      ]
+    },
+    {
+      "id": "dotnet-8-release",
+      "technologyId": "dotnet",
+      "releaseCycleId": "dotnet-8",
+      "type": "release",
+      "title": "Microsoft .NET 8 released",
+      "date": "2023-11-14",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-dotnet"
+      ]
+    },
+    {
+      "id": "dotnet-8-eol",
+      "technologyId": "dotnet",
+      "releaseCycleId": "dotnet-8",
+      "type": "end-of-life",
+      "title": "Microsoft .NET 8 end of life",
+      "date": "2026-11-10",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-dotnet"
+      ]
+    },
+    {
+      "id": "dotnet-7-release",
+      "technologyId": "dotnet",
+      "releaseCycleId": "dotnet-7",
+      "type": "release",
+      "title": "Microsoft .NET 7 released",
+      "date": "2022-11-08",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-dotnet"
+      ]
+    },
+    {
+      "id": "dotnet-7-eol",
+      "technologyId": "dotnet",
+      "releaseCycleId": "dotnet-7",
+      "type": "end-of-life",
+      "title": "Microsoft .NET 7 end of life",
+      "date": "2024-05-14",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-dotnet"
+      ]
+    },
+    {
+      "id": "dotnet-6-release",
+      "technologyId": "dotnet",
+      "releaseCycleId": "dotnet-6",
+      "type": "release",
+      "title": "Microsoft .NET 6 released",
+      "date": "2021-11-08",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-dotnet"
+      ]
+    },
+    {
+      "id": "dotnet-6-eol",
+      "technologyId": "dotnet",
+      "releaseCycleId": "dotnet-6",
+      "type": "end-of-life",
+      "title": "Microsoft .NET 6 end of life",
+      "date": "2024-11-12",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-dotnet"
+      ]
+    },
+    {
+      "id": "dotnet-5-release",
+      "technologyId": "dotnet",
+      "releaseCycleId": "dotnet-5",
+      "type": "release",
+      "title": "Microsoft .NET 5 released",
+      "date": "2020-11-10",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-dotnet"
+      ]
+    },
+    {
+      "id": "dotnet-5-eol",
+      "technologyId": "dotnet",
+      "releaseCycleId": "dotnet-5",
+      "type": "end-of-life",
+      "title": "Microsoft .NET 5 end of life",
+      "date": "2022-05-10",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-dotnet"
+      ]
+    },
+    {
+      "id": "dotnet-3-1-release",
+      "technologyId": "dotnet",
+      "releaseCycleId": "dotnet-3-1",
+      "type": "release",
+      "title": "Microsoft .NET 3.1 released",
+      "date": "2019-12-03",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-dotnet"
+      ]
+    },
+    {
+      "id": "dotnet-3-1-eol",
+      "technologyId": "dotnet",
+      "releaseCycleId": "dotnet-3-1",
+      "type": "end-of-life",
+      "title": "Microsoft .NET 3.1 end of life",
+      "date": "2022-12-13",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-dotnet"
+      ]
+    },
+    {
+      "id": "dotnet-3-0-release",
+      "technologyId": "dotnet",
+      "releaseCycleId": "dotnet-3-0",
+      "type": "release",
+      "title": "Microsoft .NET 3.0 released",
+      "date": "2019-09-23",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-dotnet"
+      ]
+    },
+    {
+      "id": "dotnet-3-0-eol",
+      "technologyId": "dotnet",
+      "releaseCycleId": "dotnet-3-0",
+      "type": "end-of-life",
+      "title": "Microsoft .NET 3.0 end of life",
+      "date": "2020-03-03",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-dotnet"
+      ]
+    },
+    {
+      "id": "dotnet-2-2-release",
+      "technologyId": "dotnet",
+      "releaseCycleId": "dotnet-2-2",
+      "type": "release",
+      "title": "Microsoft .NET 2.2 released",
+      "date": "2018-12-04",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-dotnet"
+      ]
+    },
+    {
+      "id": "dotnet-2-2-eol",
+      "technologyId": "dotnet",
+      "releaseCycleId": "dotnet-2-2",
+      "type": "end-of-life",
+      "title": "Microsoft .NET 2.2 end of life",
+      "date": "2019-12-23",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-dotnet"
+      ]
+    },
+    {
+      "id": "dotnet-2-1-release",
+      "technologyId": "dotnet",
+      "releaseCycleId": "dotnet-2-1",
+      "type": "release",
+      "title": "Microsoft .NET 2.1 released",
+      "date": "2018-05-30",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-dotnet"
+      ]
+    },
+    {
+      "id": "dotnet-2-1-eol",
+      "technologyId": "dotnet",
+      "releaseCycleId": "dotnet-2-1",
+      "type": "end-of-life",
+      "title": "Microsoft .NET 2.1 end of life",
+      "date": "2021-08-21",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-dotnet"
+      ]
+    },
+    {
+      "id": "dotnet-2-0-release",
+      "technologyId": "dotnet",
+      "releaseCycleId": "dotnet-2-0",
+      "type": "release",
+      "title": "Microsoft .NET 2.0 released",
+      "date": "2017-08-14",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-dotnet"
+      ]
+    },
+    {
+      "id": "dotnet-2-0-eol",
+      "technologyId": "dotnet",
+      "releaseCycleId": "dotnet-2-0",
+      "type": "end-of-life",
+      "title": "Microsoft .NET 2.0 end of life",
+      "date": "2018-10-01",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-dotnet"
+      ]
+    },
+    {
+      "id": "dotnet-1-1-release",
+      "technologyId": "dotnet",
+      "releaseCycleId": "dotnet-1-1",
+      "type": "release",
+      "title": "Microsoft .NET 1.1 released",
+      "date": "2016-11-16",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-dotnet"
+      ]
+    },
+    {
+      "id": "dotnet-1-1-eol",
+      "technologyId": "dotnet",
+      "releaseCycleId": "dotnet-1-1",
+      "type": "end-of-life",
+      "title": "Microsoft .NET 1.1 end of life",
+      "date": "2019-06-27",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-dotnet"
+      ]
+    },
+    {
+      "id": "dotnet-1-0-release",
+      "technologyId": "dotnet",
+      "releaseCycleId": "dotnet-1-0",
+      "type": "release",
+      "title": "Microsoft .NET 1.0 released",
+      "date": "2016-06-27",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-dotnet"
+      ]
+    },
+    {
+      "id": "dotnet-1-0-eol",
+      "technologyId": "dotnet",
+      "releaseCycleId": "dotnet-1-0",
+      "type": "end-of-life",
+      "title": "Microsoft .NET 1.0 end of life",
+      "date": "2019-06-27",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-dotnet"
+      ]
+    }
+  ]
+}

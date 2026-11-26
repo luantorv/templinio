@@ -1,0 +1,64 @@
+{
+  "products": [
+    {
+      "id": "nodejs",
+      "description": "JavaScript runtime built on the V8 engine."
+    },
+    {
+      "id": "python",
+      "description": "General-purpose programming language focused on readability."
+    },
+    {
+      "id": "php",
+      "description": "Server-side programming language for web development."
+    },
+    {
+      "id": "ruby",
+      "description": "Dynamic programming language designed for developer productivity."
+    },
+    {
+      "id": "oracle-jdk",
+      "description": "Oracle distribution of the Java Development Kit."
+    },
+    {
+      "id": "dotnet",
+      "description": "Cross-platform developer platform maintained by Microsoft."
+    },
+    {
+      "id": "go",
+      "description": "Statically typed programming language designed at Google."
+    },
+    {
+      "id": "rust",
+      "description": "Systems programming language focused on safety and performance."
+    },
+    {
+      "id": "postgresql",
+      "description": "Open-source relational database with an emphasis on extensibility."
+    },
+    {
+      "id": "mysql",
+      "description": "Open-source relational database management system."
+    },
+    {
+      "id": "mongodb",
+      "description": "Document-oriented database for flexible application data."
+    },
+    {
+      "id": "redis",
+      "description": "In-memory data store used for caching, messaging, and persistence."
+    },
+    {
+      "id": "kubernetes",
+      "description": "Open-source system for orchestrating containerized applications."
+    },
+    {
+      "id": "django",
+      "description": "High-level Python framework for building web applications."
+    },
+    {
+      "id": "angular",
+      "description": "Web application framework maintained by the Angular team."
+    }
+  ]
+}

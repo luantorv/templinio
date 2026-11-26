@@ -1,0 +1,969 @@
+{
+  "schemaVersion": "0.1.0",
+  "generatedAt": "2026-11-26T11:01:05+00:00",
+  "sources": [
+    {
+      "id": "endoflife-date-go",
+      "name": "endoflife.date — Go",
+      "url": "https://endoflife.date/go",
+      "retrievedAt": "2026-11-26T11:01:05+00:00",
+      "license": "MIT",
+      "licenseUrl": "https://github.com/endoflife-date/endoflife.date/blob/master/LICENSE"
+    }
+  ],
+  "technologies": [
+    {
+      "id": "go",
+      "name": "Go",
+      "description": "Statically typed programming language designed at Google.",
+      "category": "language",
+      "homepage": "https://go.dev/doc/devel/release#policy",
+      "aliases": [
+        "golang"
+      ],
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    }
+  ],
+  "releaseCycles": [
+    {
+      "id": "go-1-27",
+      "technologyId": "go",
+      "name": "1.27",
+      "releaseDate": "2026-08-19",
+      "eolDate": null,
+      "isLts": false,
+      "status": "active",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-26",
+      "technologyId": "go",
+      "name": "1.26",
+      "releaseDate": "2026-02-10",
+      "eolDate": null,
+      "isLts": false,
+      "status": "active",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-25",
+      "technologyId": "go",
+      "name": "1.25",
+      "releaseDate": "2025-08-12",
+      "eolDate": "2026-08-19",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-24",
+      "technologyId": "go",
+      "name": "1.24",
+      "releaseDate": "2025-02-11",
+      "eolDate": "2026-02-10",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-23",
+      "technologyId": "go",
+      "name": "1.23",
+      "releaseDate": "2024-08-13",
+      "eolDate": "2025-08-12",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-22",
+      "technologyId": "go",
+      "name": "1.22",
+      "releaseDate": "2024-02-06",
+      "eolDate": "2025-02-11",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-21",
+      "technologyId": "go",
+      "name": "1.21",
+      "releaseDate": "2023-08-08",
+      "eolDate": "2024-08-13",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-20",
+      "technologyId": "go",
+      "name": "1.20",
+      "releaseDate": "2023-02-01",
+      "eolDate": "2024-02-06",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-19",
+      "technologyId": "go",
+      "name": "1.19",
+      "releaseDate": "2022-08-02",
+      "eolDate": "2023-09-06",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-18",
+      "technologyId": "go",
+      "name": "1.18",
+      "releaseDate": "2022-03-15",
+      "eolDate": "2023-02-01",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-17",
+      "technologyId": "go",
+      "name": "1.17",
+      "releaseDate": "2021-08-16",
+      "eolDate": "2022-08-02",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-16",
+      "technologyId": "go",
+      "name": "1.16",
+      "releaseDate": "2021-02-16",
+      "eolDate": "2022-03-15",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-15",
+      "technologyId": "go",
+      "name": "1.15",
+      "releaseDate": "2020-08-11",
+      "eolDate": "2021-08-16",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-14",
+      "technologyId": "go",
+      "name": "1.14",
+      "releaseDate": "2020-02-25",
+      "eolDate": "2021-02-16",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-13",
+      "technologyId": "go",
+      "name": "1.13",
+      "releaseDate": "2019-09-03",
+      "eolDate": "2020-08-11",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-12",
+      "technologyId": "go",
+      "name": "1.12",
+      "releaseDate": "2019-02-25",
+      "eolDate": "2020-02-25",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-11",
+      "technologyId": "go",
+      "name": "1.11",
+      "releaseDate": "2018-08-24",
+      "eolDate": "2019-09-03",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-10",
+      "technologyId": "go",
+      "name": "1.10",
+      "releaseDate": "2018-02-16",
+      "eolDate": "2019-02-25",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-9",
+      "technologyId": "go",
+      "name": "1.9",
+      "releaseDate": "2017-08-24",
+      "eolDate": "2018-08-24",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-8",
+      "technologyId": "go",
+      "name": "1.8",
+      "releaseDate": "2017-02-16",
+      "eolDate": "2018-02-16",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-7",
+      "technologyId": "go",
+      "name": "1.7",
+      "releaseDate": "2016-08-15",
+      "eolDate": "2017-08-24",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-6",
+      "technologyId": "go",
+      "name": "1.6",
+      "releaseDate": "2016-02-17",
+      "eolDate": "2017-02-16",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-5",
+      "technologyId": "go",
+      "name": "1.5",
+      "releaseDate": "2015-08-19",
+      "eolDate": "2016-08-15",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-4",
+      "technologyId": "go",
+      "name": "1.4",
+      "releaseDate": "2014-12-10",
+      "eolDate": "2016-02-17",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-3",
+      "technologyId": "go",
+      "name": "1.3",
+      "releaseDate": "2014-06-18",
+      "eolDate": "2015-08-19",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-2",
+      "technologyId": "go",
+      "name": "1.2",
+      "releaseDate": "2013-12-01",
+      "eolDate": "2014-12-10",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "go-1-27-release",
+      "technologyId": "go",
+      "releaseCycleId": "go-1-27",
+      "type": "release",
+      "title": "Go 1.27 released",
+      "date": "2026-08-19",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-27-eol",
+      "technologyId": "go",
+      "releaseCycleId": "go-1-27",
+      "type": "end-of-life",
+      "title": "Go 1.27 end-of-life date is unknown",
+      "date": null,
+      "dateStatus": "unknown",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-26-release",
+      "technologyId": "go",
+      "releaseCycleId": "go-1-26",
+      "type": "release",
+      "title": "Go 1.26 released",
+      "date": "2026-02-10",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-26-eol",
+      "technologyId": "go",
+      "releaseCycleId": "go-1-26",
+      "type": "end-of-life",
+      "title": "Go 1.26 end-of-life date is unknown",
+      "date": null,
+      "dateStatus": "unknown",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-25-release",
+      "technologyId": "go",
+      "releaseCycleId": "go-1-25",
+      "type": "release",
+      "title": "Go 1.25 released",
+      "date": "2025-08-12",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-25-eol",
+      "technologyId": "go",
+      "releaseCycleId": "go-1-25",
+      "type": "end-of-life",
+      "title": "Go 1.25 end of life",
+      "date": "2026-08-19",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-24-release",
+      "technologyId": "go",
+      "releaseCycleId": "go-1-24",
+      "type": "release",
+      "title": "Go 1.24 released",
+      "date": "2025-02-11",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-24-eol",
+      "technologyId": "go",
+      "releaseCycleId": "go-1-24",
+      "type": "end-of-life",
+      "title": "Go 1.24 end of life",
+      "date": "2026-02-10",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-23-release",
+      "technologyId": "go",
+      "releaseCycleId": "go-1-23",
+      "type": "release",
+      "title": "Go 1.23 released",
+      "date": "2024-08-13",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-23-eol",
+      "technologyId": "go",
+      "releaseCycleId": "go-1-23",
+      "type": "end-of-life",
+      "title": "Go 1.23 end of life",
+      "date": "2025-08-12",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-22-release",
+      "technologyId": "go",
+      "releaseCycleId": "go-1-22",
+      "type": "release",
+      "title": "Go 1.22 released",
+      "date": "2024-02-06",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-22-eol",
+      "technologyId": "go",
+      "releaseCycleId": "go-1-22",
+      "type": "end-of-life",
+      "title": "Go 1.22 end of life",
+      "date": "2025-02-11",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-21-release",
+      "technologyId": "go",
+      "releaseCycleId": "go-1-21",
+      "type": "release",
+      "title": "Go 1.21 released",
+      "date": "2023-08-08",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-21-eol",
+      "technologyId": "go",
+      "releaseCycleId": "go-1-21",
+      "type": "end-of-life",
+      "title": "Go 1.21 end of life",
+      "date": "2024-08-13",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-20-release",
+      "technologyId": "go",
+      "releaseCycleId": "go-1-20",
+      "type": "release",
+      "title": "Go 1.20 released",
+      "date": "2023-02-01",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-20-eol",
+      "technologyId": "go",
+      "releaseCycleId": "go-1-20",
+      "type": "end-of-life",
+      "title": "Go 1.20 end of life",
+      "date": "2024-02-06",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-19-release",
+      "technologyId": "go",
+      "releaseCycleId": "go-1-19",
+      "type": "release",
+      "title": "Go 1.19 released",
+      "date": "2022-08-02",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-19-eol",
+      "technologyId": "go",
+      "releaseCycleId": "go-1-19",
+      "type": "end-of-life",
+      "title": "Go 1.19 end of life",
+      "date": "2023-09-06",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-18-release",
+      "technologyId": "go",
+      "releaseCycleId": "go-1-18",
+      "type": "release",
+      "title": "Go 1.18 released",
+      "date": "2022-03-15",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-18-eol",
+      "technologyId": "go",
+      "releaseCycleId": "go-1-18",
+      "type": "end-of-life",
+      "title": "Go 1.18 end of life",
+      "date": "2023-02-01",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-17-release",
+      "technologyId": "go",
+      "releaseCycleId": "go-1-17",
+      "type": "release",
+      "title": "Go 1.17 released",
+      "date": "2021-08-16",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-17-eol",
+      "technologyId": "go",
+      "releaseCycleId": "go-1-17",
+      "type": "end-of-life",
+      "title": "Go 1.17 end of life",
+      "date": "2022-08-02",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-16-release",
+      "technologyId": "go",
+      "releaseCycleId": "go-1-16",
+      "type": "release",
+      "title": "Go 1.16 released",
+      "date": "2021-02-16",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-16-eol",
+      "technologyId": "go",
+      "releaseCycleId": "go-1-16",
+      "type": "end-of-life",
+      "title": "Go 1.16 end of life",
+      "date": "2022-03-15",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-15-release",
+      "technologyId": "go",
+      "releaseCycleId": "go-1-15",
+      "type": "release",
+      "title": "Go 1.15 released",
+      "date": "2020-08-11",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-15-eol",
+      "technologyId": "go",
+      "releaseCycleId": "go-1-15",
+      "type": "end-of-life",
+      "title": "Go 1.15 end of life",
+      "date": "2021-08-16",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-14-release",
+      "technologyId": "go",
+      "releaseCycleId": "go-1-14",
+      "type": "release",
+      "title": "Go 1.14 released",
+      "date": "2020-02-25",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-14-eol",
+      "technologyId": "go",
+      "releaseCycleId": "go-1-14",
+      "type": "end-of-life",
+      "title": "Go 1.14 end of life",
+      "date": "2021-02-16",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-13-release",
+      "technologyId": "go",
+      "releaseCycleId": "go-1-13",
+      "type": "release",
+      "title": "Go 1.13 released",
+      "date": "2019-09-03",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-13-eol",
+      "technologyId": "go",
+      "releaseCycleId": "go-1-13",
+      "type": "end-of-life",
+      "title": "Go 1.13 end of life",
+      "date": "2020-08-11",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-12-release",
+      "technologyId": "go",
+      "releaseCycleId": "go-1-12",
+      "type": "release",
+      "title": "Go 1.12 released",
+      "date": "2019-02-25",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-12-eol",
+      "technologyId": "go",
+      "releaseCycleId": "go-1-12",
+      "type": "end-of-life",
+      "title": "Go 1.12 end of life",
+      "date": "2020-02-25",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-11-release",
+      "technologyId": "go",
+      "releaseCycleId": "go-1-11",
+      "type": "release",
+      "title": "Go 1.11 released",
+      "date": "2018-08-24",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-11-eol",
+      "technologyId": "go",
+      "releaseCycleId": "go-1-11",
+      "type": "end-of-life",
+      "title": "Go 1.11 end of life",
+      "date": "2019-09-03",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-10-release",
+      "technologyId": "go",
+      "releaseCycleId": "go-1-10",
+      "type": "release",
+      "title": "Go 1.10 released",
+      "date": "2018-02-16",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-10-eol",
+      "technologyId": "go",
+      "releaseCycleId": "go-1-10",
+      "type": "end-of-life",
+      "title": "Go 1.10 end of life",
+      "date": "2019-02-25",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-9-release",
+      "technologyId": "go",
+      "releaseCycleId": "go-1-9",
+      "type": "release",
+      "title": "Go 1.9 released",
+      "date": "2017-08-24",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-9-eol",
+      "technologyId": "go",
+      "releaseCycleId": "go-1-9",
+      "type": "end-of-life",
+      "title": "Go 1.9 end of life",
+      "date": "2018-08-24",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-8-release",
+      "technologyId": "go",
+      "releaseCycleId": "go-1-8",
+      "type": "release",
+      "title": "Go 1.8 released",
+      "date": "2017-02-16",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-8-eol",
+      "technologyId": "go",
+      "releaseCycleId": "go-1-8",
+      "type": "end-of-life",
+      "title": "Go 1.8 end of life",
+      "date": "2018-02-16",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-7-release",
+      "technologyId": "go",
+      "releaseCycleId": "go-1-7",
+      "type": "release",
+      "title": "Go 1.7 released",
+      "date": "2016-08-15",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-7-eol",
+      "technologyId": "go",
+      "releaseCycleId": "go-1-7",
+      "type": "end-of-life",
+      "title": "Go 1.7 end of life",
+      "date": "2017-08-24",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-6-release",
+      "technologyId": "go",
+      "releaseCycleId": "go-1-6",
+      "type": "release",
+      "title": "Go 1.6 released",
+      "date": "2016-02-17",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-6-eol",
+      "technologyId": "go",
+      "releaseCycleId": "go-1-6",
+      "type": "end-of-life",
+      "title": "Go 1.6 end of life",
+      "date": "2017-02-16",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-5-release",
+      "technologyId": "go",
+      "releaseCycleId": "go-1-5",
+      "type": "release",
+      "title": "Go 1.5 released",
+      "date": "2015-08-19",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-5-eol",
+      "technologyId": "go",
+      "releaseCycleId": "go-1-5",
+      "type": "end-of-life",
+      "title": "Go 1.5 end of life",
+      "date": "2016-08-15",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-4-release",
+      "technologyId": "go",
+      "releaseCycleId": "go-1-4",
+      "type": "release",
+      "title": "Go 1.4 released",
+      "date": "2014-12-10",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-4-eol",
+      "technologyId": "go",
+      "releaseCycleId": "go-1-4",
+      "type": "end-of-life",
+      "title": "Go 1.4 end of life",
+      "date": "2016-02-17",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-3-release",
+      "technologyId": "go",
+      "releaseCycleId": "go-1-3",
+      "type": "release",
+      "title": "Go 1.3 released",
+      "date": "2014-06-18",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-3-eol",
+      "technologyId": "go",
+      "releaseCycleId": "go-1-3",
+      "type": "end-of-life",
+      "title": "Go 1.3 end of life",
+      "date": "2015-08-19",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-2-release",
+      "technologyId": "go",
+      "releaseCycleId": "go-1-2",
+      "type": "release",
+      "title": "Go 1.2 released",
+      "date": "2013-12-01",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    },
+    {
+      "id": "go-1-2-eol",
+      "technologyId": "go",
+      "releaseCycleId": "go-1-2",
+      "type": "end-of-life",
+      "title": "Go 1.2 end of life",
+      "date": "2014-12-10",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-go"
+      ]
+    }
+  ]
+}

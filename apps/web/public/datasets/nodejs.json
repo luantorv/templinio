@@ -1,12 +1,12 @@
 {
   "schemaVersion": "0.1.0",
-  "generatedAt": "2026-11-25T21:29:01+00:00",
+  "generatedAt": "2026-11-26T11:01:05+00:00",
   "sources": [
     {
       "id": "endoflife-date-nodejs",
       "name": "endoflife.date — Node.js",
       "url": "https://endoflife.date/nodejs",
-      "retrievedAt": "2026-11-25T21:29:01+00:00",
+      "retrievedAt": "2026-11-26T11:01:05+00:00",
       "license": "MIT",
       "licenseUrl": "https://github.com/endoflife-date/endoflife.date/blob/master/LICENSE"
     }
@@ -15,7 +15,7 @@
     {
       "id": "nodejs",
       "name": "Node.js",
-      "description": "Lifecycle information for Node.js.",
+      "description": "JavaScript runtime built on the V8 engine.",
       "category": "runtime",
       "homepage": "https://nodejs.org/en/about/previous-releases",
       "aliases": [

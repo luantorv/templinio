@@ -1,0 +1,499 @@
+{
+  "schemaVersion": "0.1.0",
+  "generatedAt": "2026-11-26T11:01:05+00:00",
+  "sources": [
+    {
+      "id": "endoflife-date-redis",
+      "name": "endoflife.date — Redis",
+      "url": "https://endoflife.date/redis",
+      "retrievedAt": "2026-11-26T11:01:05+00:00",
+      "license": "MIT",
+      "licenseUrl": "https://github.com/endoflife-date/endoflife.date/blob/master/LICENSE"
+    }
+  ],
+  "technologies": [
+    {
+      "id": "redis",
+      "name": "Redis",
+      "description": "In-memory data store used for caching, messaging, and persistence.",
+      "category": "database",
+      "homepage": "https://redis.io/docs/latest/operate/oss_and_stack/install/version-mgmt/",
+      "aliases": [],
+      "sourceIds": [
+        "endoflife-date-redis"
+      ]
+    }
+  ],
+  "releaseCycles": [
+    {
+      "id": "redis-8-12",
+      "technologyId": "redis",
+      "name": "8.12",
+      "releaseDate": "2026-11-22",
+      "eolDate": null,
+      "isLts": false,
+      "status": "active",
+      "sourceIds": [
+        "endoflife-date-redis"
+      ]
+    },
+    {
+      "id": "redis-8-10",
+      "technologyId": "redis",
+      "name": "8.10",
+      "releaseDate": "2026-07-29",
+      "eolDate": null,
+      "isLts": false,
+      "status": "active",
+      "sourceIds": [
+        "endoflife-date-redis"
+      ]
+    },
+    {
+      "id": "redis-8-8",
+      "technologyId": "redis",
+      "name": "8.8",
+      "releaseDate": "2026-05-25",
+      "eolDate": "2027-01-29",
+      "isLts": false,
+      "status": "active",
+      "sourceIds": [
+        "endoflife-date-redis"
+      ]
+    },
+    {
+      "id": "redis-8-6",
+      "technologyId": "redis",
+      "name": "8.6",
+      "releaseDate": "2026-02-11",
+      "eolDate": "2026-11-25",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-redis"
+      ]
+    },
+    {
+      "id": "redis-8-4",
+      "technologyId": "redis",
+      "name": "8.4",
+      "releaseDate": "2025-11-18",
+      "eolDate": "2026-08-10",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-redis"
+      ]
+    },
+    {
+      "id": "redis-8-2",
+      "technologyId": "redis",
+      "name": "8.2",
+      "releaseDate": "2025-08-04",
+      "eolDate": "2030-09-01",
+      "isLts": false,
+      "status": "active",
+      "sourceIds": [
+        "endoflife-date-redis"
+      ]
+    },
+    {
+      "id": "redis-8-0",
+      "technologyId": "redis",
+      "name": "8.0",
+      "releaseDate": "2025-05-02",
+      "eolDate": "2026-12-01",
+      "isLts": false,
+      "status": "active",
+      "sourceIds": [
+        "endoflife-date-redis"
+      ]
+    },
+    {
+      "id": "redis-7-4",
+      "technologyId": "redis",
+      "name": "7.4",
+      "releaseDate": "2024-07-29",
+      "eolDate": "2029-12-01",
+      "isLts": false,
+      "status": "active",
+      "sourceIds": [
+        "endoflife-date-redis"
+      ]
+    },
+    {
+      "id": "redis-7-2",
+      "technologyId": "redis",
+      "name": "7.2",
+      "releaseDate": "2023-08-15",
+      "eolDate": "2029-12-01",
+      "isLts": false,
+      "status": "active",
+      "sourceIds": [
+        "endoflife-date-redis"
+      ]
+    },
+    {
+      "id": "redis-7-0",
+      "technologyId": "redis",
+      "name": "7.0",
+      "releaseDate": "2022-04-27",
+      "eolDate": "2024-07-29",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-redis"
+      ]
+    },
+    {
+      "id": "redis-6-2",
+      "technologyId": "redis",
+      "name": "6.2",
+      "releaseDate": "2021-02-22",
+      "eolDate": "2027-04-01",
+      "isLts": false,
+      "status": "active",
+      "sourceIds": [
+        "endoflife-date-redis"
+      ]
+    },
+    {
+      "id": "redis-6-0",
+      "technologyId": "redis",
+      "name": "6.0",
+      "releaseDate": "2020-04-30",
+      "eolDate": "2022-05-31",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-redis"
+      ]
+    },
+    {
+      "id": "redis-5-0",
+      "technologyId": "redis",
+      "name": "5.0",
+      "releaseDate": "2018-10-17",
+      "eolDate": "2022-04-27",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-redis"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "redis-8-12-release",
+      "technologyId": "redis",
+      "releaseCycleId": "redis-8-12",
+      "type": "release",
+      "title": "Redis 8.12 released",
+      "date": "2026-11-22",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-redis"
+      ]
+    },
+    {
+      "id": "redis-8-12-eol",
+      "technologyId": "redis",
+      "releaseCycleId": "redis-8-12",
+      "type": "end-of-life",
+      "title": "Redis 8.12 end-of-life date is unknown",
+      "date": null,
+      "dateStatus": "unknown",
+      "sourceIds": [
+        "endoflife-date-redis"
+      ]
+    },
+    {
+      "id": "redis-8-10-release",
+      "technologyId": "redis",
+      "releaseCycleId": "redis-8-10",
+      "type": "release",
+      "title": "Redis 8.10 released",
+      "date": "2026-07-29",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-redis"
+      ]
+    },
+    {
+      "id": "redis-8-10-eol",
+      "technologyId": "redis",
+      "releaseCycleId": "redis-8-10",
+      "type": "end-of-life",
+      "title": "Redis 8.10 end-of-life date is unknown",
+      "date": null,
+      "dateStatus": "unknown",
+      "sourceIds": [
+        "endoflife-date-redis"
+      ]
+    },
+    {
+      "id": "redis-8-8-release",
+      "technologyId": "redis",
+      "releaseCycleId": "redis-8-8",
+      "type": "release",
+      "title": "Redis 8.8 released",
+      "date": "2026-05-25",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-redis"
+      ]
+    },
+    {
+      "id": "redis-8-8-eol",
+      "technologyId": "redis",
+      "releaseCycleId": "redis-8-8",
+      "type": "end-of-life",
+      "title": "Redis 8.8 end of life",
+      "date": "2027-01-29",
+      "dateStatus": "scheduled",
+      "sourceIds": [
+        "endoflife-date-redis"
+      ]
+    },
+    {
+      "id": "redis-8-6-release",
+      "technologyId": "redis",
+      "releaseCycleId": "redis-8-6",
+      "type": "release",
+      "title": "Redis 8.6 released",
+      "date": "2026-02-11",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-redis"
+      ]
+    },
+    {
+      "id": "redis-8-6-eol",
+      "technologyId": "redis",
+      "releaseCycleId": "redis-8-6",
+      "type": "end-of-life",
+      "title": "Redis 8.6 end of life",
+      "date": "2026-11-25",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-redis"
+      ]
+    },
+    {
+      "id": "redis-8-4-release",
+      "technologyId": "redis",
+      "releaseCycleId": "redis-8-4",
+      "type": "release",
+      "title": "Redis 8.4 released",
+      "date": "2025-11-18",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-redis"
+      ]
+    },
+    {
+      "id": "redis-8-4-eol",
+      "technologyId": "redis",
+      "releaseCycleId": "redis-8-4",
+      "type": "end-of-life",
+      "title": "Redis 8.4 end of life",
+      "date": "2026-08-10",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-redis"
+      ]
+    },
+    {
+      "id": "redis-8-2-release",
+      "technologyId": "redis",
+      "releaseCycleId": "redis-8-2",
+      "type": "release",
+      "title": "Redis 8.2 released",
+      "date": "2025-08-04",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-redis"
+      ]
+    },
+    {
+      "id": "redis-8-2-eol",
+      "technologyId": "redis",
+      "releaseCycleId": "redis-8-2",
+      "type": "end-of-life",
+      "title": "Redis 8.2 end of life",
+      "date": "2030-09-01",
+      "dateStatus": "scheduled",
+      "sourceIds": [
+        "endoflife-date-redis"
+      ]
+    },
+    {
+      "id": "redis-8-0-release",
+      "technologyId": "redis",
+      "releaseCycleId": "redis-8-0",
+      "type": "release",
+      "title": "Redis 8.0 released",
+      "date": "2025-05-02",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-redis"
+      ]
+    },
+    {
+      "id": "redis-8-0-eol",
+      "technologyId": "redis",
+      "releaseCycleId": "redis-8-0",
+      "type": "end-of-life",
+      "title": "Redis 8.0 end of life",
+      "date": "2026-12-01",
+      "dateStatus": "scheduled",
+      "sourceIds": [
+        "endoflife-date-redis"
+      ]
+    },
+    {
+      "id": "redis-7-4-release",
+      "technologyId": "redis",
+      "releaseCycleId": "redis-7-4",
+      "type": "release",
+      "title": "Redis 7.4 released",
+      "date": "2024-07-29",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-redis"
+      ]
+    },
+    {
+      "id": "redis-7-4-eol",
+      "technologyId": "redis",
+      "releaseCycleId": "redis-7-4",
+      "type": "end-of-life",
+      "title": "Redis 7.4 end of life",
+      "date": "2029-12-01",
+      "dateStatus": "scheduled",
+      "sourceIds": [
+        "endoflife-date-redis"
+      ]
+    },
+    {
+      "id": "redis-7-2-release",
+      "technologyId": "redis",
+      "releaseCycleId": "redis-7-2",
+      "type": "release",
+      "title": "Redis 7.2 released",
+      "date": "2023-08-15",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-redis"
+      ]
+    },
+    {
+      "id": "redis-7-2-eol",
+      "technologyId": "redis",
+      "releaseCycleId": "redis-7-2",
+      "type": "end-of-life",
+      "title": "Redis 7.2 end of life",
+      "date": "2029-12-01",
+      "dateStatus": "scheduled",
+      "sourceIds": [
+        "endoflife-date-redis"
+      ]
+    },
+    {
+      "id": "redis-7-0-release",
+      "technologyId": "redis",
+      "releaseCycleId": "redis-7-0",
+      "type": "release",
+      "title": "Redis 7.0 released",
+      "date": "2022-04-27",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-redis"
+      ]
+    },
+    {
+      "id": "redis-7-0-eol",
+      "technologyId": "redis",
+      "releaseCycleId": "redis-7-0",
+      "type": "end-of-life",
+      "title": "Redis 7.0 end of life",
+      "date": "2024-07-29",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-redis"
+      ]
+    },
+    {
+      "id": "redis-6-2-release",
+      "technologyId": "redis",
+      "releaseCycleId": "redis-6-2",
+      "type": "release",
+      "title": "Redis 6.2 released",
+      "date": "2021-02-22",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-redis"
+      ]
+    },
+    {
+      "id": "redis-6-2-eol",
+      "technologyId": "redis",
+      "releaseCycleId": "redis-6-2",
+      "type": "end-of-life",
+      "title": "Redis 6.2 end of life",
+      "date": "2027-04-01",
+      "dateStatus": "scheduled",
+      "sourceIds": [
+        "endoflife-date-redis"
+      ]
+    },
+    {
+      "id": "redis-6-0-release",
+      "technologyId": "redis",
+      "releaseCycleId": "redis-6-0",
+      "type": "release",
+      "title": "Redis 6.0 released",
+      "date": "2020-04-30",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-redis"
+      ]
+    },
+    {
+      "id": "redis-6-0-eol",
+      "technologyId": "redis",
+      "releaseCycleId": "redis-6-0",
+      "type": "end-of-life",
+      "title": "Redis 6.0 end of life",
+      "date": "2022-05-31",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-redis"
+      ]
+    },
+    {
+      "id": "redis-5-0-release",
+      "technologyId": "redis",
+      "releaseCycleId": "redis-5-0",
+      "type": "release",
+      "title": "Redis 5.0 released",
+      "date": "2018-10-17",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-redis"
+      ]
+    },
+    {
+      "id": "redis-5-0-eol",
+      "technologyId": "redis",
+      "releaseCycleId": "redis-5-0",
+      "type": "end-of-life",
+      "title": "Redis 5.0 end of life",
+      "date": "2022-04-27",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-redis"
+      ]
+    }
+  ]
+}

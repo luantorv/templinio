@@ -1,0 +1,895 @@
+{
+  "schemaVersion": "0.1.0",
+  "generatedAt": "2026-11-26T11:01:05+00:00",
+  "sources": [
+    {
+      "id": "endoflife-date-php",
+      "name": "endoflife.date — PHP",
+      "url": "https://endoflife.date/php",
+      "retrievedAt": "2026-11-26T11:01:05+00:00",
+      "license": "MIT",
+      "licenseUrl": "https://github.com/endoflife-date/endoflife.date/blob/master/LICENSE"
+    }
+  ],
+  "technologies": [
+    {
+      "id": "php",
+      "name": "PHP",
+      "description": "Server-side programming language for web development.",
+      "category": "language",
+      "homepage": "https://www.php.net/supported-versions.php",
+      "aliases": [],
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    }
+  ],
+  "releaseCycles": [
+    {
+      "id": "php-8-6",
+      "technologyId": "php",
+      "name": "8.6",
+      "releaseDate": "2026-11-19",
+      "eolDate": "2030-12-31",
+      "isLts": false,
+      "status": "active",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-8-5",
+      "technologyId": "php",
+      "name": "8.5",
+      "releaseDate": "2025-11-20",
+      "eolDate": "2029-12-31",
+      "isLts": false,
+      "status": "active",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-8-4",
+      "technologyId": "php",
+      "name": "8.4",
+      "releaseDate": "2024-11-21",
+      "eolDate": "2028-12-31",
+      "isLts": false,
+      "status": "active",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-8-3",
+      "technologyId": "php",
+      "name": "8.3",
+      "releaseDate": "2023-11-23",
+      "eolDate": "2027-12-31",
+      "isLts": false,
+      "status": "active",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-8-2",
+      "technologyId": "php",
+      "name": "8.2",
+      "releaseDate": "2022-12-08",
+      "eolDate": "2026-12-31",
+      "isLts": false,
+      "status": "active",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-8-1",
+      "technologyId": "php",
+      "name": "8.1",
+      "releaseDate": "2021-11-25",
+      "eolDate": "2025-12-31",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-8-0",
+      "technologyId": "php",
+      "name": "8.0",
+      "releaseDate": "2020-11-26",
+      "eolDate": "2023-11-26",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-7-4",
+      "technologyId": "php",
+      "name": "7.4",
+      "releaseDate": "2019-11-28",
+      "eolDate": "2022-11-28",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-7-3",
+      "technologyId": "php",
+      "name": "7.3",
+      "releaseDate": "2018-12-06",
+      "eolDate": "2021-12-06",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-7-2",
+      "technologyId": "php",
+      "name": "7.2",
+      "releaseDate": "2017-11-30",
+      "eolDate": "2020-11-30",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-7-1",
+      "technologyId": "php",
+      "name": "7.1",
+      "releaseDate": "2016-12-01",
+      "eolDate": "2019-12-01",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-7-0",
+      "technologyId": "php",
+      "name": "7.0",
+      "releaseDate": "2015-12-03",
+      "eolDate": "2019-01-10",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-5-6",
+      "technologyId": "php",
+      "name": "5.6",
+      "releaseDate": "2014-08-28",
+      "eolDate": "2018-12-31",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-5-5",
+      "technologyId": "php",
+      "name": "5.5",
+      "releaseDate": "2013-06-20",
+      "eolDate": "2016-07-21",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-5-4",
+      "technologyId": "php",
+      "name": "5.4",
+      "releaseDate": "2012-03-01",
+      "eolDate": "2015-09-14",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-5-3",
+      "technologyId": "php",
+      "name": "5.3",
+      "releaseDate": "2009-06-30",
+      "eolDate": "2014-08-14",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-5-2",
+      "technologyId": "php",
+      "name": "5.2",
+      "releaseDate": "2006-11-02",
+      "eolDate": "2011-01-06",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-5-1",
+      "technologyId": "php",
+      "name": "5.1",
+      "releaseDate": "2005-11-24",
+      "eolDate": "2006-08-24",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-4-4",
+      "technologyId": "php",
+      "name": "4.4",
+      "releaseDate": "2005-07-11",
+      "eolDate": "2008-08-07",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-5-0",
+      "technologyId": "php",
+      "name": "5.0",
+      "releaseDate": "2004-07-13",
+      "eolDate": "2005-09-05",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-4-3",
+      "technologyId": "php",
+      "name": "4.3",
+      "releaseDate": "2002-12-27",
+      "eolDate": "2005-03-31",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-4-2",
+      "technologyId": "php",
+      "name": "4.2",
+      "releaseDate": "2002-04-22",
+      "eolDate": "2002-09-06",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-4-1",
+      "technologyId": "php",
+      "name": "4.1",
+      "releaseDate": "2001-12-10",
+      "eolDate": "2002-03-12",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-4-0",
+      "technologyId": "php",
+      "name": "4.0",
+      "releaseDate": "2000-05-22",
+      "eolDate": "2001-06-23",
+      "isLts": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "php-8-6-release",
+      "technologyId": "php",
+      "releaseCycleId": "php-8-6",
+      "type": "release",
+      "title": "PHP 8.6 released",
+      "date": "2026-11-19",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-8-6-eol",
+      "technologyId": "php",
+      "releaseCycleId": "php-8-6",
+      "type": "end-of-life",
+      "title": "PHP 8.6 end of life",
+      "date": "2030-12-31",
+      "dateStatus": "scheduled",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-8-5-release",
+      "technologyId": "php",
+      "releaseCycleId": "php-8-5",
+      "type": "release",
+      "title": "PHP 8.5 released",
+      "date": "2025-11-20",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-8-5-eol",
+      "technologyId": "php",
+      "releaseCycleId": "php-8-5",
+      "type": "end-of-life",
+      "title": "PHP 8.5 end of life",
+      "date": "2029-12-31",
+      "dateStatus": "scheduled",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-8-4-release",
+      "technologyId": "php",
+      "releaseCycleId": "php-8-4",
+      "type": "release",
+      "title": "PHP 8.4 released",
+      "date": "2024-11-21",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-8-4-eol",
+      "technologyId": "php",
+      "releaseCycleId": "php-8-4",
+      "type": "end-of-life",
+      "title": "PHP 8.4 end of life",
+      "date": "2028-12-31",
+      "dateStatus": "scheduled",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-8-3-release",
+      "technologyId": "php",
+      "releaseCycleId": "php-8-3",
+      "type": "release",
+      "title": "PHP 8.3 released",
+      "date": "2023-11-23",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-8-3-eol",
+      "technologyId": "php",
+      "releaseCycleId": "php-8-3",
+      "type": "end-of-life",
+      "title": "PHP 8.3 end of life",
+      "date": "2027-12-31",
+      "dateStatus": "scheduled",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-8-2-release",
+      "technologyId": "php",
+      "releaseCycleId": "php-8-2",
+      "type": "release",
+      "title": "PHP 8.2 released",
+      "date": "2022-12-08",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-8-2-eol",
+      "technologyId": "php",
+      "releaseCycleId": "php-8-2",
+      "type": "end-of-life",
+      "title": "PHP 8.2 end of life",
+      "date": "2026-12-31",
+      "dateStatus": "scheduled",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-8-1-release",
+      "technologyId": "php",
+      "releaseCycleId": "php-8-1",
+      "type": "release",
+      "title": "PHP 8.1 released",
+      "date": "2021-11-25",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-8-1-eol",
+      "technologyId": "php",
+      "releaseCycleId": "php-8-1",
+      "type": "end-of-life",
+      "title": "PHP 8.1 end of life",
+      "date": "2025-12-31",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-8-0-release",
+      "technologyId": "php",
+      "releaseCycleId": "php-8-0",
+      "type": "release",
+      "title": "PHP 8.0 released",
+      "date": "2020-11-26",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-8-0-eol",
+      "technologyId": "php",
+      "releaseCycleId": "php-8-0",
+      "type": "end-of-life",
+      "title": "PHP 8.0 end of life",
+      "date": "2023-11-26",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-7-4-release",
+      "technologyId": "php",
+      "releaseCycleId": "php-7-4",
+      "type": "release",
+      "title": "PHP 7.4 released",
+      "date": "2019-11-28",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-7-4-eol",
+      "technologyId": "php",
+      "releaseCycleId": "php-7-4",
+      "type": "end-of-life",
+      "title": "PHP 7.4 end of life",
+      "date": "2022-11-28",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-7-3-release",
+      "technologyId": "php",
+      "releaseCycleId": "php-7-3",
+      "type": "release",
+      "title": "PHP 7.3 released",
+      "date": "2018-12-06",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-7-3-eol",
+      "technologyId": "php",
+      "releaseCycleId": "php-7-3",
+      "type": "end-of-life",
+      "title": "PHP 7.3 end of life",
+      "date": "2021-12-06",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-7-2-release",
+      "technologyId": "php",
+      "releaseCycleId": "php-7-2",
+      "type": "release",
+      "title": "PHP 7.2 released",
+      "date": "2017-11-30",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-7-2-eol",
+      "technologyId": "php",
+      "releaseCycleId": "php-7-2",
+      "type": "end-of-life",
+      "title": "PHP 7.2 end of life",
+      "date": "2020-11-30",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-7-1-release",
+      "technologyId": "php",
+      "releaseCycleId": "php-7-1",
+      "type": "release",
+      "title": "PHP 7.1 released",
+      "date": "2016-12-01",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-7-1-eol",
+      "technologyId": "php",
+      "releaseCycleId": "php-7-1",
+      "type": "end-of-life",
+      "title": "PHP 7.1 end of life",
+      "date": "2019-12-01",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-7-0-release",
+      "technologyId": "php",
+      "releaseCycleId": "php-7-0",
+      "type": "release",
+      "title": "PHP 7.0 released",
+      "date": "2015-12-03",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-7-0-eol",
+      "technologyId": "php",
+      "releaseCycleId": "php-7-0",
+      "type": "end-of-life",
+      "title": "PHP 7.0 end of life",
+      "date": "2019-01-10",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-5-6-release",
+      "technologyId": "php",
+      "releaseCycleId": "php-5-6",
+      "type": "release",
+      "title": "PHP 5.6 released",
+      "date": "2014-08-28",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-5-6-eol",
+      "technologyId": "php",
+      "releaseCycleId": "php-5-6",
+      "type": "end-of-life",
+      "title": "PHP 5.6 end of life",
+      "date": "2018-12-31",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-5-5-release",
+      "technologyId": "php",
+      "releaseCycleId": "php-5-5",
+      "type": "release",
+      "title": "PHP 5.5 released",
+      "date": "2013-06-20",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-5-5-eol",
+      "technologyId": "php",
+      "releaseCycleId": "php-5-5",
+      "type": "end-of-life",
+      "title": "PHP 5.5 end of life",
+      "date": "2016-07-21",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-5-4-release",
+      "technologyId": "php",
+      "releaseCycleId": "php-5-4",
+      "type": "release",
+      "title": "PHP 5.4 released",
+      "date": "2012-03-01",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-5-4-eol",
+      "technologyId": "php",
+      "releaseCycleId": "php-5-4",
+      "type": "end-of-life",
+      "title": "PHP 5.4 end of life",
+      "date": "2015-09-14",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-5-3-release",
+      "technologyId": "php",
+      "releaseCycleId": "php-5-3",
+      "type": "release",
+      "title": "PHP 5.3 released",
+      "date": "2009-06-30",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-5-3-eol",
+      "technologyId": "php",
+      "releaseCycleId": "php-5-3",
+      "type": "end-of-life",
+      "title": "PHP 5.3 end of life",
+      "date": "2014-08-14",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-5-2-release",
+      "technologyId": "php",
+      "releaseCycleId": "php-5-2",
+      "type": "release",
+      "title": "PHP 5.2 released",
+      "date": "2006-11-02",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-5-2-eol",
+      "technologyId": "php",
+      "releaseCycleId": "php-5-2",
+      "type": "end-of-life",
+      "title": "PHP 5.2 end of life",
+      "date": "2011-01-06",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-5-1-release",
+      "technologyId": "php",
+      "releaseCycleId": "php-5-1",
+      "type": "release",
+      "title": "PHP 5.1 released",
+      "date": "2005-11-24",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-5-1-eol",
+      "technologyId": "php",
+      "releaseCycleId": "php-5-1",
+      "type": "end-of-life",
+      "title": "PHP 5.1 end of life",
+      "date": "2006-08-24",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-4-4-release",
+      "technologyId": "php",
+      "releaseCycleId": "php-4-4",
+      "type": "release",
+      "title": "PHP 4.4 released",
+      "date": "2005-07-11",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-4-4-eol",
+      "technologyId": "php",
+      "releaseCycleId": "php-4-4",
+      "type": "end-of-life",
+      "title": "PHP 4.4 end of life",
+      "date": "2008-08-07",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-5-0-release",
+      "technologyId": "php",
+      "releaseCycleId": "php-5-0",
+      "type": "release",
+      "title": "PHP 5.0 released",
+      "date": "2004-07-13",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-5-0-eol",
+      "technologyId": "php",
+      "releaseCycleId": "php-5-0",
+      "type": "end-of-life",
+      "title": "PHP 5.0 end of life",
+      "date": "2005-09-05",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-4-3-release",
+      "technologyId": "php",
+      "releaseCycleId": "php-4-3",
+      "type": "release",
+      "title": "PHP 4.3 released",
+      "date": "2002-12-27",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-4-3-eol",
+      "technologyId": "php",
+      "releaseCycleId": "php-4-3",
+      "type": "end-of-life",
+      "title": "PHP 4.3 end of life",
+      "date": "2005-03-31",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-4-2-release",
+      "technologyId": "php",
+      "releaseCycleId": "php-4-2",
+      "type": "release",
+      "title": "PHP 4.2 released",
+      "date": "2002-04-22",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-4-2-eol",
+      "technologyId": "php",
+      "releaseCycleId": "php-4-2",
+      "type": "end-of-life",
+      "title": "PHP 4.2 end of life",
+      "date": "2002-09-06",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-4-1-release",
+      "technologyId": "php",
+      "releaseCycleId": "php-4-1",
+      "type": "release",
+      "title": "PHP 4.1 released",
+      "date": "2001-12-10",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-4-1-eol",
+      "technologyId": "php",
+      "releaseCycleId": "php-4-1",
+      "type": "end-of-life",
+      "title": "PHP 4.1 end of life",
+      "date": "2002-03-12",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-4-0-release",
+      "technologyId": "php",
+      "releaseCycleId": "php-4-0",
+      "type": "release",
+      "title": "PHP 4.0 released",
+      "date": "2000-05-22",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-4-0-eol",
+      "technologyId": "php",
+      "releaseCycleId": "php-4-0",
+      "type": "end-of-life",
+      "title": "PHP 4.0 end of life",
+      "date": "2001-06-23",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    }
+  ]
+}
