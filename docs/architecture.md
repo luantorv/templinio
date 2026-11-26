@@ -1,17 +1,19 @@
-# Foundation architecture
+# Atlas architecture
 
-Templinio is static-first. The Phase 0 path is intentionally short:
+Templinio is static-first. Atlas extends the Foundation path without adding a runtime service:
 
 ```text
-endoflife.date v1 or recorded fixture
-              ↓
-Python extraction → normalization → dependency-free validation
-              ↓                         ↓
-       atomic JSON snapshot       last valid file survives failure
-              ↓
-Next.js static build ← shared Zod schema + stable fixture
-              ↓
-        portable `out/` directory
+curated product config → endoflife.date v1 product responses
+                                  ↓
+                normalization → per-product validation
+                                  ↓
+                    aggregate + reference validation
+                                  ↓
+          atomic product JSON → aggregate JSON published last
+                                  ↓
+        Next.js static build ← shared Zod schema at build time
+                                  ↓
+           catalog + technology pages + portable `out/`
 ```
 
 ## Boundaries
@@ -20,7 +22,9 @@ Next.js static build ← shared Zod schema + stable fixture
 - `data/schemas` exposes the same initial wire contract to consumers that do not use TypeScript.
 - `pipelines/templinio_etl` does not import application code and uses only Python's standard
   library. It validates before an atomic `os.replace`, so a partial write cannot become public.
-- `apps/web` reads a committed fixture at build time. It has no server functions or database.
+- `data/catalog.json` bounds the products fetched and owns original short descriptions.
+- `apps/web` reads the committed aggregate snapshot at build time. It has no server functions or
+  database, and visitors never call the source API.
 
 The Python validator deliberately duplicates a small set of invariants from the Zod schema. This
 keeps publication independent from Node.js while cross-language fixture tests reveal drift.
@@ -33,6 +37,8 @@ date as an estimate. Templinio does not infer support stages that a provider doe
 
 ## Failure behavior
 
-Network, decoding, normalization, or validation errors stop before publication. The previously
-published snapshot remains untouched. The API client uses a finite timeout and a fixed HTTPS
-origin; retries and scheduled updates will be added only with measured source limits in Atlas.
+Network, decoding, normalization, or validation errors stop before publication. Each file uses an
+atomic replacement; the aggregate consumed by the site is published only after every individual
+snapshot succeeds. The API client uses a finite timeout, a fixed HTTPS origin, and bounded
+concurrency. Retries and scheduled updates remain separate work so their failure policy can be
+tested explicitly.
