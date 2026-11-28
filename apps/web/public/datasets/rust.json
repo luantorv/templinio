@@ -1,12 +1,12 @@
 {
   "schemaVersion": "0.2.0",
-  "generatedAt": "2026-11-27T09:23:11+00:00",
+  "generatedAt": "2026-11-28T00:08:17+00:00",
   "sources": [
     {
       "id": "endoflife-date-rust",
       "name": "endoflife.date — Rust",
       "url": "https://endoflife.date/rust",
-      "retrievedAt": "2026-11-27T09:23:11+00:00",
+      "retrievedAt": "2026-11-28T00:08:17+00:00",
       "license": "MIT",
       "licenseUrl": "https://github.com/endoflife-date/endoflife.date/blob/master/LICENSE"
     }

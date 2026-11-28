@@ -1,12 +1,12 @@
 {
   "schemaVersion": "0.2.0",
-  "generatedAt": "2026-11-27T09:23:11+00:00",
+  "generatedAt": "2026-11-28T00:08:17+00:00",
   "sources": [
     {
       "id": "endoflife-date-nodejs",
       "name": "endoflife.date — Node.js",
       "url": "https://endoflife.date/nodejs",
-      "retrievedAt": "2026-11-27T09:23:11+00:00",
+      "retrievedAt": "2026-11-28T00:08:17+00:00",
       "license": "MIT",
       "licenseUrl": "https://github.com/endoflife-date/endoflife.date/blob/master/LICENSE"
     },
@@ -14,7 +14,7 @@
       "id": "endoflife-date-python",
       "name": "endoflife.date — Python",
       "url": "https://endoflife.date/python",
-      "retrievedAt": "2026-11-27T09:23:11+00:00",
+      "retrievedAt": "2026-11-28T00:08:17+00:00",
       "license": "MIT",
       "licenseUrl": "https://github.com/endoflife-date/endoflife.date/blob/master/LICENSE"
     },
@@ -22,7 +22,7 @@
       "id": "endoflife-date-php",
       "name": "endoflife.date — PHP",
       "url": "https://endoflife.date/php",
-      "retrievedAt": "2026-11-27T09:23:11+00:00",
+      "retrievedAt": "2026-11-28T00:08:17+00:00",
       "license": "MIT",
       "licenseUrl": "https://github.com/endoflife-date/endoflife.date/blob/master/LICENSE"
     },
@@ -30,7 +30,7 @@
       "id": "endoflife-date-ruby",
       "name": "endoflife.date — Ruby",
       "url": "https://endoflife.date/ruby",
-      "retrievedAt": "2026-11-27T09:23:11+00:00",
+      "retrievedAt": "2026-11-28T00:08:17+00:00",
       "license": "MIT",
       "licenseUrl": "https://github.com/endoflife-date/endoflife.date/blob/master/LICENSE"
     },
@@ -38,7 +38,7 @@
       "id": "endoflife-date-oracle-jdk",
       "name": "endoflife.date — Oracle JDK",
       "url": "https://endoflife.date/oracle-jdk",
-      "retrievedAt": "2026-11-27T09:23:11+00:00",
+      "retrievedAt": "2026-11-28T00:08:17+00:00",
       "license": "MIT",
       "licenseUrl": "https://github.com/endoflife-date/endoflife.date/blob/master/LICENSE"
     },
@@ -46,7 +46,7 @@
       "id": "endoflife-date-dotnet",
       "name": "endoflife.date — Microsoft .NET",
       "url": "https://endoflife.date/dotnet",
-      "retrievedAt": "2026-11-27T09:23:11+00:00",
+      "retrievedAt": "2026-11-28T00:08:17+00:00",
       "license": "MIT",
       "licenseUrl": "https://github.com/endoflife-date/endoflife.date/blob/master/LICENSE"
     },
@@ -54,7 +54,7 @@
       "id": "endoflife-date-go",
       "name": "endoflife.date — Go",
       "url": "https://endoflife.date/go",
-      "retrievedAt": "2026-11-27T09:23:11+00:00",
+      "retrievedAt": "2026-11-28T00:08:17+00:00",
       "license": "MIT",
       "licenseUrl": "https://github.com/endoflife-date/endoflife.date/blob/master/LICENSE"
     },
@@ -62,7 +62,7 @@
       "id": "endoflife-date-rust",
       "name": "endoflife.date — Rust",
       "url": "https://endoflife.date/rust",
-      "retrievedAt": "2026-11-27T09:23:11+00:00",
+      "retrievedAt": "2026-11-28T00:08:17+00:00",
       "license": "MIT",
       "licenseUrl": "https://github.com/endoflife-date/endoflife.date/blob/master/LICENSE"
     },
@@ -70,7 +70,7 @@
       "id": "endoflife-date-postgresql",
       "name": "endoflife.date — PostgreSQL",
       "url": "https://endoflife.date/postgresql",
-      "retrievedAt": "2026-11-27T09:23:11+00:00",
+      "retrievedAt": "2026-11-28T00:08:17+00:00",
       "license": "MIT",
       "licenseUrl": "https://github.com/endoflife-date/endoflife.date/blob/master/LICENSE"
     },
@@ -78,7 +78,7 @@
       "id": "endoflife-date-mysql",
       "name": "endoflife.date — MySQL",
       "url": "https://endoflife.date/mysql",
-      "retrievedAt": "2026-11-27T09:23:11+00:00",
+      "retrievedAt": "2026-11-28T00:08:17+00:00",
       "license": "MIT",
       "licenseUrl": "https://github.com/endoflife-date/endoflife.date/blob/master/LICENSE"
     },
@@ -86,7 +86,7 @@
       "id": "endoflife-date-mongodb",
       "name": "endoflife.date — MongoDB Server",
       "url": "https://endoflife.date/mongodb",
-      "retrievedAt": "2026-11-27T09:23:11+00:00",
+      "retrievedAt": "2026-11-28T00:08:17+00:00",
       "license": "MIT",
       "licenseUrl": "https://github.com/endoflife-date/endoflife.date/blob/master/LICENSE"
     },
@@ -94,7 +94,7 @@
       "id": "endoflife-date-redis",
       "name": "endoflife.date — Redis",
       "url": "https://endoflife.date/redis",
-      "retrievedAt": "2026-11-27T09:23:11+00:00",
+      "retrievedAt": "2026-11-28T00:08:17+00:00",
       "license": "MIT",
       "licenseUrl": "https://github.com/endoflife-date/endoflife.date/blob/master/LICENSE"
     },
@@ -102,7 +102,7 @@
       "id": "endoflife-date-kubernetes",
       "name": "endoflife.date — Kubernetes",
       "url": "https://endoflife.date/kubernetes",
-      "retrievedAt": "2026-11-27T09:23:11+00:00",
+      "retrievedAt": "2026-11-28T00:08:17+00:00",
       "license": "MIT",
       "licenseUrl": "https://github.com/endoflife-date/endoflife.date/blob/master/LICENSE"
     },
@@ -110,7 +110,7 @@
       "id": "endoflife-date-django",
       "name": "endoflife.date — Django",
       "url": "https://endoflife.date/django",
-      "retrievedAt": "2026-11-27T09:23:11+00:00",
+      "retrievedAt": "2026-11-28T00:08:17+00:00",
       "license": "MIT",
       "licenseUrl": "https://github.com/endoflife-date/endoflife.date/blob/master/LICENSE"
     },
@@ -118,7 +118,7 @@
       "id": "endoflife-date-angular",
       "name": "endoflife.date — Angular",
       "url": "https://endoflife.date/angular",
-      "retrievedAt": "2026-11-27T09:23:11+00:00",
+      "retrievedAt": "2026-11-28T00:08:17+00:00",
       "license": "MIT",
       "licenseUrl": "https://github.com/endoflife-date/endoflife.date/blob/master/LICENSE"
     }
@@ -18707,7 +18707,7 @@
       "type": "end-of-life",
       "title": "Angular 20 end of life",
       "date": "2026-11-28",
-      "dateStatus": "scheduled",
+      "dateStatus": "occurred",
       "sourceIds": [
         "endoflife-date-angular"
       ]
