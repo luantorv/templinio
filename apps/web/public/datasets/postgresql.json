@@ -1,0 +1,1427 @@
+{
+  "schemaVersion": "0.2.0",
+  "generatedAt": "2026-11-27T09:23:11+00:00",
+  "sources": [
+    {
+      "id": "endoflife-date-postgresql",
+      "name": "endoflife.date — PostgreSQL",
+      "url": "https://endoflife.date/postgresql",
+      "retrievedAt": "2026-11-27T09:23:11+00:00",
+      "license": "MIT",
+      "licenseUrl": "https://github.com/endoflife-date/endoflife.date/blob/master/LICENSE"
+    }
+  ],
+  "technologies": [
+    {
+      "id": "postgresql",
+      "name": "PostgreSQL",
+      "description": "Open-source relational database with an emphasis on extensibility.",
+      "category": "database",
+      "releasePolicyUrl": "https://www.postgresql.org/support/versioning/",
+      "supportPolicy": {
+        "activeSupportLabel": null,
+        "eolLabel": "Support Status",
+        "extendedSupportLabel": null
+      },
+      "aliases": [
+        "postgres",
+        "pg",
+        "psql",
+        "pgsql"
+      ],
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    }
+  ],
+  "releaseCycles": [
+    {
+      "id": "postgresql-19",
+      "technologyId": "postgresql",
+      "name": "19",
+      "releaseDate": "2026-11-19",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
+      "eolDate": "2031-11-19",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": true,
+      "status": "active",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-18",
+      "technologyId": "postgresql",
+      "name": "18",
+      "releaseDate": "2025-09-25",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
+      "eolDate": "2030-11-14",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": true,
+      "status": "active",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-17",
+      "technologyId": "postgresql",
+      "name": "17",
+      "releaseDate": "2024-09-26",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
+      "eolDate": "2029-11-08",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": true,
+      "status": "active",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-16",
+      "technologyId": "postgresql",
+      "name": "16",
+      "releaseDate": "2023-09-14",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
+      "eolDate": "2028-11-09",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": true,
+      "status": "active",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-15",
+      "technologyId": "postgresql",
+      "name": "15",
+      "releaseDate": "2022-10-13",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
+      "eolDate": "2027-11-11",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": true,
+      "status": "active",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-14",
+      "technologyId": "postgresql",
+      "name": "14",
+      "releaseDate": "2021-09-30",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
+      "eolDate": "2026-11-12",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-13",
+      "technologyId": "postgresql",
+      "name": "13",
+      "releaseDate": "2020-09-24",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
+      "eolDate": "2025-11-13",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-12",
+      "technologyId": "postgresql",
+      "name": "12",
+      "releaseDate": "2019-10-03",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
+      "eolDate": "2024-11-21",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-11",
+      "technologyId": "postgresql",
+      "name": "11",
+      "releaseDate": "2018-10-18",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
+      "eolDate": "2023-11-09",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-10",
+      "technologyId": "postgresql",
+      "name": "10",
+      "releaseDate": "2017-10-05",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
+      "eolDate": "2022-11-10",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-9-6",
+      "technologyId": "postgresql",
+      "name": "9.6",
+      "releaseDate": "2016-09-29",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
+      "eolDate": "2021-11-11",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-9-5",
+      "technologyId": "postgresql",
+      "name": "9.5",
+      "releaseDate": "2016-01-07",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
+      "eolDate": "2021-02-11",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-9-4",
+      "technologyId": "postgresql",
+      "name": "9.4",
+      "releaseDate": "2014-12-18",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
+      "eolDate": "2020-02-13",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-9-3",
+      "technologyId": "postgresql",
+      "name": "9.3",
+      "releaseDate": "2013-09-09",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
+      "eolDate": "2018-11-08",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-9-2",
+      "technologyId": "postgresql",
+      "name": "9.2",
+      "releaseDate": "2012-09-10",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
+      "eolDate": "2017-11-09",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-9-1",
+      "technologyId": "postgresql",
+      "name": "9.1",
+      "releaseDate": "2011-09-12",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
+      "eolDate": "2016-10-27",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-9-0",
+      "technologyId": "postgresql",
+      "name": "9.0",
+      "releaseDate": "2010-09-20",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
+      "eolDate": "2015-10-08",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-8-4",
+      "technologyId": "postgresql",
+      "name": "8.4",
+      "releaseDate": "2009-07-01",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
+      "eolDate": "2014-07-24",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-8-3",
+      "technologyId": "postgresql",
+      "name": "8.3",
+      "releaseDate": "2008-02-04",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
+      "eolDate": "2013-02-07",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-8-2",
+      "technologyId": "postgresql",
+      "name": "8.2",
+      "releaseDate": "2006-12-05",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
+      "eolDate": "2011-12-05",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-8-1",
+      "technologyId": "postgresql",
+      "name": "8.1",
+      "releaseDate": "2005-11-08",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
+      "eolDate": "2010-11-08",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-8-0",
+      "technologyId": "postgresql",
+      "name": "8.0",
+      "releaseDate": "2005-01-19",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
+      "eolDate": "2010-10-01",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-7-4",
+      "technologyId": "postgresql",
+      "name": "7.4",
+      "releaseDate": "2003-11-17",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
+      "eolDate": "2010-10-01",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-7-3",
+      "technologyId": "postgresql",
+      "name": "7.3",
+      "releaseDate": "2002-11-27",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
+      "eolDate": "2007-11-27",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-7-2",
+      "technologyId": "postgresql",
+      "name": "7.2",
+      "releaseDate": "2002-02-04",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
+      "eolDate": "2007-02-04",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-7-1",
+      "technologyId": "postgresql",
+      "name": "7.1",
+      "releaseDate": "2001-04-13",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
+      "eolDate": "2006-04-13",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-7-0",
+      "technologyId": "postgresql",
+      "name": "7.0",
+      "releaseDate": "2000-05-08",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
+      "eolDate": "2005-05-08",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-6-5",
+      "technologyId": "postgresql",
+      "name": "6.5",
+      "releaseDate": "1999-06-09",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
+      "eolDate": "2004-06-09",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-6-4",
+      "technologyId": "postgresql",
+      "name": "6.4",
+      "releaseDate": "1998-10-30",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
+      "eolDate": "2003-10-30",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-6-3",
+      "technologyId": "postgresql",
+      "name": "6.3",
+      "releaseDate": "1998-03-01",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
+      "eolDate": "2003-03-01",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-6-2",
+      "technologyId": "postgresql",
+      "name": "6.2",
+      "releaseDate": "1997-10-02",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
+      "eolDate": null,
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "unknown",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-6-1",
+      "technologyId": "postgresql",
+      "name": "6.1",
+      "releaseDate": "1997-06-08",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
+      "eolDate": null,
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "unknown",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-6-0",
+      "technologyId": "postgresql",
+      "name": "6.0",
+      "releaseDate": "1997-01-29",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
+      "eolDate": null,
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "unknown",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "postgresql-19-release",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-19",
+      "type": "release",
+      "title": "PostgreSQL 19 released",
+      "date": "2026-11-19",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-19-eol",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-19",
+      "type": "end-of-life",
+      "title": "PostgreSQL 19 end of life",
+      "date": "2031-11-19",
+      "dateStatus": "scheduled",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-18-release",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-18",
+      "type": "release",
+      "title": "PostgreSQL 18 released",
+      "date": "2025-09-25",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-18-eol",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-18",
+      "type": "end-of-life",
+      "title": "PostgreSQL 18 end of life",
+      "date": "2030-11-14",
+      "dateStatus": "scheduled",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-17-release",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-17",
+      "type": "release",
+      "title": "PostgreSQL 17 released",
+      "date": "2024-09-26",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-17-eol",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-17",
+      "type": "end-of-life",
+      "title": "PostgreSQL 17 end of life",
+      "date": "2029-11-08",
+      "dateStatus": "scheduled",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-16-release",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-16",
+      "type": "release",
+      "title": "PostgreSQL 16 released",
+      "date": "2023-09-14",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-16-eol",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-16",
+      "type": "end-of-life",
+      "title": "PostgreSQL 16 end of life",
+      "date": "2028-11-09",
+      "dateStatus": "scheduled",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-15-release",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-15",
+      "type": "release",
+      "title": "PostgreSQL 15 released",
+      "date": "2022-10-13",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-15-eol",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-15",
+      "type": "end-of-life",
+      "title": "PostgreSQL 15 end of life",
+      "date": "2027-11-11",
+      "dateStatus": "scheduled",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-14-release",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-14",
+      "type": "release",
+      "title": "PostgreSQL 14 released",
+      "date": "2021-09-30",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-14-eol",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-14",
+      "type": "end-of-life",
+      "title": "PostgreSQL 14 end of life",
+      "date": "2026-11-12",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-13-release",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-13",
+      "type": "release",
+      "title": "PostgreSQL 13 released",
+      "date": "2020-09-24",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-13-eol",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-13",
+      "type": "end-of-life",
+      "title": "PostgreSQL 13 end of life",
+      "date": "2025-11-13",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-12-release",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-12",
+      "type": "release",
+      "title": "PostgreSQL 12 released",
+      "date": "2019-10-03",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-12-eol",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-12",
+      "type": "end-of-life",
+      "title": "PostgreSQL 12 end of life",
+      "date": "2024-11-21",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-11-release",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-11",
+      "type": "release",
+      "title": "PostgreSQL 11 released",
+      "date": "2018-10-18",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-11-eol",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-11",
+      "type": "end-of-life",
+      "title": "PostgreSQL 11 end of life",
+      "date": "2023-11-09",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-10-release",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-10",
+      "type": "release",
+      "title": "PostgreSQL 10 released",
+      "date": "2017-10-05",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-10-eol",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-10",
+      "type": "end-of-life",
+      "title": "PostgreSQL 10 end of life",
+      "date": "2022-11-10",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-9-6-release",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-9-6",
+      "type": "release",
+      "title": "PostgreSQL 9.6 released",
+      "date": "2016-09-29",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-9-6-eol",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-9-6",
+      "type": "end-of-life",
+      "title": "PostgreSQL 9.6 end of life",
+      "date": "2021-11-11",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-9-5-release",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-9-5",
+      "type": "release",
+      "title": "PostgreSQL 9.5 released",
+      "date": "2016-01-07",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-9-5-eol",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-9-5",
+      "type": "end-of-life",
+      "title": "PostgreSQL 9.5 end of life",
+      "date": "2021-02-11",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-9-4-release",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-9-4",
+      "type": "release",
+      "title": "PostgreSQL 9.4 released",
+      "date": "2014-12-18",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-9-4-eol",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-9-4",
+      "type": "end-of-life",
+      "title": "PostgreSQL 9.4 end of life",
+      "date": "2020-02-13",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-9-3-release",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-9-3",
+      "type": "release",
+      "title": "PostgreSQL 9.3 released",
+      "date": "2013-09-09",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-9-3-eol",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-9-3",
+      "type": "end-of-life",
+      "title": "PostgreSQL 9.3 end of life",
+      "date": "2018-11-08",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-9-2-release",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-9-2",
+      "type": "release",
+      "title": "PostgreSQL 9.2 released",
+      "date": "2012-09-10",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-9-2-eol",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-9-2",
+      "type": "end-of-life",
+      "title": "PostgreSQL 9.2 end of life",
+      "date": "2017-11-09",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-9-1-release",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-9-1",
+      "type": "release",
+      "title": "PostgreSQL 9.1 released",
+      "date": "2011-09-12",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-9-1-eol",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-9-1",
+      "type": "end-of-life",
+      "title": "PostgreSQL 9.1 end of life",
+      "date": "2016-10-27",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-9-0-release",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-9-0",
+      "type": "release",
+      "title": "PostgreSQL 9.0 released",
+      "date": "2010-09-20",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-9-0-eol",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-9-0",
+      "type": "end-of-life",
+      "title": "PostgreSQL 9.0 end of life",
+      "date": "2015-10-08",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-8-4-release",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-8-4",
+      "type": "release",
+      "title": "PostgreSQL 8.4 released",
+      "date": "2009-07-01",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-8-4-eol",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-8-4",
+      "type": "end-of-life",
+      "title": "PostgreSQL 8.4 end of life",
+      "date": "2014-07-24",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-8-3-release",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-8-3",
+      "type": "release",
+      "title": "PostgreSQL 8.3 released",
+      "date": "2008-02-04",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-8-3-eol",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-8-3",
+      "type": "end-of-life",
+      "title": "PostgreSQL 8.3 end of life",
+      "date": "2013-02-07",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-8-2-release",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-8-2",
+      "type": "release",
+      "title": "PostgreSQL 8.2 released",
+      "date": "2006-12-05",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-8-2-eol",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-8-2",
+      "type": "end-of-life",
+      "title": "PostgreSQL 8.2 end of life",
+      "date": "2011-12-05",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-8-1-release",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-8-1",
+      "type": "release",
+      "title": "PostgreSQL 8.1 released",
+      "date": "2005-11-08",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-8-1-eol",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-8-1",
+      "type": "end-of-life",
+      "title": "PostgreSQL 8.1 end of life",
+      "date": "2010-11-08",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-8-0-release",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-8-0",
+      "type": "release",
+      "title": "PostgreSQL 8.0 released",
+      "date": "2005-01-19",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-8-0-eol",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-8-0",
+      "type": "end-of-life",
+      "title": "PostgreSQL 8.0 end of life",
+      "date": "2010-10-01",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-7-4-release",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-7-4",
+      "type": "release",
+      "title": "PostgreSQL 7.4 released",
+      "date": "2003-11-17",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-7-4-eol",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-7-4",
+      "type": "end-of-life",
+      "title": "PostgreSQL 7.4 end of life",
+      "date": "2010-10-01",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-7-3-release",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-7-3",
+      "type": "release",
+      "title": "PostgreSQL 7.3 released",
+      "date": "2002-11-27",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-7-3-eol",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-7-3",
+      "type": "end-of-life",
+      "title": "PostgreSQL 7.3 end of life",
+      "date": "2007-11-27",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-7-2-release",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-7-2",
+      "type": "release",
+      "title": "PostgreSQL 7.2 released",
+      "date": "2002-02-04",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-7-2-eol",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-7-2",
+      "type": "end-of-life",
+      "title": "PostgreSQL 7.2 end of life",
+      "date": "2007-02-04",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-7-1-release",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-7-1",
+      "type": "release",
+      "title": "PostgreSQL 7.1 released",
+      "date": "2001-04-13",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-7-1-eol",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-7-1",
+      "type": "end-of-life",
+      "title": "PostgreSQL 7.1 end of life",
+      "date": "2006-04-13",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-7-0-release",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-7-0",
+      "type": "release",
+      "title": "PostgreSQL 7.0 released",
+      "date": "2000-05-08",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-7-0-eol",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-7-0",
+      "type": "end-of-life",
+      "title": "PostgreSQL 7.0 end of life",
+      "date": "2005-05-08",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-6-5-release",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-6-5",
+      "type": "release",
+      "title": "PostgreSQL 6.5 released",
+      "date": "1999-06-09",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-6-5-eol",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-6-5",
+      "type": "end-of-life",
+      "title": "PostgreSQL 6.5 end of life",
+      "date": "2004-06-09",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-6-4-release",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-6-4",
+      "type": "release",
+      "title": "PostgreSQL 6.4 released",
+      "date": "1998-10-30",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-6-4-eol",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-6-4",
+      "type": "end-of-life",
+      "title": "PostgreSQL 6.4 end of life",
+      "date": "2003-10-30",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-6-3-release",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-6-3",
+      "type": "release",
+      "title": "PostgreSQL 6.3 released",
+      "date": "1998-03-01",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-6-3-eol",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-6-3",
+      "type": "end-of-life",
+      "title": "PostgreSQL 6.3 end of life",
+      "date": "2003-03-01",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-6-2-release",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-6-2",
+      "type": "release",
+      "title": "PostgreSQL 6.2 released",
+      "date": "1997-10-02",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-6-2-eol",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-6-2",
+      "type": "end-of-life",
+      "title": "PostgreSQL 6.2 end-of-life date is unknown",
+      "date": null,
+      "dateStatus": "unknown",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-6-1-release",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-6-1",
+      "type": "release",
+      "title": "PostgreSQL 6.1 released",
+      "date": "1997-06-08",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-6-1-eol",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-6-1",
+      "type": "end-of-life",
+      "title": "PostgreSQL 6.1 end-of-life date is unknown",
+      "date": null,
+      "dateStatus": "unknown",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-6-0-release",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-6-0",
+      "type": "release",
+      "title": "PostgreSQL 6.0 released",
+      "date": "1997-01-29",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    },
+    {
+      "id": "postgresql-6-0-eol",
+      "technologyId": "postgresql",
+      "releaseCycleId": "postgresql-6-0",
+      "type": "end-of-life",
+      "title": "PostgreSQL 6.0 end-of-life date is unknown",
+      "date": null,
+      "dateStatus": "unknown",
+      "sourceIds": [
+        "endoflife-date-postgresql"
+      ]
+    }
+  ]
+}

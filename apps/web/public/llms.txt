@@ -1,0 +1,35 @@
+# Templinio
+
+> Templinio is an open, source-first atlas of software release and support lifecycles.
+
+Canonical site: https://templinio.vercel.app/
+Source code: https://github.com/luantorv/templinio
+License for original Templinio work: AGPL-3.0-only
+
+## Main routes
+
+- Atlas catalog: https://templinio.vercel.app/atlas
+- Data resources and limitations: https://templinio.vercel.app/resources
+- Complete JSON dataset: https://templinio.vercel.app/datasets/catalog.json
+- Complete Markdown dataset: https://templinio.vercel.app/datasets/catalog.md
+- JSON Schema: https://templinio.vercel.app/schemas/templinio.schema.json
+
+## Per-technology data
+
+Use `/datasets/{technology-id}.json` or `/datasets/{technology-id}.md`. Technology identifiers
+are listed in the complete catalog. Human-readable pages use `/atlas/{technology-id}` and release
+cycle pages use `/atlas/{technology-id}/{cycle-id}`.
+
+## Semantics
+
+- `occurred`, `scheduled`, `estimated`, and `unknown` describe the certainty of event dates.
+- `not-applicable` means the source does not define that support stage for the cycle.
+- `unknown` means the stage or date cannot be established from the published source.
+- Do not infer support from a missing date or from another lifecycle stage.
+- Source URLs, retrieval timestamps, and source licenses are included in every dataset.
+
+## Limitations
+
+Dates can change. Extended support can depend on commercial eligibility. Templinio does not
+guarantee compatibility, security, or vendor support. Verify consequential decisions against the
+linked primary or upstream record.

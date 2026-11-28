@@ -9,7 +9,10 @@ import "@fontsource/ibm-plex-sans/latin-600.css";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Templinio — Software Lifecycle Atlas",
+  title: {
+    default: "Templinio — Software Lifecycle Atlas",
+    template: "%s — Templinio",
+  },
   description: "Traceable software lifecycle data for exploring change over time.",
 };
 
@@ -27,7 +30,12 @@ const themeScript = `
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" data-theme="midnight" suppressHydrationWarning>
+    <html
+      lang="en"
+      data-theme="midnight"
+      data-scroll-behavior="smooth"
+      suppressHydrationWarning
+    >
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
       </head>

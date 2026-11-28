@@ -6,6 +6,9 @@ const nextConfig: NextConfig = {
   output: "export",
   reactStrictMode: true,
   transpilePackages: ["@templinio/schema"],
+  experimental: {
+    useTypeScriptCli: false,
+  },
 };
 
 export default nextConfig;

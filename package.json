@@ -17,9 +17,9 @@
     "lint:fix": "eslint . --fix && ruff check pipelines --fix",
     "test": "npm run test --workspaces --if-present && python -m unittest discover -s pipelines/tests -v",
     "typecheck": "npm run typecheck --workspaces --if-present",
-    "validate:data": "python -m pipelines.templinio_etl.cli validate data/fixtures/templinio.fixture.json",
-    "etl:fixture": "python -m pipelines.templinio_etl.cli transform data/fixtures/endoflife-date.nodejs.json apps/web/public/datasets/nodejs.json",
-    "etl:fetch": "python -m pipelines.templinio_etl.cli fetch nodejs apps/web/public/datasets/nodejs.json",
+    "validate:data": "python -m pipelines.templinio_etl.cli validate data/fixtures/templinio.fixture.json apps/web/public/datasets/*.json",
+    "etl:fixture": "python -m pipelines.templinio_etl.cli transform data/fixtures/endoflife-date.nodejs.json data/fixtures/templinio.fixture.json",
+    "etl:catalog": "python -m pipelines.templinio_etl.cli fetch-catalog data/catalog.json apps/web/public/datasets",
     "check": "npm run lint && npm run typecheck && npm run test && npm run validate:data && npm run build"
   },
   "devDependencies": {

@@ -1,0 +1,960 @@
+{
+  "schemaVersion": "0.2.0",
+  "generatedAt": "2026-11-27T09:23:11+00:00",
+  "sources": [
+    {
+      "id": "endoflife-date-angular",
+      "name": "endoflife.date — Angular",
+      "url": "https://endoflife.date/angular",
+      "retrievedAt": "2026-11-27T09:23:11+00:00",
+      "license": "MIT",
+      "licenseUrl": "https://github.com/endoflife-date/endoflife.date/blob/master/LICENSE"
+    }
+  ],
+  "technologies": [
+    {
+      "id": "angular",
+      "name": "Angular",
+      "description": "Web application framework maintained by the Angular team.",
+      "category": "runtime",
+      "releasePolicyUrl": "https://angular.dev/reference/releases",
+      "supportPolicy": {
+        "activeSupportLabel": "Active Support",
+        "eolLabel": "Security Support",
+        "extendedSupportLabel": "Commercial Support"
+      },
+      "aliases": [],
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    }
+  ],
+  "releaseCycles": [
+    {
+      "id": "angular-22",
+      "technologyId": "angular",
+      "name": "22",
+      "releaseDate": "2026-06-03",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2027-06-30",
+      "activeSupportStatus": "active",
+      "eolDate": "2028-06-30",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "active",
+      "isLts": false,
+      "isMaintained": true,
+      "status": "active",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-21",
+      "technologyId": "angular",
+      "name": "21",
+      "releaseDate": "2025-11-19",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2026-06-03",
+      "activeSupportStatus": "ended",
+      "eolDate": "2027-06-30",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "active",
+      "isLts": false,
+      "isMaintained": true,
+      "status": "active",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-20",
+      "technologyId": "angular",
+      "name": "20",
+      "releaseDate": "2025-05-28",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2025-11-19",
+      "activeSupportStatus": "ended",
+      "eolDate": "2026-11-28",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "active",
+      "isLts": false,
+      "isMaintained": true,
+      "status": "active",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-19",
+      "technologyId": "angular",
+      "name": "19",
+      "releaseDate": "2024-11-19",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2025-05-28",
+      "activeSupportStatus": "ended",
+      "eolDate": "2026-05-19",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "active",
+      "isLts": false,
+      "isMaintained": true,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-18",
+      "technologyId": "angular",
+      "name": "18",
+      "releaseDate": "2024-05-22",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2024-11-19",
+      "activeSupportStatus": "ended",
+      "eolDate": "2025-11-21",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "active",
+      "isLts": false,
+      "isMaintained": true,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-17",
+      "technologyId": "angular",
+      "name": "17",
+      "releaseDate": "2023-11-08",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2024-05-08",
+      "activeSupportStatus": "ended",
+      "eolDate": "2025-05-15",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "active",
+      "isLts": false,
+      "isMaintained": true,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-16",
+      "technologyId": "angular",
+      "name": "16",
+      "releaseDate": "2023-05-03",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2023-11-08",
+      "activeSupportStatus": "ended",
+      "eolDate": "2024-11-08",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "active",
+      "isLts": false,
+      "isMaintained": true,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-15",
+      "technologyId": "angular",
+      "name": "15",
+      "releaseDate": "2022-11-16",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2023-05-03",
+      "activeSupportStatus": "ended",
+      "eolDate": "2024-05-18",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "active",
+      "isLts": false,
+      "isMaintained": true,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-14",
+      "technologyId": "angular",
+      "name": "14",
+      "releaseDate": "2022-06-02",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2022-11-18",
+      "activeSupportStatus": "ended",
+      "eolDate": "2023-11-18",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "active",
+      "isLts": false,
+      "isMaintained": true,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-13",
+      "technologyId": "angular",
+      "name": "13",
+      "releaseDate": "2021-11-03",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2022-06-02",
+      "activeSupportStatus": "ended",
+      "eolDate": "2023-05-04",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "active",
+      "isLts": false,
+      "isMaintained": true,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-12",
+      "technologyId": "angular",
+      "name": "12",
+      "releaseDate": "2021-05-13",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2021-11-12",
+      "activeSupportStatus": "ended",
+      "eolDate": "2022-11-12",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "active",
+      "isLts": false,
+      "isMaintained": true,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-11",
+      "technologyId": "angular",
+      "name": "11",
+      "releaseDate": "2020-11-11",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2021-05-11",
+      "activeSupportStatus": "ended",
+      "eolDate": "2022-05-11",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "active",
+      "isLts": false,
+      "isMaintained": true,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-10",
+      "technologyId": "angular",
+      "name": "10",
+      "releaseDate": "2020-06-24",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2020-12-24",
+      "activeSupportStatus": "ended",
+      "eolDate": "2021-12-24",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "active",
+      "isLts": false,
+      "isMaintained": true,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-9",
+      "technologyId": "angular",
+      "name": "9",
+      "releaseDate": "2020-02-06",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2020-08-06",
+      "activeSupportStatus": "ended",
+      "eolDate": "2021-08-06",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "active",
+      "isLts": false,
+      "isMaintained": true,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "angular-22-release",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-22",
+      "type": "release",
+      "title": "Angular 22 released",
+      "date": "2026-06-03",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-22-active-support-end",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-22",
+      "type": "active-support-end",
+      "title": "Angular 22 active support ends",
+      "date": "2027-06-30",
+      "dateStatus": "scheduled",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-22-eol",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-22",
+      "type": "end-of-life",
+      "title": "Angular 22 end of life",
+      "date": "2028-06-30",
+      "dateStatus": "scheduled",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-22-extended-support-end",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-22",
+      "type": "extended-support-end",
+      "title": "Angular 22 extended support ends",
+      "date": null,
+      "dateStatus": "unknown",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-21-release",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-21",
+      "type": "release",
+      "title": "Angular 21 released",
+      "date": "2025-11-19",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-21-active-support-end",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-21",
+      "type": "active-support-end",
+      "title": "Angular 21 active support ends",
+      "date": "2026-06-03",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-21-eol",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-21",
+      "type": "end-of-life",
+      "title": "Angular 21 end of life",
+      "date": "2027-06-30",
+      "dateStatus": "scheduled",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-21-extended-support-end",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-21",
+      "type": "extended-support-end",
+      "title": "Angular 21 extended support ends",
+      "date": null,
+      "dateStatus": "unknown",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-20-release",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-20",
+      "type": "release",
+      "title": "Angular 20 released",
+      "date": "2025-05-28",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-20-active-support-end",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-20",
+      "type": "active-support-end",
+      "title": "Angular 20 active support ends",
+      "date": "2025-11-19",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-20-eol",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-20",
+      "type": "end-of-life",
+      "title": "Angular 20 end of life",
+      "date": "2026-11-28",
+      "dateStatus": "scheduled",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-20-extended-support-end",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-20",
+      "type": "extended-support-end",
+      "title": "Angular 20 extended support ends",
+      "date": null,
+      "dateStatus": "unknown",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-19-release",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-19",
+      "type": "release",
+      "title": "Angular 19 released",
+      "date": "2024-11-19",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-19-active-support-end",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-19",
+      "type": "active-support-end",
+      "title": "Angular 19 active support ends",
+      "date": "2025-05-28",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-19-eol",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-19",
+      "type": "end-of-life",
+      "title": "Angular 19 end of life",
+      "date": "2026-05-19",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-19-extended-support-end",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-19",
+      "type": "extended-support-end",
+      "title": "Angular 19 extended support ends",
+      "date": null,
+      "dateStatus": "unknown",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-18-release",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-18",
+      "type": "release",
+      "title": "Angular 18 released",
+      "date": "2024-05-22",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-18-active-support-end",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-18",
+      "type": "active-support-end",
+      "title": "Angular 18 active support ends",
+      "date": "2024-11-19",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-18-eol",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-18",
+      "type": "end-of-life",
+      "title": "Angular 18 end of life",
+      "date": "2025-11-21",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-18-extended-support-end",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-18",
+      "type": "extended-support-end",
+      "title": "Angular 18 extended support ends",
+      "date": null,
+      "dateStatus": "unknown",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-17-release",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-17",
+      "type": "release",
+      "title": "Angular 17 released",
+      "date": "2023-11-08",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-17-active-support-end",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-17",
+      "type": "active-support-end",
+      "title": "Angular 17 active support ends",
+      "date": "2024-05-08",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-17-eol",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-17",
+      "type": "end-of-life",
+      "title": "Angular 17 end of life",
+      "date": "2025-05-15",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-17-extended-support-end",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-17",
+      "type": "extended-support-end",
+      "title": "Angular 17 extended support ends",
+      "date": null,
+      "dateStatus": "unknown",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-16-release",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-16",
+      "type": "release",
+      "title": "Angular 16 released",
+      "date": "2023-05-03",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-16-active-support-end",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-16",
+      "type": "active-support-end",
+      "title": "Angular 16 active support ends",
+      "date": "2023-11-08",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-16-eol",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-16",
+      "type": "end-of-life",
+      "title": "Angular 16 end of life",
+      "date": "2024-11-08",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-16-extended-support-end",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-16",
+      "type": "extended-support-end",
+      "title": "Angular 16 extended support ends",
+      "date": null,
+      "dateStatus": "unknown",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-15-release",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-15",
+      "type": "release",
+      "title": "Angular 15 released",
+      "date": "2022-11-16",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-15-active-support-end",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-15",
+      "type": "active-support-end",
+      "title": "Angular 15 active support ends",
+      "date": "2023-05-03",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-15-eol",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-15",
+      "type": "end-of-life",
+      "title": "Angular 15 end of life",
+      "date": "2024-05-18",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-15-extended-support-end",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-15",
+      "type": "extended-support-end",
+      "title": "Angular 15 extended support ends",
+      "date": null,
+      "dateStatus": "unknown",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-14-release",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-14",
+      "type": "release",
+      "title": "Angular 14 released",
+      "date": "2022-06-02",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-14-active-support-end",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-14",
+      "type": "active-support-end",
+      "title": "Angular 14 active support ends",
+      "date": "2022-11-18",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-14-eol",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-14",
+      "type": "end-of-life",
+      "title": "Angular 14 end of life",
+      "date": "2023-11-18",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-14-extended-support-end",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-14",
+      "type": "extended-support-end",
+      "title": "Angular 14 extended support ends",
+      "date": null,
+      "dateStatus": "unknown",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-13-release",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-13",
+      "type": "release",
+      "title": "Angular 13 released",
+      "date": "2021-11-03",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-13-active-support-end",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-13",
+      "type": "active-support-end",
+      "title": "Angular 13 active support ends",
+      "date": "2022-06-02",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-13-eol",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-13",
+      "type": "end-of-life",
+      "title": "Angular 13 end of life",
+      "date": "2023-05-04",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-13-extended-support-end",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-13",
+      "type": "extended-support-end",
+      "title": "Angular 13 extended support ends",
+      "date": null,
+      "dateStatus": "unknown",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-12-release",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-12",
+      "type": "release",
+      "title": "Angular 12 released",
+      "date": "2021-05-13",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-12-active-support-end",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-12",
+      "type": "active-support-end",
+      "title": "Angular 12 active support ends",
+      "date": "2021-11-12",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-12-eol",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-12",
+      "type": "end-of-life",
+      "title": "Angular 12 end of life",
+      "date": "2022-11-12",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-12-extended-support-end",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-12",
+      "type": "extended-support-end",
+      "title": "Angular 12 extended support ends",
+      "date": null,
+      "dateStatus": "unknown",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-11-release",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-11",
+      "type": "release",
+      "title": "Angular 11 released",
+      "date": "2020-11-11",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-11-active-support-end",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-11",
+      "type": "active-support-end",
+      "title": "Angular 11 active support ends",
+      "date": "2021-05-11",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-11-eol",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-11",
+      "type": "end-of-life",
+      "title": "Angular 11 end of life",
+      "date": "2022-05-11",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-11-extended-support-end",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-11",
+      "type": "extended-support-end",
+      "title": "Angular 11 extended support ends",
+      "date": null,
+      "dateStatus": "unknown",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-10-release",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-10",
+      "type": "release",
+      "title": "Angular 10 released",
+      "date": "2020-06-24",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-10-active-support-end",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-10",
+      "type": "active-support-end",
+      "title": "Angular 10 active support ends",
+      "date": "2020-12-24",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-10-eol",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-10",
+      "type": "end-of-life",
+      "title": "Angular 10 end of life",
+      "date": "2021-12-24",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-10-extended-support-end",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-10",
+      "type": "extended-support-end",
+      "title": "Angular 10 extended support ends",
+      "date": null,
+      "dateStatus": "unknown",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-9-release",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-9",
+      "type": "release",
+      "title": "Angular 9 released",
+      "date": "2020-02-06",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-9-active-support-end",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-9",
+      "type": "active-support-end",
+      "title": "Angular 9 active support ends",
+      "date": "2020-08-06",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-9-eol",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-9",
+      "type": "end-of-life",
+      "title": "Angular 9 end of life",
+      "date": "2021-08-06",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    },
+    {
+      "id": "angular-9-extended-support-end",
+      "technologyId": "angular",
+      "releaseCycleId": "angular-9",
+      "type": "extended-support-end",
+      "title": "Angular 9 extended support ends",
+      "date": null,
+      "dateStatus": "unknown",
+      "sourceIds": [
+        "endoflife-date-angular"
+      ]
+    }
+  ]
+}

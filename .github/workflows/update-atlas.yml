@@ -1,0 +1,81 @@
+name: Update Atlas data
+
+on:
+  schedule:
+    - cron: "17 7 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: update-atlas-data
+  cancel-in-progress: false
+
+env:
+  UPDATE_BRANCH: automation/atlas-data
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out staging
+        uses: actions/checkout@v7
+        with:
+          ref: staging
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+
+      - name: Install dependencies
+        run: |
+          npm ci
+          python -m pip install ruff==0.17.4
+
+      - name: Fetch and verify Atlas data
+        run: |
+          npm run etl:catalog
+          npm run check
+
+      - name: Detect snapshot changes
+        id: changes
+        run: |
+          if git diff --quiet -- apps/web/public/datasets; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Publish update branch
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -C "$UPDATE_BRANCH"
+          git add apps/web/public/datasets
+          git commit -m "chore(data): refresh Atlas snapshots"
+          git push --force-with-lease origin "HEAD:$UPDATE_BRANCH"
+
+      - name: Open or update pull request
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh pr list --base staging --head "$UPDATE_BRANCH" --json number --jq 'length' | grep -q '^0$'; then
+            gh pr create \
+              --base staging \
+              --head "$UPDATE_BRANCH" \
+              --title "chore(data): refresh Atlas snapshots" \
+              --body "Automated weekly Atlas refresh. The ETL and full repository checks passed before this PR was opened."
+          fi

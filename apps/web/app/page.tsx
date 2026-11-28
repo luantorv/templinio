@@ -1,32 +1,18 @@
 // SPDX-License-Identifier: AGPL-3.0-only
 
-import { templinioDatasetSchema } from "@templinio/schema";
-import fixture from "../../../data/fixtures/templinio.fixture.json";
 import { BrokenDial } from "@/components/broken-dial";
+import { DisplayDate } from "@/components/display-date";
+import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
-
-const dataset = templinioDatasetSchema.parse(fixture);
-
-const cycleStatusLabel = {
-  active: "Active",
-  "end-of-life": "End of life",
-  scheduled: "Scheduled",
-  unknown: "Unknown",
-} as const;
-
-const dateStatusLabel = {
-  occurred: "Occurred",
-  scheduled: "Scheduled",
-  estimated: "Estimated",
-  unknown: "Unknown",
-} as const;
-
-function DisplayDate({ value }: { value: string | null }) {
-  return value ? <time dateTime={value}>{value}</time> : <span className="unknown">Unknown</span>;
-}
+import { dataset, getTechnologyRecord } from "@/lib/catalog";
+import { cycleStatusLabels, dateStatusLabels } from "@/lib/lifecycle";
 
 export default function Home() {
-  const source = dataset.sources[0];
+  const nodeRecord = getTechnologyRecord("nodejs");
+  if (!nodeRecord) {
+    throw new Error("The Atlas catalog must include Node.js");
+  }
+  const source = nodeRecord.sources[0];
 
   return (
     <div id="top">
@@ -45,7 +31,7 @@ export default function Home() {
               support windows, and the events between them.
             </p>
             <div className="hero__actions">
-              <a className="button button--primary" href="#dataset">Inspect sample data</a>
+              <a className="button button--primary" href="/atlas">Explore the Atlas</a>
               <a className="button" href={source.url} rel="noreferrer" target="_blank">
                 Verify the source <span aria-hidden="true">↗</span>
               </a>
@@ -56,7 +42,7 @@ export default function Home() {
             <div className="hero__reading" aria-label="Foundation status: calibrated">
               <span className="hero__reading-label">Foundation</span>
               <strong>CALIBRATED</strong>
-              <span>schema 0.1.0</span>
+              <span>schema {dataset.schemaVersion}</span>
             </div>
           </div>
         </section>
@@ -130,12 +116,12 @@ export default function Home() {
                     <tr><th scope="col">Cycle</th><th scope="col">Released</th><th scope="col">EOL</th><th scope="col">Status</th></tr>
                   </thead>
                   <tbody>
-                    {dataset.releaseCycles.map((cycle) => (
+                    {nodeRecord.releaseCycles.slice(0, 6).map((cycle) => (
                       <tr key={cycle.id}>
                         <th scope="row">{cycle.name}{cycle.isLts ? <small>LTS</small> : null}</th>
-                        <td><DisplayDate value={cycle.releaseDate} /></td>
-                        <td><DisplayDate value={cycle.eolDate} /></td>
-                        <td><span className={`status status--${cycle.status}`}><i aria-hidden="true" />{cycleStatusLabel[cycle.status]}</span></td>
+                      <td><DisplayDate value={cycle.releaseDate} /></td>
+                      <td><DisplayDate value={cycle.eolDate} /></td>
+                        <td><span className={`status status--${cycle.status}`}><i aria-hidden="true" />{cycleStatusLabels[cycle.status]}</span></td>
                       </tr>
                     ))}
                   </tbody>
@@ -158,12 +144,12 @@ export default function Home() {
 
           <div className="event-list" aria-labelledby="events-title">
             <h3 id="events-title">Temporal evidence</h3>
-            {dataset.events.map((event) => (
+            {nodeRecord.events.slice(0, 3).map((event) => (
               <article className="event" key={event.id}>
                 <span className={`event__node event__node--${event.dateStatus}`} aria-hidden="true" />
                 <div>
                   <strong>{event.title}</strong>
-                  <span><DisplayDate value={event.date} /> · {dateStatusLabel[event.dateStatus]}</span>
+                  <span><DisplayDate value={event.date} /> · {dateStatusLabels[event.dateStatus]}</span>
                 </div>
               </article>
             ))}
@@ -171,18 +157,7 @@ export default function Home() {
         </section>
       </main>
 
-      <footer className="site-footer">
-        <div><BrandWordmark /></div>
-        <p>Open source under <a href="https://www.gnu.org/licenses/agpl-3.0.html">AGPL-3.0-only</a>.</p>
-        <p>
-          <a href="https://github.com/luantorv/templinio">Source code</a> · Built by{" "}
-          <a href="https://github.com/luantorv">@luantorv</a>
-        </p>
-      </footer>
+      <SiteFooter />
     </div>
   );
-}
-
-function BrandWordmark() {
-  return <><span className="footer-mark" aria-hidden="true">◈</span><strong>Templinio</strong></>;
 }

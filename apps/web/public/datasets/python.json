@@ -1,0 +1,1278 @@
+{
+  "schemaVersion": "0.2.0",
+  "generatedAt": "2026-11-27T09:23:11+00:00",
+  "sources": [
+    {
+      "id": "endoflife-date-python",
+      "name": "endoflife.date — Python",
+      "url": "https://endoflife.date/python",
+      "retrievedAt": "2026-11-27T09:23:11+00:00",
+      "license": "MIT",
+      "licenseUrl": "https://github.com/endoflife-date/endoflife.date/blob/master/LICENSE"
+    }
+  ],
+  "technologies": [
+    {
+      "id": "python",
+      "name": "Python",
+      "description": "General-purpose programming language focused on readability.",
+      "category": "language",
+      "releasePolicyUrl": "https://devguide.python.org/versions/",
+      "supportPolicy": {
+        "activeSupportLabel": "Active Support",
+        "eolLabel": "Security Support",
+        "extendedSupportLabel": null
+      },
+      "aliases": [],
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    }
+  ],
+  "releaseCycles": [
+    {
+      "id": "python-3-15",
+      "technologyId": "python",
+      "name": "3.15",
+      "releaseDate": "2026-10-09",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2028-10-09",
+      "activeSupportStatus": "active",
+      "eolDate": "2031-10-31",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": true,
+      "status": "active",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-14",
+      "technologyId": "python",
+      "name": "3.14",
+      "releaseDate": "2025-10-07",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2027-10-01",
+      "activeSupportStatus": "active",
+      "eolDate": "2030-10-31",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": true,
+      "status": "active",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-13",
+      "technologyId": "python",
+      "name": "3.13",
+      "releaseDate": "2024-10-07",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2026-10-01",
+      "activeSupportStatus": "ended",
+      "eolDate": "2029-10-31",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": true,
+      "status": "active",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-12",
+      "technologyId": "python",
+      "name": "3.12",
+      "releaseDate": "2023-10-02",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2025-04-02",
+      "activeSupportStatus": "ended",
+      "eolDate": "2028-10-31",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": true,
+      "status": "active",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-11",
+      "technologyId": "python",
+      "name": "3.11",
+      "releaseDate": "2022-10-24",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2024-04-01",
+      "activeSupportStatus": "ended",
+      "eolDate": "2027-10-31",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": true,
+      "status": "active",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-10",
+      "technologyId": "python",
+      "name": "3.10",
+      "releaseDate": "2021-10-04",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2023-04-05",
+      "activeSupportStatus": "ended",
+      "eolDate": "2026-10-01",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-9",
+      "technologyId": "python",
+      "name": "3.9",
+      "releaseDate": "2020-10-05",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2022-05-17",
+      "activeSupportStatus": "ended",
+      "eolDate": "2025-10-31",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-8",
+      "technologyId": "python",
+      "name": "3.8",
+      "releaseDate": "2019-10-14",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2021-05-03",
+      "activeSupportStatus": "ended",
+      "eolDate": "2024-10-07",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-7",
+      "technologyId": "python",
+      "name": "3.7",
+      "releaseDate": "2018-06-27",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2020-06-27",
+      "activeSupportStatus": "ended",
+      "eolDate": "2023-06-27",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-6",
+      "technologyId": "python",
+      "name": "3.6",
+      "releaseDate": "2016-12-23",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2018-12-24",
+      "activeSupportStatus": "ended",
+      "eolDate": "2021-12-23",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-5",
+      "technologyId": "python",
+      "name": "3.5",
+      "releaseDate": "2015-09-13",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "ended",
+      "eolDate": "2020-09-30",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-4",
+      "technologyId": "python",
+      "name": "3.4",
+      "releaseDate": "2014-03-16",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "ended",
+      "eolDate": "2019-03-18",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-3",
+      "technologyId": "python",
+      "name": "3.3",
+      "releaseDate": "2012-09-29",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "ended",
+      "eolDate": "2017-09-29",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-2",
+      "technologyId": "python",
+      "name": "3.2",
+      "releaseDate": "2011-02-20",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "ended",
+      "eolDate": "2016-02-20",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-2-7",
+      "technologyId": "python",
+      "name": "2.7",
+      "releaseDate": "2010-07-03",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "ended",
+      "eolDate": "2020-01-01",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-1",
+      "technologyId": "python",
+      "name": "3.1",
+      "releaseDate": "2009-06-27",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "ended",
+      "eolDate": "2012-04-09",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-0",
+      "technologyId": "python",
+      "name": "3.0",
+      "releaseDate": "2008-12-03",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "ended",
+      "eolDate": "2009-06-27",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-2-6",
+      "technologyId": "python",
+      "name": "2.6",
+      "releaseDate": "2008-10-01",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "ended",
+      "eolDate": "2013-10-29",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-2-5",
+      "technologyId": "python",
+      "name": "2.5",
+      "releaseDate": "2006-09-19",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "ended",
+      "eolDate": "2011-05-26",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-2-4",
+      "technologyId": "python",
+      "name": "2.4",
+      "releaseDate": "2004-11-30",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "ended",
+      "eolDate": "2008-12-19",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-2-3",
+      "technologyId": "python",
+      "name": "2.3",
+      "releaseDate": "2003-07-29",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "ended",
+      "eolDate": "2008-03-11",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-2-2",
+      "technologyId": "python",
+      "name": "2.2",
+      "releaseDate": "2001-12-21",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "ended",
+      "eolDate": "2003-05-30",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-2-1",
+      "technologyId": "python",
+      "name": "2.1",
+      "releaseDate": "2001-04-17",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "ended",
+      "eolDate": "2002-04-09",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "python-3-15-release",
+      "technologyId": "python",
+      "releaseCycleId": "python-3-15",
+      "type": "release",
+      "title": "Python 3.15 released",
+      "date": "2026-10-09",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-15-active-support-end",
+      "technologyId": "python",
+      "releaseCycleId": "python-3-15",
+      "type": "active-support-end",
+      "title": "Python 3.15 active support ends",
+      "date": "2028-10-09",
+      "dateStatus": "scheduled",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-15-eol",
+      "technologyId": "python",
+      "releaseCycleId": "python-3-15",
+      "type": "end-of-life",
+      "title": "Python 3.15 end of life",
+      "date": "2031-10-31",
+      "dateStatus": "scheduled",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-14-release",
+      "technologyId": "python",
+      "releaseCycleId": "python-3-14",
+      "type": "release",
+      "title": "Python 3.14 released",
+      "date": "2025-10-07",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-14-active-support-end",
+      "technologyId": "python",
+      "releaseCycleId": "python-3-14",
+      "type": "active-support-end",
+      "title": "Python 3.14 active support ends",
+      "date": "2027-10-01",
+      "dateStatus": "scheduled",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-14-eol",
+      "technologyId": "python",
+      "releaseCycleId": "python-3-14",
+      "type": "end-of-life",
+      "title": "Python 3.14 end of life",
+      "date": "2030-10-31",
+      "dateStatus": "scheduled",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-13-release",
+      "technologyId": "python",
+      "releaseCycleId": "python-3-13",
+      "type": "release",
+      "title": "Python 3.13 released",
+      "date": "2024-10-07",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-13-active-support-end",
+      "technologyId": "python",
+      "releaseCycleId": "python-3-13",
+      "type": "active-support-end",
+      "title": "Python 3.13 active support ends",
+      "date": "2026-10-01",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-13-eol",
+      "technologyId": "python",
+      "releaseCycleId": "python-3-13",
+      "type": "end-of-life",
+      "title": "Python 3.13 end of life",
+      "date": "2029-10-31",
+      "dateStatus": "scheduled",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-12-release",
+      "technologyId": "python",
+      "releaseCycleId": "python-3-12",
+      "type": "release",
+      "title": "Python 3.12 released",
+      "date": "2023-10-02",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-12-active-support-end",
+      "technologyId": "python",
+      "releaseCycleId": "python-3-12",
+      "type": "active-support-end",
+      "title": "Python 3.12 active support ends",
+      "date": "2025-04-02",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-12-eol",
+      "technologyId": "python",
+      "releaseCycleId": "python-3-12",
+      "type": "end-of-life",
+      "title": "Python 3.12 end of life",
+      "date": "2028-10-31",
+      "dateStatus": "scheduled",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-11-release",
+      "technologyId": "python",
+      "releaseCycleId": "python-3-11",
+      "type": "release",
+      "title": "Python 3.11 released",
+      "date": "2022-10-24",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-11-active-support-end",
+      "technologyId": "python",
+      "releaseCycleId": "python-3-11",
+      "type": "active-support-end",
+      "title": "Python 3.11 active support ends",
+      "date": "2024-04-01",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-11-eol",
+      "technologyId": "python",
+      "releaseCycleId": "python-3-11",
+      "type": "end-of-life",
+      "title": "Python 3.11 end of life",
+      "date": "2027-10-31",
+      "dateStatus": "scheduled",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-10-release",
+      "technologyId": "python",
+      "releaseCycleId": "python-3-10",
+      "type": "release",
+      "title": "Python 3.10 released",
+      "date": "2021-10-04",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-10-active-support-end",
+      "technologyId": "python",
+      "releaseCycleId": "python-3-10",
+      "type": "active-support-end",
+      "title": "Python 3.10 active support ends",
+      "date": "2023-04-05",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-10-eol",
+      "technologyId": "python",
+      "releaseCycleId": "python-3-10",
+      "type": "end-of-life",
+      "title": "Python 3.10 end of life",
+      "date": "2026-10-01",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-9-release",
+      "technologyId": "python",
+      "releaseCycleId": "python-3-9",
+      "type": "release",
+      "title": "Python 3.9 released",
+      "date": "2020-10-05",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-9-active-support-end",
+      "technologyId": "python",
+      "releaseCycleId": "python-3-9",
+      "type": "active-support-end",
+      "title": "Python 3.9 active support ends",
+      "date": "2022-05-17",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-9-eol",
+      "technologyId": "python",
+      "releaseCycleId": "python-3-9",
+      "type": "end-of-life",
+      "title": "Python 3.9 end of life",
+      "date": "2025-10-31",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-8-release",
+      "technologyId": "python",
+      "releaseCycleId": "python-3-8",
+      "type": "release",
+      "title": "Python 3.8 released",
+      "date": "2019-10-14",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-8-active-support-end",
+      "technologyId": "python",
+      "releaseCycleId": "python-3-8",
+      "type": "active-support-end",
+      "title": "Python 3.8 active support ends",
+      "date": "2021-05-03",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-8-eol",
+      "technologyId": "python",
+      "releaseCycleId": "python-3-8",
+      "type": "end-of-life",
+      "title": "Python 3.8 end of life",
+      "date": "2024-10-07",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-7-release",
+      "technologyId": "python",
+      "releaseCycleId": "python-3-7",
+      "type": "release",
+      "title": "Python 3.7 released",
+      "date": "2018-06-27",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-7-active-support-end",
+      "technologyId": "python",
+      "releaseCycleId": "python-3-7",
+      "type": "active-support-end",
+      "title": "Python 3.7 active support ends",
+      "date": "2020-06-27",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-7-eol",
+      "technologyId": "python",
+      "releaseCycleId": "python-3-7",
+      "type": "end-of-life",
+      "title": "Python 3.7 end of life",
+      "date": "2023-06-27",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-6-release",
+      "technologyId": "python",
+      "releaseCycleId": "python-3-6",
+      "type": "release",
+      "title": "Python 3.6 released",
+      "date": "2016-12-23",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-6-active-support-end",
+      "technologyId": "python",
+      "releaseCycleId": "python-3-6",
+      "type": "active-support-end",
+      "title": "Python 3.6 active support ends",
+      "date": "2018-12-24",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-6-eol",
+      "technologyId": "python",
+      "releaseCycleId": "python-3-6",
+      "type": "end-of-life",
+      "title": "Python 3.6 end of life",
+      "date": "2021-12-23",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-5-release",
+      "technologyId": "python",
+      "releaseCycleId": "python-3-5",
+      "type": "release",
+      "title": "Python 3.5 released",
+      "date": "2015-09-13",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-5-active-support-end",
+      "technologyId": "python",
+      "releaseCycleId": "python-3-5",
+      "type": "active-support-end",
+      "title": "Python 3.5 active support ends",
+      "date": null,
+      "dateStatus": "unknown",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-5-eol",
+      "technologyId": "python",
+      "releaseCycleId": "python-3-5",
+      "type": "end-of-life",
+      "title": "Python 3.5 end of life",
+      "date": "2020-09-30",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-4-release",
+      "technologyId": "python",
+      "releaseCycleId": "python-3-4",
+      "type": "release",
+      "title": "Python 3.4 released",
+      "date": "2014-03-16",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-4-active-support-end",
+      "technologyId": "python",
+      "releaseCycleId": "python-3-4",
+      "type": "active-support-end",
+      "title": "Python 3.4 active support ends",
+      "date": null,
+      "dateStatus": "unknown",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-4-eol",
+      "technologyId": "python",
+      "releaseCycleId": "python-3-4",
+      "type": "end-of-life",
+      "title": "Python 3.4 end of life",
+      "date": "2019-03-18",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-3-release",
+      "technologyId": "python",
+      "releaseCycleId": "python-3-3",
+      "type": "release",
+      "title": "Python 3.3 released",
+      "date": "2012-09-29",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-3-active-support-end",
+      "technologyId": "python",
+      "releaseCycleId": "python-3-3",
+      "type": "active-support-end",
+      "title": "Python 3.3 active support ends",
+      "date": null,
+      "dateStatus": "unknown",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-3-eol",
+      "technologyId": "python",
+      "releaseCycleId": "python-3-3",
+      "type": "end-of-life",
+      "title": "Python 3.3 end of life",
+      "date": "2017-09-29",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-2-release",
+      "technologyId": "python",
+      "releaseCycleId": "python-3-2",
+      "type": "release",
+      "title": "Python 3.2 released",
+      "date": "2011-02-20",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-2-active-support-end",
+      "technologyId": "python",
+      "releaseCycleId": "python-3-2",
+      "type": "active-support-end",
+      "title": "Python 3.2 active support ends",
+      "date": null,
+      "dateStatus": "unknown",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-2-eol",
+      "technologyId": "python",
+      "releaseCycleId": "python-3-2",
+      "type": "end-of-life",
+      "title": "Python 3.2 end of life",
+      "date": "2016-02-20",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-2-7-release",
+      "technologyId": "python",
+      "releaseCycleId": "python-2-7",
+      "type": "release",
+      "title": "Python 2.7 released",
+      "date": "2010-07-03",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-2-7-active-support-end",
+      "technologyId": "python",
+      "releaseCycleId": "python-2-7",
+      "type": "active-support-end",
+      "title": "Python 2.7 active support ends",
+      "date": null,
+      "dateStatus": "unknown",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-2-7-eol",
+      "technologyId": "python",
+      "releaseCycleId": "python-2-7",
+      "type": "end-of-life",
+      "title": "Python 2.7 end of life",
+      "date": "2020-01-01",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-1-release",
+      "technologyId": "python",
+      "releaseCycleId": "python-3-1",
+      "type": "release",
+      "title": "Python 3.1 released",
+      "date": "2009-06-27",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-1-active-support-end",
+      "technologyId": "python",
+      "releaseCycleId": "python-3-1",
+      "type": "active-support-end",
+      "title": "Python 3.1 active support ends",
+      "date": null,
+      "dateStatus": "unknown",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-1-eol",
+      "technologyId": "python",
+      "releaseCycleId": "python-3-1",
+      "type": "end-of-life",
+      "title": "Python 3.1 end of life",
+      "date": "2012-04-09",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-0-release",
+      "technologyId": "python",
+      "releaseCycleId": "python-3-0",
+      "type": "release",
+      "title": "Python 3.0 released",
+      "date": "2008-12-03",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-0-active-support-end",
+      "technologyId": "python",
+      "releaseCycleId": "python-3-0",
+      "type": "active-support-end",
+      "title": "Python 3.0 active support ends",
+      "date": null,
+      "dateStatus": "unknown",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-3-0-eol",
+      "technologyId": "python",
+      "releaseCycleId": "python-3-0",
+      "type": "end-of-life",
+      "title": "Python 3.0 end of life",
+      "date": "2009-06-27",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-2-6-release",
+      "technologyId": "python",
+      "releaseCycleId": "python-2-6",
+      "type": "release",
+      "title": "Python 2.6 released",
+      "date": "2008-10-01",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-2-6-active-support-end",
+      "technologyId": "python",
+      "releaseCycleId": "python-2-6",
+      "type": "active-support-end",
+      "title": "Python 2.6 active support ends",
+      "date": null,
+      "dateStatus": "unknown",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-2-6-eol",
+      "technologyId": "python",
+      "releaseCycleId": "python-2-6",
+      "type": "end-of-life",
+      "title": "Python 2.6 end of life",
+      "date": "2013-10-29",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-2-5-release",
+      "technologyId": "python",
+      "releaseCycleId": "python-2-5",
+      "type": "release",
+      "title": "Python 2.5 released",
+      "date": "2006-09-19",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-2-5-active-support-end",
+      "technologyId": "python",
+      "releaseCycleId": "python-2-5",
+      "type": "active-support-end",
+      "title": "Python 2.5 active support ends",
+      "date": null,
+      "dateStatus": "unknown",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-2-5-eol",
+      "technologyId": "python",
+      "releaseCycleId": "python-2-5",
+      "type": "end-of-life",
+      "title": "Python 2.5 end of life",
+      "date": "2011-05-26",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-2-4-release",
+      "technologyId": "python",
+      "releaseCycleId": "python-2-4",
+      "type": "release",
+      "title": "Python 2.4 released",
+      "date": "2004-11-30",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-2-4-active-support-end",
+      "technologyId": "python",
+      "releaseCycleId": "python-2-4",
+      "type": "active-support-end",
+      "title": "Python 2.4 active support ends",
+      "date": null,
+      "dateStatus": "unknown",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-2-4-eol",
+      "technologyId": "python",
+      "releaseCycleId": "python-2-4",
+      "type": "end-of-life",
+      "title": "Python 2.4 end of life",
+      "date": "2008-12-19",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-2-3-release",
+      "technologyId": "python",
+      "releaseCycleId": "python-2-3",
+      "type": "release",
+      "title": "Python 2.3 released",
+      "date": "2003-07-29",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-2-3-active-support-end",
+      "technologyId": "python",
+      "releaseCycleId": "python-2-3",
+      "type": "active-support-end",
+      "title": "Python 2.3 active support ends",
+      "date": null,
+      "dateStatus": "unknown",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-2-3-eol",
+      "technologyId": "python",
+      "releaseCycleId": "python-2-3",
+      "type": "end-of-life",
+      "title": "Python 2.3 end of life",
+      "date": "2008-03-11",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-2-2-release",
+      "technologyId": "python",
+      "releaseCycleId": "python-2-2",
+      "type": "release",
+      "title": "Python 2.2 released",
+      "date": "2001-12-21",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-2-2-active-support-end",
+      "technologyId": "python",
+      "releaseCycleId": "python-2-2",
+      "type": "active-support-end",
+      "title": "Python 2.2 active support ends",
+      "date": null,
+      "dateStatus": "unknown",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-2-2-eol",
+      "technologyId": "python",
+      "releaseCycleId": "python-2-2",
+      "type": "end-of-life",
+      "title": "Python 2.2 end of life",
+      "date": "2003-05-30",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-2-1-release",
+      "technologyId": "python",
+      "releaseCycleId": "python-2-1",
+      "type": "release",
+      "title": "Python 2.1 released",
+      "date": "2001-04-17",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-2-1-active-support-end",
+      "technologyId": "python",
+      "releaseCycleId": "python-2-1",
+      "type": "active-support-end",
+      "title": "Python 2.1 active support ends",
+      "date": null,
+      "dateStatus": "unknown",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    },
+    {
+      "id": "python-2-1-eol",
+      "technologyId": "python",
+      "releaseCycleId": "python-2-1",
+      "type": "end-of-life",
+      "title": "Python 2.1 end of life",
+      "date": "2002-04-09",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-python"
+      ]
+    }
+  ]
+}

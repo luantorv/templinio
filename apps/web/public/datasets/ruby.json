@@ -1,0 +1,708 @@
+{
+  "schemaVersion": "0.2.0",
+  "generatedAt": "2026-11-27T09:23:11+00:00",
+  "sources": [
+    {
+      "id": "endoflife-date-ruby",
+      "name": "endoflife.date — Ruby",
+      "url": "https://endoflife.date/ruby",
+      "retrievedAt": "2026-11-27T09:23:11+00:00",
+      "license": "MIT",
+      "licenseUrl": "https://github.com/endoflife-date/endoflife.date/blob/master/LICENSE"
+    }
+  ],
+  "technologies": [
+    {
+      "id": "ruby",
+      "name": "Ruby",
+      "description": "Dynamic programming language designed for developer productivity.",
+      "category": "language",
+      "releasePolicyUrl": "https://www.ruby-lang.org/en/downloads/branches/",
+      "supportPolicy": {
+        "activeSupportLabel": null,
+        "eolLabel": "Support Status",
+        "extendedSupportLabel": null
+      },
+      "aliases": [],
+      "sourceIds": [
+        "endoflife-date-ruby"
+      ]
+    }
+  ],
+  "releaseCycles": [
+    {
+      "id": "ruby-4-0",
+      "technologyId": "ruby",
+      "name": "4.0",
+      "releaseDate": "2025-12-25",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
+      "eolDate": "2029-03-31",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": true,
+      "status": "active",
+      "sourceIds": [
+        "endoflife-date-ruby"
+      ]
+    },
+    {
+      "id": "ruby-3-4",
+      "technologyId": "ruby",
+      "name": "3.4",
+      "releaseDate": "2024-12-24",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
+      "eolDate": "2028-03-31",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": true,
+      "status": "active",
+      "sourceIds": [
+        "endoflife-date-ruby"
+      ]
+    },
+    {
+      "id": "ruby-3-3",
+      "technologyId": "ruby",
+      "name": "3.3",
+      "releaseDate": "2023-12-25",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
+      "eolDate": "2027-03-31",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": true,
+      "status": "active",
+      "sourceIds": [
+        "endoflife-date-ruby"
+      ]
+    },
+    {
+      "id": "ruby-3-2",
+      "technologyId": "ruby",
+      "name": "3.2",
+      "releaseDate": "2022-12-25",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
+      "eolDate": "2026-03-31",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-ruby"
+      ]
+    },
+    {
+      "id": "ruby-3-1",
+      "technologyId": "ruby",
+      "name": "3.1",
+      "releaseDate": "2021-12-25",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
+      "eolDate": "2025-03-26",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-ruby"
+      ]
+    },
+    {
+      "id": "ruby-3-0",
+      "technologyId": "ruby",
+      "name": "3.0",
+      "releaseDate": "2020-12-25",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
+      "eolDate": "2024-04-23",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-ruby"
+      ]
+    },
+    {
+      "id": "ruby-2-7",
+      "technologyId": "ruby",
+      "name": "2.7",
+      "releaseDate": "2019-12-25",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
+      "eolDate": "2023-03-31",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-ruby"
+      ]
+    },
+    {
+      "id": "ruby-2-6",
+      "technologyId": "ruby",
+      "name": "2.6",
+      "releaseDate": "2018-12-25",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
+      "eolDate": "2022-03-31",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-ruby"
+      ]
+    },
+    {
+      "id": "ruby-2-5",
+      "technologyId": "ruby",
+      "name": "2.5",
+      "releaseDate": "2017-12-25",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
+      "eolDate": "2021-03-31",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-ruby"
+      ]
+    },
+    {
+      "id": "ruby-2-4",
+      "technologyId": "ruby",
+      "name": "2.4",
+      "releaseDate": "2016-12-23",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
+      "eolDate": "2020-03-31",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-ruby"
+      ]
+    },
+    {
+      "id": "ruby-2-3",
+      "technologyId": "ruby",
+      "name": "2.3",
+      "releaseDate": "2015-12-24",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
+      "eolDate": "2019-03-31",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-ruby"
+      ]
+    },
+    {
+      "id": "ruby-2-2",
+      "technologyId": "ruby",
+      "name": "2.2",
+      "releaseDate": "2014-12-25",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
+      "eolDate": "2018-03-31",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-ruby"
+      ]
+    },
+    {
+      "id": "ruby-2-1",
+      "technologyId": "ruby",
+      "name": "2.1",
+      "releaseDate": "2013-12-25",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
+      "eolDate": "2017-03-31",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-ruby"
+      ]
+    },
+    {
+      "id": "ruby-2-0-0",
+      "technologyId": "ruby",
+      "name": "2.0.0",
+      "releaseDate": "2013-02-24",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
+      "eolDate": "2016-02-24",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-ruby"
+      ]
+    },
+    {
+      "id": "ruby-1-9-3",
+      "technologyId": "ruby",
+      "name": "1.9.3",
+      "releaseDate": "2011-10-30",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
+      "eolDate": "2015-02-23",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-ruby"
+      ]
+    },
+    {
+      "id": "ruby-1-8",
+      "technologyId": "ruby",
+      "name": "1.8",
+      "releaseDate": "2003-08-04",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
+      "eolDate": "2013-06-30",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
+      "isLts": false,
+      "isMaintained": false,
+      "status": "end-of-life",
+      "sourceIds": [
+        "endoflife-date-ruby"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "ruby-4-0-release",
+      "technologyId": "ruby",
+      "releaseCycleId": "ruby-4-0",
+      "type": "release",
+      "title": "Ruby 4.0 released",
+      "date": "2025-12-25",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-ruby"
+      ]
+    },
+    {
+      "id": "ruby-4-0-eol",
+      "technologyId": "ruby",
+      "releaseCycleId": "ruby-4-0",
+      "type": "end-of-life",
+      "title": "Ruby 4.0 end of life",
+      "date": "2029-03-31",
+      "dateStatus": "scheduled",
+      "sourceIds": [
+        "endoflife-date-ruby"
+      ]
+    },
+    {
+      "id": "ruby-3-4-release",
+      "technologyId": "ruby",
+      "releaseCycleId": "ruby-3-4",
+      "type": "release",
+      "title": "Ruby 3.4 released",
+      "date": "2024-12-24",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-ruby"
+      ]
+    },
+    {
+      "id": "ruby-3-4-eol",
+      "technologyId": "ruby",
+      "releaseCycleId": "ruby-3-4",
+      "type": "end-of-life",
+      "title": "Ruby 3.4 end of life",
+      "date": "2028-03-31",
+      "dateStatus": "scheduled",
+      "sourceIds": [
+        "endoflife-date-ruby"
+      ]
+    },
+    {
+      "id": "ruby-3-3-release",
+      "technologyId": "ruby",
+      "releaseCycleId": "ruby-3-3",
+      "type": "release",
+      "title": "Ruby 3.3 released",
+      "date": "2023-12-25",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-ruby"
+      ]
+    },
+    {
+      "id": "ruby-3-3-eol",
+      "technologyId": "ruby",
+      "releaseCycleId": "ruby-3-3",
+      "type": "end-of-life",
+      "title": "Ruby 3.3 end of life",
+      "date": "2027-03-31",
+      "dateStatus": "scheduled",
+      "sourceIds": [
+        "endoflife-date-ruby"
+      ]
+    },
+    {
+      "id": "ruby-3-2-release",
+      "technologyId": "ruby",
+      "releaseCycleId": "ruby-3-2",
+      "type": "release",
+      "title": "Ruby 3.2 released",
+      "date": "2022-12-25",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-ruby"
+      ]
+    },
+    {
+      "id": "ruby-3-2-eol",
+      "technologyId": "ruby",
+      "releaseCycleId": "ruby-3-2",
+      "type": "end-of-life",
+      "title": "Ruby 3.2 end of life",
+      "date": "2026-03-31",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-ruby"
+      ]
+    },
+    {
+      "id": "ruby-3-1-release",
+      "technologyId": "ruby",
+      "releaseCycleId": "ruby-3-1",
+      "type": "release",
+      "title": "Ruby 3.1 released",
+      "date": "2021-12-25",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-ruby"
+      ]
+    },
+    {
+      "id": "ruby-3-1-eol",
+      "technologyId": "ruby",
+      "releaseCycleId": "ruby-3-1",
+      "type": "end-of-life",
+      "title": "Ruby 3.1 end of life",
+      "date": "2025-03-26",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-ruby"
+      ]
+    },
+    {
+      "id": "ruby-3-0-release",
+      "technologyId": "ruby",
+      "releaseCycleId": "ruby-3-0",
+      "type": "release",
+      "title": "Ruby 3.0 released",
+      "date": "2020-12-25",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-ruby"
+      ]
+    },
+    {
+      "id": "ruby-3-0-eol",
+      "technologyId": "ruby",
+      "releaseCycleId": "ruby-3-0",
+      "type": "end-of-life",
+      "title": "Ruby 3.0 end of life",
+      "date": "2024-04-23",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-ruby"
+      ]
+    },
+    {
+      "id": "ruby-2-7-release",
+      "technologyId": "ruby",
+      "releaseCycleId": "ruby-2-7",
+      "type": "release",
+      "title": "Ruby 2.7 released",
+      "date": "2019-12-25",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-ruby"
+      ]
+    },
+    {
+      "id": "ruby-2-7-eol",
+      "technologyId": "ruby",
+      "releaseCycleId": "ruby-2-7",
+      "type": "end-of-life",
+      "title": "Ruby 2.7 end of life",
+      "date": "2023-03-31",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-ruby"
+      ]
+    },
+    {
+      "id": "ruby-2-6-release",
+      "technologyId": "ruby",
+      "releaseCycleId": "ruby-2-6",
+      "type": "release",
+      "title": "Ruby 2.6 released",
+      "date": "2018-12-25",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-ruby"
+      ]
+    },
+    {
+      "id": "ruby-2-6-eol",
+      "technologyId": "ruby",
+      "releaseCycleId": "ruby-2-6",
+      "type": "end-of-life",
+      "title": "Ruby 2.6 end of life",
+      "date": "2022-03-31",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-ruby"
+      ]
+    },
+    {
+      "id": "ruby-2-5-release",
+      "technologyId": "ruby",
+      "releaseCycleId": "ruby-2-5",
+      "type": "release",
+      "title": "Ruby 2.5 released",
+      "date": "2017-12-25",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-ruby"
+      ]
+    },
+    {
+      "id": "ruby-2-5-eol",
+      "technologyId": "ruby",
+      "releaseCycleId": "ruby-2-5",
+      "type": "end-of-life",
+      "title": "Ruby 2.5 end of life",
+      "date": "2021-03-31",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-ruby"
+      ]
+    },
+    {
+      "id": "ruby-2-4-release",
+      "technologyId": "ruby",
+      "releaseCycleId": "ruby-2-4",
+      "type": "release",
+      "title": "Ruby 2.4 released",
+      "date": "2016-12-23",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-ruby"
+      ]
+    },
+    {
+      "id": "ruby-2-4-eol",
+      "technologyId": "ruby",
+      "releaseCycleId": "ruby-2-4",
+      "type": "end-of-life",
+      "title": "Ruby 2.4 end of life",
+      "date": "2020-03-31",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-ruby"
+      ]
+    },
+    {
+      "id": "ruby-2-3-release",
+      "technologyId": "ruby",
+      "releaseCycleId": "ruby-2-3",
+      "type": "release",
+      "title": "Ruby 2.3 released",
+      "date": "2015-12-24",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-ruby"
+      ]
+    },
+    {
+      "id": "ruby-2-3-eol",
+      "technologyId": "ruby",
+      "releaseCycleId": "ruby-2-3",
+      "type": "end-of-life",
+      "title": "Ruby 2.3 end of life",
+      "date": "2019-03-31",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-ruby"
+      ]
+    },
+    {
+      "id": "ruby-2-2-release",
+      "technologyId": "ruby",
+      "releaseCycleId": "ruby-2-2",
+      "type": "release",
+      "title": "Ruby 2.2 released",
+      "date": "2014-12-25",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-ruby"
+      ]
+    },
+    {
+      "id": "ruby-2-2-eol",
+      "technologyId": "ruby",
+      "releaseCycleId": "ruby-2-2",
+      "type": "end-of-life",
+      "title": "Ruby 2.2 end of life",
+      "date": "2018-03-31",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-ruby"
+      ]
+    },
+    {
+      "id": "ruby-2-1-release",
+      "technologyId": "ruby",
+      "releaseCycleId": "ruby-2-1",
+      "type": "release",
+      "title": "Ruby 2.1 released",
+      "date": "2013-12-25",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-ruby"
+      ]
+    },
+    {
+      "id": "ruby-2-1-eol",
+      "technologyId": "ruby",
+      "releaseCycleId": "ruby-2-1",
+      "type": "end-of-life",
+      "title": "Ruby 2.1 end of life",
+      "date": "2017-03-31",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-ruby"
+      ]
+    },
+    {
+      "id": "ruby-2-0-0-release",
+      "technologyId": "ruby",
+      "releaseCycleId": "ruby-2-0-0",
+      "type": "release",
+      "title": "Ruby 2.0.0 released",
+      "date": "2013-02-24",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-ruby"
+      ]
+    },
+    {
+      "id": "ruby-2-0-0-eol",
+      "technologyId": "ruby",
+      "releaseCycleId": "ruby-2-0-0",
+      "type": "end-of-life",
+      "title": "Ruby 2.0.0 end of life",
+      "date": "2016-02-24",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-ruby"
+      ]
+    },
+    {
+      "id": "ruby-1-9-3-release",
+      "technologyId": "ruby",
+      "releaseCycleId": "ruby-1-9-3",
+      "type": "release",
+      "title": "Ruby 1.9.3 released",
+      "date": "2011-10-30",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-ruby"
+      ]
+    },
+    {
+      "id": "ruby-1-9-3-eol",
+      "technologyId": "ruby",
+      "releaseCycleId": "ruby-1-9-3",
+      "type": "end-of-life",
+      "title": "Ruby 1.9.3 end of life",
+      "date": "2015-02-23",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-ruby"
+      ]
+    },
+    {
+      "id": "ruby-1-8-release",
+      "technologyId": "ruby",
+      "releaseCycleId": "ruby-1-8",
+      "type": "release",
+      "title": "Ruby 1.8 released",
+      "date": "2003-08-04",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-ruby"
+      ]
+    },
+    {
+      "id": "ruby-1-8-eol",
+      "technologyId": "ruby",
+      "releaseCycleId": "ruby-1-8",
+      "type": "end-of-life",
+      "title": "Ruby 1.8 end of life",
+      "date": "2013-06-30",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-ruby"
+      ]
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 
 ## Privacy baseline
 
-The Phase 0 site is a static export. It has no account system, analytics, advertising, cookies,
+The site is a static export. It has no account system, analytics, advertising, cookies,
 server-side functions, or user file input. The only browser storage is the local theme preference
 under `templinio-theme`. External links are explicit; lifecycle data is fetched during the ETL,
 not by a visitor's browser. As with any hosted static site, the hosting and DNS providers may

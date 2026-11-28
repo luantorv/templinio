@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "0.1.0",
+  "schemaVersion": "0.2.0",
   "generatedAt": "2026-11-25T14:15:22+00:00",
   "sources": [
     {
@@ -15,11 +15,20 @@
     {
       "id": "nodejs",
       "name": "Node.js",
-      "description": "JavaScript runtime built on the V8 engine.",
+      "description": "Lifecycle information for Node.js.",
       "category": "runtime",
-      "homepage": "https://nodejs.org/",
-      "aliases": ["node"],
-      "sourceIds": ["endoflife-date-nodejs"]
+      "releasePolicyUrl": "https://nodejs.org/en/about/previous-releases",
+      "supportPolicy": {
+        "activeSupportLabel": "Active support",
+        "eolLabel": "Maintenance support",
+        "extendedSupportLabel": null
+      },
+      "aliases": [
+        "node"
+      ],
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
     }
   ],
   "releaseCycles": [
@@ -28,30 +37,54 @@
       "technologyId": "nodejs",
       "name": "26",
       "releaseDate": "2026-05-05",
+      "ltsStartDate": "2026-10-28",
+      "activeSupportEndDate": "2027-10-27",
+      "activeSupportStatus": "active",
       "eolDate": "2029-04-30",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": true,
+      "isMaintained": true,
       "status": "active",
-      "sourceIds": ["endoflife-date-nodejs"]
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
     },
     {
       "id": "nodejs-25",
       "technologyId": "nodejs",
       "name": "25",
       "releaseDate": "2025-10-15",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2026-04-01",
+      "activeSupportStatus": "ended",
       "eolDate": "2026-06-01",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
-      "sourceIds": ["endoflife-date-nodejs"]
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
     },
     {
       "id": "nodejs-3",
       "technologyId": "nodejs",
       "name": "3",
       "releaseDate": "2015-08-04",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "ended",
       "eolDate": null,
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "unknown",
-      "sourceIds": ["endoflife-date-nodejs"]
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
     }
   ],
   "events": [
@@ -63,17 +96,105 @@
       "title": "Node.js 26 released",
       "date": "2026-05-05",
       "dateStatus": "occurred",
-      "sourceIds": ["endoflife-date-nodejs"]
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-26-lts-start",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-26",
+      "type": "lts-start",
+      "title": "Node.js 26 LTS starts",
+      "date": "2026-10-28",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-26-active-support-end",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-26",
+      "type": "active-support-end",
+      "title": "Node.js 26 active support ends",
+      "date": "2027-10-27",
+      "dateStatus": "scheduled",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
     },
     {
       "id": "nodejs-26-eol",
       "technologyId": "nodejs",
       "releaseCycleId": "nodejs-26",
       "type": "end-of-life",
-      "title": "Node.js 26 scheduled end of life",
+      "title": "Node.js 26 end of life",
       "date": "2029-04-30",
       "dateStatus": "scheduled",
-      "sourceIds": ["endoflife-date-nodejs"]
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-25-release",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-25",
+      "type": "release",
+      "title": "Node.js 25 released",
+      "date": "2025-10-15",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-25-active-support-end",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-25",
+      "type": "active-support-end",
+      "title": "Node.js 25 active support ends",
+      "date": "2026-04-01",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-25-eol",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-25",
+      "type": "end-of-life",
+      "title": "Node.js 25 end of life",
+      "date": "2026-06-01",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-3-release",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-3",
+      "type": "release",
+      "title": "Node.js 3 released",
+      "date": "2015-08-04",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-3-active-support-end",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-3",
+      "type": "active-support-end",
+      "title": "Node.js 3 active support ends",
+      "date": null,
+      "dateStatus": "unknown",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
     },
     {
       "id": "nodejs-3-eol",
@@ -83,7 +204,9 @@
       "title": "Node.js 3 end-of-life date is unknown",
       "date": null,
       "dateStatus": "unknown",
-      "sourceIds": ["endoflife-date-nodejs"]
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
     }
   ]
 }
