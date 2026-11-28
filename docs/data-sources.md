@@ -18,13 +18,20 @@ and upstream changes.
 Templinio republishes only a normalized subset of lifecycle facts and attribution. It does not
 copy provider icons, upstream descriptions, identifiers, or the complete catalog. Descriptions
 are maintained as original text in the local catalog configuration, and linked official policies
-remain external. API v1.2.1 and its MIT notice were rechecked on 2026-11-26; the terms must be
+remain external. API v1.2.1 and its MIT notice were rechecked on 2026-11-27; the terms must be
 rechecked before adding another provider or materially expanding the fields retained.
 
 The ETL performs at most four product requests concurrently. A failed request, missing configured
 product, invalid reference, or duplicate identifier stops the batch before publication. Product
 snapshots are atomically replaced first and the aggregate `catalog.json` is replaced last; the
-web build consumes only that aggregate.
+web build consumes only that aggregate. Requests retry `429`, temporary `5xx`, timeout, and network
+failures up to four total attempts with a capped exponential delay; permanent HTTP errors are not
+retried.
+
+The scheduled refresh runs every Monday at 07:17 UTC and opens or updates a pull request against
+`staging` only after the ETL and full repository checks pass. GitHub Actions must be allowed to
+create pull requests in the repository settings. A snapshot at least 14 days old is visibly marked
+as potentially stale in Atlas.
 
 References:
 

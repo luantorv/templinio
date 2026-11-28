@@ -7,8 +7,8 @@ windows, end-of-life dates, relationships, and security evidence easier to explo
 hiding uncertainty or provenance.
 
 The repository is currently building **Atlas (v0.1)**. The site publishes a searchable catalog
-of 15 technologies as static pages, with lifecycle records linked to their sources. Timeline and
-additional machine-readable formats are still in progress.
+of 15 technologies, release-cycle pages, support policies, an interactive timeline, and portable
+JSON and Markdown records linked to their sources.
 
 ## What exists today
 
@@ -18,6 +18,8 @@ additional machine-readable formats are still in progress.
 - A dependency-free Python ETL that reads a curated set from the endoflife.date v1 API,
   normalizes its temporal states, validates references, and publishes product and aggregate
   snapshots atomically.
+- A weekly refresh workflow that verifies a complete candidate snapshot and opens a pull request
+  against `staging` instead of writing directly to a deployment branch.
 - Fixtures for occurred, scheduled, and unknown dates.
 - One command for linting, type checks, tests, data validation, and the production build.
 
@@ -45,8 +47,9 @@ npm run build        # static output: apps/web/out
 ```
 
 The networked catalog command fetches only the products listed in `data/catalog.json`. It
-validates every product and the aggregate before publishing individual files, then replaces
-`catalog.json` last so the site keeps its previous valid snapshot if an earlier step fails.
+validates every product and the aggregate before publishing individual JSON and Markdown files,
+then replaces `catalog.json` last so the site keeps its previous valid snapshot if an earlier
+step fails.
 
 ## Repository map
 
@@ -56,13 +59,14 @@ packages/schema/          Runtime schema, inferred TypeScript types, and tests
 pipelines/templinio_etl/  Extraction, normalization, validation, atomic publication
 data/catalog.json         Curated Atlas product list and original descriptions
 data/fixtures/            Stable source and domain fixtures
-data/schemas/             Public JSON Schema
+data/schemas/             Canonical JSON Schema (also deployed under /schemas)
 docs/                     Architecture, sources, operations, and public roadmap
 ```
 
-Start with [the architecture](docs/architecture.md), [source policy](docs/data-sources.md), and
-[privacy and operating budget](docs/privacy-and-operations.md). The preliminary availability
-review and launch caveats for the name are documented in [naming](docs/naming.md).
+Start with [the architecture](docs/architecture.md), [data contract](docs/data-contract.md),
+[source policy](docs/data-sources.md), and [privacy and operating budget](docs/privacy-and-operations.md).
+The preliminary availability review and launch caveats for the name are documented in
+[naming](docs/naming.md).
 
 ## Data and privacy
 
