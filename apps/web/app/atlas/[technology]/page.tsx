@@ -2,10 +2,13 @@
 
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { DatasetFreshness } from "@/components/dataset-freshness";
 import { ExpandableEvents } from "@/components/expandable-events";
 import { ExpandableReleaseCycles } from "@/components/expandable-release-cycles";
+import { LifecycleTimeline } from "@/components/lifecycle-timeline";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
+import { SupportPolicy } from "@/components/support-policy";
 import { catalog, dataset, getTechnologyRecord } from "@/lib/catalog";
 import { categoryLabels } from "@/lib/lifecycle";
 
@@ -58,9 +61,11 @@ export default async function TechnologyPage({ params }: TechnologyPageProps) {
               <p className="technology-hero__lead">{technology.description}</p>
               <div className="hero__actions">
                 <a className="button button--primary" href="#release-cycles">Inspect release cycles</a>
-                <a className="button" href={technology.homepage} rel="noreferrer" target="_blank">
-                  Official website <span aria-hidden="true">↗</span>
-                </a>
+                {technology.releasePolicyUrl ? (
+                  <a className="button" href={technology.releasePolicyUrl} rel="noreferrer" target="_blank">
+                    Release policy <span aria-hidden="true">↗</span>
+                  </a>
+                ) : null}
               </div>
             </div>
             <dl className="technology-summary">
@@ -69,7 +74,26 @@ export default async function TechnologyPage({ params }: TechnologyPageProps) {
               <div><dt>Dataset updated</dt><dd><time dateTime={dataset.generatedAt}>{dataset.generatedAt.slice(0, 10)}</time></dd></div>
             </dl>
           </div>
+          <DatasetFreshness generatedAt={dataset.generatedAt} />
         </header>
+
+        <SupportPolicy technology={technology} />
+
+        <section className="section" aria-labelledby="timeline-title">
+          <div className="section-heading">
+            <div>
+              <p className="eyebrow">Timeline / Compare cycles</p>
+              <h2 id="timeline-title">Lifecycle over time</h2>
+            </div>
+            <p>Zoom, pan, filter milestones, and compare multiple release cycles. The cursor starts at the snapshot date.</p>
+          </div>
+          <LifecycleTimeline
+            cycles={releaseCycles}
+            events={events}
+            snapshotDate={dataset.generatedAt.slice(0, 10)}
+            technologyName={technology.name}
+          />
+        </section>
 
         <section className="section" id="release-cycles" aria-labelledby="release-cycles-title">
           <div className="section-heading">
@@ -79,7 +103,12 @@ export default async function TechnologyPage({ params }: TechnologyPageProps) {
             </div>
             <p>Dates reflect the cited sources. Unknown values are preserved explicitly.</p>
           </div>
-          <ExpandableReleaseCycles cycles={releaseCycles} technologyName={technology.name} />
+          <ExpandableReleaseCycles
+            cycles={releaseCycles}
+            technologyId={technology.id}
+            technologyName={technology.name}
+            supportPolicy={technology.supportPolicy}
+          />
         </section>
 
         <section className="section" aria-labelledby="evidence-title">
@@ -108,7 +137,8 @@ export default async function TechnologyPage({ params }: TechnologyPageProps) {
             </div>
           </div>
           <p className="dataset-download">
-            Machine-readable record: <a href={`/datasets/${technology.id}.json`}>download JSON</a>
+            Portable records: <a href={`/datasets/${technology.id}.json`}>JSON</a>{" · "}
+            <a href={`/datasets/${technology.id}.md`}>Markdown</a>
           </p>
         </section>
       </main>

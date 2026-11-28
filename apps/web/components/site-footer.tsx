@@ -11,7 +11,7 @@ export function SiteFooter() {
         Open source under <a href="https://www.gnu.org/licenses/agpl-3.0.html">AGPL-3.0-only</a>.
       </p>
       <p>
-        <a href="https://github.com/luantorv/templinio">Source code</a> · Built by{" "}
+        <a href="/resources">Data resources</a> · <a href="https://github.com/luantorv/templinio">Source code</a> · Built by{" "}
         <a href="https://github.com/luantorv">@luantorv</a>
       </p>
     </footer>

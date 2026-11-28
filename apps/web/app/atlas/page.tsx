@@ -2,6 +2,7 @@
 
 import type { Metadata } from "next";
 import { CatalogSearch } from "@/components/catalog-search";
+import { DatasetFreshness } from "@/components/dataset-freshness";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import { catalog, dataset } from "@/lib/catalog";
@@ -30,6 +31,7 @@ export default function AtlasPage() {
             <span>{dataset.releaseCycles.length} release cycles</span>
             <span>Updated <time dateTime={dataset.generatedAt}>{dataset.generatedAt.slice(0, 10)}</time></span>
           </div>
+          <DatasetFreshness generatedAt={dataset.generatedAt} />
         </header>
 
         <section className="section catalog-section" aria-labelledby="catalog-title">

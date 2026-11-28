@@ -42,7 +42,7 @@ export default function Home() {
             <div className="hero__reading" aria-label="Foundation status: calibrated">
               <span className="hero__reading-label">Foundation</span>
               <strong>CALIBRATED</strong>
-              <span>schema 0.1.0</span>
+              <span>schema {dataset.schemaVersion}</span>
             </div>
           </div>
         </section>

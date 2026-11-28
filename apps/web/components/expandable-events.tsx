@@ -6,7 +6,7 @@ import type { Event as LifecycleEvent } from "@templinio/schema";
 import { useState } from "react";
 import { DisplayDate } from "./display-date";
 import { ListControls } from "./list-controls";
-import { dateStatusLabels } from "@/lib/lifecycle";
+import { dateStatusLabels, eventTypeLabels } from "@/lib/lifecycle";
 
 const INITIAL_COUNT = 10;
 const LOAD_STEP = 10;
@@ -23,7 +23,7 @@ export function ExpandableEvents({ events }: { events: LifecycleEvent[] }) {
           <span className={`event__node event__node--${event.dateStatus}`} aria-hidden="true" />
           <div>
             <strong>{event.title}</strong>
-            <span><DisplayDate value={event.date} /> · {dateStatusLabels[event.dateStatus]}</span>
+            <span>{eventTypeLabels[event.type]} · <DisplayDate value={event.date} /> · {dateStatusLabels[event.dateStatus]}</span>
           </div>
         </article>
       ))}

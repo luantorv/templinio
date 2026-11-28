@@ -13,8 +13,8 @@ export function SiteHeader() {
       </a>
       <nav aria-label="Primary navigation" className="site-nav">
         <a href="/atlas">Atlas</a>
+        <a href="/resources">Resources</a>
         <a href="/#foundation">Foundation</a>
-        <a href="/datasets/catalog.json">JSON</a>
         <ThemeToggle />
       </nav>
     </header>

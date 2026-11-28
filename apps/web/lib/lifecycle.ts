@@ -22,3 +22,19 @@ export const dateStatusLabels = {
   estimated: "Estimated",
   unknown: "Unknown",
 } as const;
+
+export const supportStatusLabels = {
+  active: "Active",
+  ended: "Ended",
+  "not-applicable": "Not applicable",
+  unknown: "Unknown",
+} as const;
+
+export const eventTypeLabels = {
+  release: "Release",
+  "lts-start": "LTS start",
+  "active-support-end": "Active support end",
+  "end-of-life": "End of life",
+  "extended-support-end": "Extended support end",
+  milestone: "Milestone",
+} as const;

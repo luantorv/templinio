@@ -3,6 +3,7 @@
 import { templinioDatasetSchema } from "@templinio/schema";
 import snapshot from "../public/datasets/catalog.json";
 import { categoryLabels } from "./lifecycle";
+import { getReleaseCycleSlug } from "./release-cycle";
 
 export const dataset = templinioDatasetSchema.parse(snapshot);
 
@@ -36,4 +37,26 @@ export function getTechnologyRecord(id: string) {
   const sources = dataset.sources.filter(({ id: sourceId }) => referencedSourceIds.has(sourceId));
 
   return { technology, releaseCycles, events, sources };
+}
+
+export function getReleaseCycleRecord(technologyId: string, cycleSlug: string) {
+  const technology = dataset.technologies.find(({ id }) => id === technologyId);
+  const cycle = dataset.releaseCycles.find(
+    (candidate) =>
+      candidate.technologyId === technologyId && getReleaseCycleSlug(candidate) === cycleSlug,
+  );
+
+  if (!technology || !cycle) {
+    return undefined;
+  }
+
+  const events = dataset.events.filter(({ releaseCycleId }) => releaseCycleId === cycle.id);
+  const referencedSourceIds = new Set([
+    ...technology.sourceIds,
+    ...cycle.sourceIds,
+    ...events.flatMap(({ sourceIds }) => sourceIds),
+  ]);
+  const sources = dataset.sources.filter(({ id }) => referencedSourceIds.has(id));
+
+  return { technology, cycle, events, sources };
 }
