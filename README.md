@@ -6,9 +6,9 @@ Templinio is an open software lifecycle atlas. It is being built to make release
 windows, end-of-life dates, relationships, and security evidence easier to explore without
 hiding uncertainty or provenance.
 
-The repository is currently building **Atlas (v0.1)**. The site publishes a searchable catalog
-of 15 technologies, release-cycle pages, support policies, an interactive timeline, and portable
-JSON and Markdown records linked to their sources.
+The current published milestone is **Atlas (v0.1)**. The site provides a searchable catalog of 15
+technologies, release-cycle pages, support policies, an interactive timeline, and portable JSON
+and Markdown records linked to their sources.
 
 ## What exists today
 

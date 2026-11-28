@@ -15,9 +15,10 @@ not promised.
 | v0.7 | Interface | Versioned API, SDK, CLI, and explicit MCP tools |
 | v0.8+ | Expansion | Additional ecosystems and formats based on demonstrated demand |
 
-Atlas remains a valid product even if later milestones are never built. Relationship graphs do
-not prove dependency or security impact, advisory matches do not prove exploitability, and plans
-will not claim guaranteed compatibility without real application tests.
+Atlas v0.1 is the current published milestone. It remains a valid product even if later milestones
+are never built. Relationship graphs do not prove dependency or security impact, advisory matches
+do not prove exploitability, and plans will not claim guaranteed compatibility without real
+application tests.
 
 The working roadmap contains detailed exit criteria and remains private until its language is
 curated for public issue tracking.

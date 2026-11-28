@@ -3,7 +3,7 @@
 A source-backed, machine-readable view of software release and support lifecycles.
 
 - Schema: `0.2.0`
-- Generated: `2026-11-27T09:23:11+00:00`
+- Generated: `2026-11-28T00:08:17+00:00`
 - Unknown values are preserved; missing support stages are not inferred.
 
 ## Node.js
@@ -47,7 +47,7 @@ JavaScript runtime built on the V8 engine.
 
 ## Sources
 
-- [endoflife.date — Node.js](https://endoflife.date/nodejs) — retrieved 2026-11-27T09:23:11+00:00; license [MIT](https://github.com/endoflife-date/endoflife.date/blob/master/LICENSE)
+- [endoflife.date — Node.js](https://endoflife.date/nodejs) — retrieved 2026-11-28T00:08:17+00:00; license [MIT](https://github.com/endoflife-date/endoflife.date/blob/master/LICENSE)
 
 ## Limitations
 
