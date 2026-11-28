@@ -1,12 +1,12 @@
 {
-  "schemaVersion": "0.1.0",
-  "generatedAt": "2026-11-26T11:01:05+00:00",
+  "schemaVersion": "0.2.0",
+  "generatedAt": "2026-11-27T09:23:11+00:00",
   "sources": [
     {
       "id": "endoflife-date-php",
       "name": "endoflife.date — PHP",
       "url": "https://endoflife.date/php",
-      "retrievedAt": "2026-11-26T11:01:05+00:00",
+      "retrievedAt": "2026-11-27T09:23:11+00:00",
       "license": "MIT",
       "licenseUrl": "https://github.com/endoflife-date/endoflife.date/blob/master/LICENSE"
     }
@@ -17,7 +17,12 @@
       "name": "PHP",
       "description": "Server-side programming language for web development.",
       "category": "language",
-      "homepage": "https://www.php.net/supported-versions.php",
+      "releasePolicyUrl": "https://www.php.net/supported-versions.php",
+      "supportPolicy": {
+        "activeSupportLabel": "Active Support",
+        "eolLabel": "Security Support",
+        "extendedSupportLabel": null
+      },
       "aliases": [],
       "sourceIds": [
         "endoflife-date-php"
@@ -30,8 +35,14 @@
       "technologyId": "php",
       "name": "8.6",
       "releaseDate": "2026-11-19",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2028-12-31",
+      "activeSupportStatus": "active",
       "eolDate": "2030-12-31",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": true,
       "status": "active",
       "sourceIds": [
         "endoflife-date-php"
@@ -42,8 +53,14 @@
       "technologyId": "php",
       "name": "8.5",
       "releaseDate": "2025-11-20",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2027-12-31",
+      "activeSupportStatus": "active",
       "eolDate": "2029-12-31",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": true,
       "status": "active",
       "sourceIds": [
         "endoflife-date-php"
@@ -54,8 +71,14 @@
       "technologyId": "php",
       "name": "8.4",
       "releaseDate": "2024-11-21",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2026-12-31",
+      "activeSupportStatus": "active",
       "eolDate": "2028-12-31",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": true,
       "status": "active",
       "sourceIds": [
         "endoflife-date-php"
@@ -66,8 +89,14 @@
       "technologyId": "php",
       "name": "8.3",
       "releaseDate": "2023-11-23",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2025-12-31",
+      "activeSupportStatus": "ended",
       "eolDate": "2027-12-31",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": true,
       "status": "active",
       "sourceIds": [
         "endoflife-date-php"
@@ -78,8 +107,14 @@
       "technologyId": "php",
       "name": "8.2",
       "releaseDate": "2022-12-08",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2024-12-31",
+      "activeSupportStatus": "ended",
       "eolDate": "2026-12-31",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": true,
       "status": "active",
       "sourceIds": [
         "endoflife-date-php"
@@ -90,8 +125,14 @@
       "technologyId": "php",
       "name": "8.1",
       "releaseDate": "2021-11-25",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2023-11-25",
+      "activeSupportStatus": "ended",
       "eolDate": "2025-12-31",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-php"
@@ -102,8 +143,14 @@
       "technologyId": "php",
       "name": "8.0",
       "releaseDate": "2020-11-26",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2022-11-26",
+      "activeSupportStatus": "ended",
       "eolDate": "2023-11-26",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-php"
@@ -114,8 +161,14 @@
       "technologyId": "php",
       "name": "7.4",
       "releaseDate": "2019-11-28",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2021-11-28",
+      "activeSupportStatus": "ended",
       "eolDate": "2022-11-28",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-php"
@@ -126,8 +179,14 @@
       "technologyId": "php",
       "name": "7.3",
       "releaseDate": "2018-12-06",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2020-12-06",
+      "activeSupportStatus": "ended",
       "eolDate": "2021-12-06",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-php"
@@ -138,8 +197,14 @@
       "technologyId": "php",
       "name": "7.2",
       "releaseDate": "2017-11-30",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2019-11-30",
+      "activeSupportStatus": "ended",
       "eolDate": "2020-11-30",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-php"
@@ -150,8 +215,14 @@
       "technologyId": "php",
       "name": "7.1",
       "releaseDate": "2016-12-01",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2018-12-01",
+      "activeSupportStatus": "ended",
       "eolDate": "2019-12-01",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-php"
@@ -162,8 +233,14 @@
       "technologyId": "php",
       "name": "7.0",
       "releaseDate": "2015-12-03",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2018-01-04",
+      "activeSupportStatus": "ended",
       "eolDate": "2019-01-10",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-php"
@@ -174,8 +251,14 @@
       "technologyId": "php",
       "name": "5.6",
       "releaseDate": "2014-08-28",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2017-01-19",
+      "activeSupportStatus": "ended",
       "eolDate": "2018-12-31",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-php"
@@ -186,8 +269,14 @@
       "technologyId": "php",
       "name": "5.5",
       "releaseDate": "2013-06-20",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2015-07-10",
+      "activeSupportStatus": "ended",
       "eolDate": "2016-07-21",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-php"
@@ -198,8 +287,14 @@
       "technologyId": "php",
       "name": "5.4",
       "releaseDate": "2012-03-01",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2014-09-14",
+      "activeSupportStatus": "ended",
       "eolDate": "2015-09-14",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-php"
@@ -210,8 +305,14 @@
       "technologyId": "php",
       "name": "5.3",
       "releaseDate": "2009-06-30",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2011-06-30",
+      "activeSupportStatus": "ended",
       "eolDate": "2014-08-14",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-php"
@@ -222,8 +323,14 @@
       "technologyId": "php",
       "name": "5.2",
       "releaseDate": "2006-11-02",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2008-11-02",
+      "activeSupportStatus": "ended",
       "eolDate": "2011-01-06",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-php"
@@ -234,8 +341,14 @@
       "technologyId": "php",
       "name": "5.1",
       "releaseDate": "2005-11-24",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2006-08-24",
+      "activeSupportStatus": "ended",
       "eolDate": "2006-08-24",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-php"
@@ -246,8 +359,14 @@
       "technologyId": "php",
       "name": "4.4",
       "releaseDate": "2005-07-11",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2007-12-31",
+      "activeSupportStatus": "ended",
       "eolDate": "2008-08-07",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-php"
@@ -258,8 +377,14 @@
       "technologyId": "php",
       "name": "5.0",
       "releaseDate": "2004-07-13",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2005-09-05",
+      "activeSupportStatus": "ended",
       "eolDate": "2005-09-05",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-php"
@@ -270,8 +395,14 @@
       "technologyId": "php",
       "name": "4.3",
       "releaseDate": "2002-12-27",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2005-03-31",
+      "activeSupportStatus": "ended",
       "eolDate": "2005-03-31",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-php"
@@ -282,8 +413,14 @@
       "technologyId": "php",
       "name": "4.2",
       "releaseDate": "2002-04-22",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2002-09-06",
+      "activeSupportStatus": "ended",
       "eolDate": "2002-09-06",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-php"
@@ -294,8 +431,14 @@
       "technologyId": "php",
       "name": "4.1",
       "releaseDate": "2001-12-10",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2002-03-12",
+      "activeSupportStatus": "ended",
       "eolDate": "2002-03-12",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-php"
@@ -306,8 +449,14 @@
       "technologyId": "php",
       "name": "4.0",
       "releaseDate": "2000-05-22",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2001-06-23",
+      "activeSupportStatus": "ended",
       "eolDate": "2001-06-23",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-php"
@@ -323,6 +472,18 @@
       "title": "PHP 8.6 released",
       "date": "2026-11-19",
       "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-8-6-active-support-end",
+      "technologyId": "php",
+      "releaseCycleId": "php-8-6",
+      "type": "active-support-end",
+      "title": "PHP 8.6 active support ends",
+      "date": "2028-12-31",
+      "dateStatus": "scheduled",
       "sourceIds": [
         "endoflife-date-php"
       ]
@@ -352,6 +513,18 @@
       ]
     },
     {
+      "id": "php-8-5-active-support-end",
+      "technologyId": "php",
+      "releaseCycleId": "php-8-5",
+      "type": "active-support-end",
+      "title": "PHP 8.5 active support ends",
+      "date": "2027-12-31",
+      "dateStatus": "scheduled",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
       "id": "php-8-5-eol",
       "technologyId": "php",
       "releaseCycleId": "php-8-5",
@@ -376,6 +549,18 @@
       ]
     },
     {
+      "id": "php-8-4-active-support-end",
+      "technologyId": "php",
+      "releaseCycleId": "php-8-4",
+      "type": "active-support-end",
+      "title": "PHP 8.4 active support ends",
+      "date": "2026-12-31",
+      "dateStatus": "scheduled",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
       "id": "php-8-4-eol",
       "technologyId": "php",
       "releaseCycleId": "php-8-4",
@@ -394,6 +579,18 @@
       "type": "release",
       "title": "PHP 8.3 released",
       "date": "2023-11-23",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-8-3-active-support-end",
+      "technologyId": "php",
+      "releaseCycleId": "php-8-3",
+      "type": "active-support-end",
+      "title": "PHP 8.3 active support ends",
+      "date": "2025-12-31",
       "dateStatus": "occurred",
       "sourceIds": [
         "endoflife-date-php"
@@ -424,6 +621,18 @@
       ]
     },
     {
+      "id": "php-8-2-active-support-end",
+      "technologyId": "php",
+      "releaseCycleId": "php-8-2",
+      "type": "active-support-end",
+      "title": "PHP 8.2 active support ends",
+      "date": "2024-12-31",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
       "id": "php-8-2-eol",
       "technologyId": "php",
       "releaseCycleId": "php-8-2",
@@ -442,6 +651,18 @@
       "type": "release",
       "title": "PHP 8.1 released",
       "date": "2021-11-25",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-8-1-active-support-end",
+      "technologyId": "php",
+      "releaseCycleId": "php-8-1",
+      "type": "active-support-end",
+      "title": "PHP 8.1 active support ends",
+      "date": "2023-11-25",
       "dateStatus": "occurred",
       "sourceIds": [
         "endoflife-date-php"
@@ -472,6 +693,18 @@
       ]
     },
     {
+      "id": "php-8-0-active-support-end",
+      "technologyId": "php",
+      "releaseCycleId": "php-8-0",
+      "type": "active-support-end",
+      "title": "PHP 8.0 active support ends",
+      "date": "2022-11-26",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
       "id": "php-8-0-eol",
       "technologyId": "php",
       "releaseCycleId": "php-8-0",
@@ -490,6 +723,18 @@
       "type": "release",
       "title": "PHP 7.4 released",
       "date": "2019-11-28",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-7-4-active-support-end",
+      "technologyId": "php",
+      "releaseCycleId": "php-7-4",
+      "type": "active-support-end",
+      "title": "PHP 7.4 active support ends",
+      "date": "2021-11-28",
       "dateStatus": "occurred",
       "sourceIds": [
         "endoflife-date-php"
@@ -520,6 +765,18 @@
       ]
     },
     {
+      "id": "php-7-3-active-support-end",
+      "technologyId": "php",
+      "releaseCycleId": "php-7-3",
+      "type": "active-support-end",
+      "title": "PHP 7.3 active support ends",
+      "date": "2020-12-06",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
       "id": "php-7-3-eol",
       "technologyId": "php",
       "releaseCycleId": "php-7-3",
@@ -538,6 +795,18 @@
       "type": "release",
       "title": "PHP 7.2 released",
       "date": "2017-11-30",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-7-2-active-support-end",
+      "technologyId": "php",
+      "releaseCycleId": "php-7-2",
+      "type": "active-support-end",
+      "title": "PHP 7.2 active support ends",
+      "date": "2019-11-30",
       "dateStatus": "occurred",
       "sourceIds": [
         "endoflife-date-php"
@@ -568,6 +837,18 @@
       ]
     },
     {
+      "id": "php-7-1-active-support-end",
+      "technologyId": "php",
+      "releaseCycleId": "php-7-1",
+      "type": "active-support-end",
+      "title": "PHP 7.1 active support ends",
+      "date": "2018-12-01",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
       "id": "php-7-1-eol",
       "technologyId": "php",
       "releaseCycleId": "php-7-1",
@@ -586,6 +867,18 @@
       "type": "release",
       "title": "PHP 7.0 released",
       "date": "2015-12-03",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-7-0-active-support-end",
+      "technologyId": "php",
+      "releaseCycleId": "php-7-0",
+      "type": "active-support-end",
+      "title": "PHP 7.0 active support ends",
+      "date": "2018-01-04",
       "dateStatus": "occurred",
       "sourceIds": [
         "endoflife-date-php"
@@ -616,6 +909,18 @@
       ]
     },
     {
+      "id": "php-5-6-active-support-end",
+      "technologyId": "php",
+      "releaseCycleId": "php-5-6",
+      "type": "active-support-end",
+      "title": "PHP 5.6 active support ends",
+      "date": "2017-01-19",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
       "id": "php-5-6-eol",
       "technologyId": "php",
       "releaseCycleId": "php-5-6",
@@ -634,6 +939,18 @@
       "type": "release",
       "title": "PHP 5.5 released",
       "date": "2013-06-20",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-5-5-active-support-end",
+      "technologyId": "php",
+      "releaseCycleId": "php-5-5",
+      "type": "active-support-end",
+      "title": "PHP 5.5 active support ends",
+      "date": "2015-07-10",
       "dateStatus": "occurred",
       "sourceIds": [
         "endoflife-date-php"
@@ -664,6 +981,18 @@
       ]
     },
     {
+      "id": "php-5-4-active-support-end",
+      "technologyId": "php",
+      "releaseCycleId": "php-5-4",
+      "type": "active-support-end",
+      "title": "PHP 5.4 active support ends",
+      "date": "2014-09-14",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
       "id": "php-5-4-eol",
       "technologyId": "php",
       "releaseCycleId": "php-5-4",
@@ -682,6 +1011,18 @@
       "type": "release",
       "title": "PHP 5.3 released",
       "date": "2009-06-30",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-5-3-active-support-end",
+      "technologyId": "php",
+      "releaseCycleId": "php-5-3",
+      "type": "active-support-end",
+      "title": "PHP 5.3 active support ends",
+      "date": "2011-06-30",
       "dateStatus": "occurred",
       "sourceIds": [
         "endoflife-date-php"
@@ -712,6 +1053,18 @@
       ]
     },
     {
+      "id": "php-5-2-active-support-end",
+      "technologyId": "php",
+      "releaseCycleId": "php-5-2",
+      "type": "active-support-end",
+      "title": "PHP 5.2 active support ends",
+      "date": "2008-11-02",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
       "id": "php-5-2-eol",
       "technologyId": "php",
       "releaseCycleId": "php-5-2",
@@ -730,6 +1083,18 @@
       "type": "release",
       "title": "PHP 5.1 released",
       "date": "2005-11-24",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-5-1-active-support-end",
+      "technologyId": "php",
+      "releaseCycleId": "php-5-1",
+      "type": "active-support-end",
+      "title": "PHP 5.1 active support ends",
+      "date": "2006-08-24",
       "dateStatus": "occurred",
       "sourceIds": [
         "endoflife-date-php"
@@ -760,6 +1125,18 @@
       ]
     },
     {
+      "id": "php-4-4-active-support-end",
+      "technologyId": "php",
+      "releaseCycleId": "php-4-4",
+      "type": "active-support-end",
+      "title": "PHP 4.4 active support ends",
+      "date": "2007-12-31",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
       "id": "php-4-4-eol",
       "technologyId": "php",
       "releaseCycleId": "php-4-4",
@@ -778,6 +1155,18 @@
       "type": "release",
       "title": "PHP 5.0 released",
       "date": "2004-07-13",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-5-0-active-support-end",
+      "technologyId": "php",
+      "releaseCycleId": "php-5-0",
+      "type": "active-support-end",
+      "title": "PHP 5.0 active support ends",
+      "date": "2005-09-05",
       "dateStatus": "occurred",
       "sourceIds": [
         "endoflife-date-php"
@@ -808,6 +1197,18 @@
       ]
     },
     {
+      "id": "php-4-3-active-support-end",
+      "technologyId": "php",
+      "releaseCycleId": "php-4-3",
+      "type": "active-support-end",
+      "title": "PHP 4.3 active support ends",
+      "date": "2005-03-31",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
       "id": "php-4-3-eol",
       "technologyId": "php",
       "releaseCycleId": "php-4-3",
@@ -826,6 +1227,18 @@
       "type": "release",
       "title": "PHP 4.2 released",
       "date": "2002-04-22",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-4-2-active-support-end",
+      "technologyId": "php",
+      "releaseCycleId": "php-4-2",
+      "type": "active-support-end",
+      "title": "PHP 4.2 active support ends",
+      "date": "2002-09-06",
       "dateStatus": "occurred",
       "sourceIds": [
         "endoflife-date-php"
@@ -856,6 +1269,18 @@
       ]
     },
     {
+      "id": "php-4-1-active-support-end",
+      "technologyId": "php",
+      "releaseCycleId": "php-4-1",
+      "type": "active-support-end",
+      "title": "PHP 4.1 active support ends",
+      "date": "2002-03-12",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
       "id": "php-4-1-eol",
       "technologyId": "php",
       "releaseCycleId": "php-4-1",
@@ -874,6 +1299,18 @@
       "type": "release",
       "title": "PHP 4.0 released",
       "date": "2000-05-22",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-php"
+      ]
+    },
+    {
+      "id": "php-4-0-active-support-end",
+      "technologyId": "php",
+      "releaseCycleId": "php-4-0",
+      "type": "active-support-end",
+      "title": "PHP 4.0 active support ends",
+      "date": "2001-06-23",
       "dateStatus": "occurred",
       "sourceIds": [
         "endoflife-date-php"

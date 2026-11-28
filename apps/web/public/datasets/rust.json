@@ -1,12 +1,12 @@
 {
-  "schemaVersion": "0.1.0",
-  "generatedAt": "2026-11-26T11:01:05+00:00",
+  "schemaVersion": "0.2.0",
+  "generatedAt": "2026-11-27T09:23:11+00:00",
   "sources": [
     {
       "id": "endoflife-date-rust",
       "name": "endoflife.date — Rust",
       "url": "https://endoflife.date/rust",
-      "retrievedAt": "2026-11-26T11:01:05+00:00",
+      "retrievedAt": "2026-11-27T09:23:11+00:00",
       "license": "MIT",
       "licenseUrl": "https://github.com/endoflife-date/endoflife.date/blob/master/LICENSE"
     }
@@ -17,7 +17,12 @@
       "name": "Rust",
       "description": "Systems programming language focused on safety and performance.",
       "category": "language",
-      "homepage": "https://rust-lang.github.io/rustup/concepts/channels.html",
+      "releasePolicyUrl": "https://rust-lang.github.io/rustup/concepts/channels.html",
+      "supportPolicy": {
+        "activeSupportLabel": null,
+        "eolLabel": "Supported",
+        "extendedSupportLabel": null
+      },
       "aliases": [
         "rustlang",
         "rust-lang"
@@ -33,8 +38,14 @@
       "technologyId": "rust",
       "name": "1.100",
       "releaseDate": "2026-11-12",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": null,
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": true,
       "status": "active",
       "sourceIds": [
         "endoflife-date-rust"
@@ -45,8 +56,14 @@
       "technologyId": "rust",
       "name": "1.99",
       "releaseDate": "2026-10-01",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2026-11-12",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -57,8 +74,14 @@
       "technologyId": "rust",
       "name": "1.98",
       "releaseDate": "2026-08-20",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2026-10-01",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -69,8 +92,14 @@
       "technologyId": "rust",
       "name": "1.97",
       "releaseDate": "2026-07-09",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2026-08-20",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -81,8 +110,14 @@
       "technologyId": "rust",
       "name": "1.96",
       "releaseDate": "2026-05-28",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2026-07-09",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -93,8 +128,14 @@
       "technologyId": "rust",
       "name": "1.95",
       "releaseDate": "2026-04-16",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2026-05-28",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -105,8 +146,14 @@
       "technologyId": "rust",
       "name": "1.94",
       "releaseDate": "2026-03-06",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2026-04-16",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -117,8 +164,14 @@
       "technologyId": "rust",
       "name": "1.93",
       "releaseDate": "2026-01-22",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2026-03-06",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -129,8 +182,14 @@
       "technologyId": "rust",
       "name": "1.92",
       "releaseDate": "2025-12-11",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2026-01-22",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -141,8 +200,14 @@
       "technologyId": "rust",
       "name": "1.91",
       "releaseDate": "2025-10-30",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2025-12-11",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -153,8 +218,14 @@
       "technologyId": "rust",
       "name": "1.90",
       "releaseDate": "2025-09-18",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2025-10-30",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -165,8 +236,14 @@
       "technologyId": "rust",
       "name": "1.89",
       "releaseDate": "2025-08-07",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2025-09-18",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -177,8 +254,14 @@
       "technologyId": "rust",
       "name": "1.88",
       "releaseDate": "2025-06-26",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2025-08-07",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -189,8 +272,14 @@
       "technologyId": "rust",
       "name": "1.87",
       "releaseDate": "2025-05-15",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2025-06-26",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -201,8 +290,14 @@
       "technologyId": "rust",
       "name": "1.86",
       "releaseDate": "2025-04-03",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2025-05-15",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -213,8 +308,14 @@
       "technologyId": "rust",
       "name": "1.85",
       "releaseDate": "2025-02-20",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2025-04-03",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -225,8 +326,14 @@
       "technologyId": "rust",
       "name": "1.84",
       "releaseDate": "2025-01-09",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2025-02-20",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -237,8 +344,14 @@
       "technologyId": "rust",
       "name": "1.83",
       "releaseDate": "2024-11-28",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2025-01-09",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -249,8 +362,14 @@
       "technologyId": "rust",
       "name": "1.82",
       "releaseDate": "2024-10-17",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2024-11-28",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -261,8 +380,14 @@
       "technologyId": "rust",
       "name": "1.81",
       "releaseDate": "2024-09-05",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2024-10-17",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -273,8 +398,14 @@
       "technologyId": "rust",
       "name": "1.80",
       "releaseDate": "2024-07-25",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2024-09-05",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -285,8 +416,14 @@
       "technologyId": "rust",
       "name": "1.79",
       "releaseDate": "2024-06-13",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2024-07-25",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -297,8 +434,14 @@
       "technologyId": "rust",
       "name": "1.78",
       "releaseDate": "2024-05-02",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2024-06-13",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -309,8 +452,14 @@
       "technologyId": "rust",
       "name": "1.77",
       "releaseDate": "2024-03-21",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2024-05-02",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -321,8 +470,14 @@
       "technologyId": "rust",
       "name": "1.76",
       "releaseDate": "2024-02-08",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2024-03-21",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -333,8 +488,14 @@
       "technologyId": "rust",
       "name": "1.75",
       "releaseDate": "2023-12-28",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2024-02-08",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -345,8 +506,14 @@
       "technologyId": "rust",
       "name": "1.74",
       "releaseDate": "2023-11-16",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2023-12-28",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -357,8 +524,14 @@
       "technologyId": "rust",
       "name": "1.73",
       "releaseDate": "2023-10-05",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2023-11-17",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -369,8 +542,14 @@
       "technologyId": "rust",
       "name": "1.72",
       "releaseDate": "2023-08-24",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2023-10-06",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -381,8 +560,14 @@
       "technologyId": "rust",
       "name": "1.71",
       "releaseDate": "2023-07-13",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2023-08-25",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -393,8 +578,14 @@
       "technologyId": "rust",
       "name": "1.70",
       "releaseDate": "2023-06-01",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2023-07-14",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -405,8 +596,14 @@
       "technologyId": "rust",
       "name": "1.69",
       "releaseDate": "2023-04-20",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2023-06-02",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -417,8 +614,14 @@
       "technologyId": "rust",
       "name": "1.68",
       "releaseDate": "2023-03-09",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2023-04-21",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -429,8 +632,14 @@
       "technologyId": "rust",
       "name": "1.67",
       "releaseDate": "2023-01-26",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2023-03-10",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -441,8 +650,14 @@
       "technologyId": "rust",
       "name": "1.66",
       "releaseDate": "2022-12-15",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2023-01-27",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -453,8 +668,14 @@
       "technologyId": "rust",
       "name": "1.65",
       "releaseDate": "2022-11-03",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2022-12-16",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -465,8 +686,14 @@
       "technologyId": "rust",
       "name": "1.64",
       "releaseDate": "2022-09-22",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2022-11-04",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -477,8 +704,14 @@
       "technologyId": "rust",
       "name": "1.63",
       "releaseDate": "2022-08-11",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2022-09-23",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -489,8 +722,14 @@
       "technologyId": "rust",
       "name": "1.62",
       "releaseDate": "2022-06-30",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2022-09-12",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -501,8 +740,14 @@
       "technologyId": "rust",
       "name": "1.61",
       "releaseDate": "2022-05-19",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2022-07-01",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -513,8 +758,14 @@
       "technologyId": "rust",
       "name": "1.60",
       "releaseDate": "2022-04-07",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2022-05-20",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -525,8 +776,14 @@
       "technologyId": "rust",
       "name": "1.59",
       "releaseDate": "2022-02-24",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2022-04-08",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -537,8 +794,14 @@
       "technologyId": "rust",
       "name": "1.58",
       "releaseDate": "2022-01-13",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2022-02-25",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -549,8 +812,14 @@
       "technologyId": "rust",
       "name": "1.57",
       "releaseDate": "2021-12-02",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2022-01-14",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -561,8 +830,14 @@
       "technologyId": "rust",
       "name": "1.56",
       "releaseDate": "2021-10-21",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2021-12-03",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -573,8 +848,14 @@
       "technologyId": "rust",
       "name": "1.55",
       "releaseDate": "2021-09-09",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2021-10-22",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -585,8 +866,14 @@
       "technologyId": "rust",
       "name": "1.54",
       "releaseDate": "2021-07-29",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2021-09-10",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -597,8 +884,14 @@
       "technologyId": "rust",
       "name": "1.53",
       "releaseDate": "2021-06-17",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2021-07-30",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -609,8 +902,14 @@
       "technologyId": "rust",
       "name": "1.52",
       "releaseDate": "2021-05-06",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2021-06-18",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -621,8 +920,14 @@
       "technologyId": "rust",
       "name": "1.51",
       "releaseDate": "2021-03-25",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2021-05-07",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -633,8 +938,14 @@
       "technologyId": "rust",
       "name": "1.50",
       "releaseDate": "2021-02-11",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2021-03-26",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -645,8 +956,14 @@
       "technologyId": "rust",
       "name": "1.49",
       "releaseDate": "2020-12-31",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2021-02-12",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -657,8 +974,14 @@
       "technologyId": "rust",
       "name": "1.48",
       "releaseDate": "2020-11-19",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2021-01-01",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -669,8 +992,14 @@
       "technologyId": "rust",
       "name": "1.47",
       "releaseDate": "2020-10-08",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2020-11-20",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -681,8 +1010,14 @@
       "technologyId": "rust",
       "name": "1.46",
       "releaseDate": "2020-08-27",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2020-10-08",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -693,8 +1028,14 @@
       "technologyId": "rust",
       "name": "1.45",
       "releaseDate": "2020-07-16",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2020-08-28",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -705,8 +1046,14 @@
       "technologyId": "rust",
       "name": "1.44",
       "releaseDate": "2020-06-04",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2020-07-17",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -717,8 +1064,14 @@
       "technologyId": "rust",
       "name": "1.43",
       "releaseDate": "2020-04-23",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2020-06-05",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -729,8 +1082,14 @@
       "technologyId": "rust",
       "name": "1.42",
       "releaseDate": "2020-03-12",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2020-04-24",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -741,8 +1100,14 @@
       "technologyId": "rust",
       "name": "1.41",
       "releaseDate": "2020-01-30",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2020-03-13",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -753,8 +1118,14 @@
       "technologyId": "rust",
       "name": "1.40",
       "releaseDate": "2019-12-19",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2020-01-31",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -765,8 +1136,14 @@
       "technologyId": "rust",
       "name": "1.39",
       "releaseDate": "2019-11-07",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2019-12-20",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -777,8 +1154,14 @@
       "technologyId": "rust",
       "name": "1.38",
       "releaseDate": "2019-09-26",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2019-11-08",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -789,8 +1172,14 @@
       "technologyId": "rust",
       "name": "1.37",
       "releaseDate": "2019-08-15",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2019-09-27",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -801,8 +1190,14 @@
       "technologyId": "rust",
       "name": "1.36",
       "releaseDate": "2019-07-04",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2019-08-16",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -813,8 +1208,14 @@
       "technologyId": "rust",
       "name": "1.35",
       "releaseDate": "2019-05-23",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2019-07-04",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -825,8 +1226,14 @@
       "technologyId": "rust",
       "name": "1.34",
       "releaseDate": "2019-04-11",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2019-05-24",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -837,8 +1244,14 @@
       "technologyId": "rust",
       "name": "1.33",
       "releaseDate": "2019-02-28",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2019-04-12",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -849,8 +1262,14 @@
       "technologyId": "rust",
       "name": "1.32",
       "releaseDate": "2019-01-17",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2019-03-01",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -861,8 +1280,14 @@
       "technologyId": "rust",
       "name": "1.31",
       "releaseDate": "2018-12-06",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2019-01-18",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -873,8 +1298,14 @@
       "technologyId": "rust",
       "name": "1.30",
       "releaseDate": "2018-10-25",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2018-12-07",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"
@@ -885,8 +1316,14 @@
       "technologyId": "rust",
       "name": "1.29",
       "releaseDate": "2018-09-13",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2018-10-26",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-rust"

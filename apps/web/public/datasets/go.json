@@ -1,12 +1,12 @@
 {
-  "schemaVersion": "0.1.0",
-  "generatedAt": "2026-11-26T11:01:05+00:00",
+  "schemaVersion": "0.2.0",
+  "generatedAt": "2026-11-27T09:23:11+00:00",
   "sources": [
     {
       "id": "endoflife-date-go",
       "name": "endoflife.date — Go",
       "url": "https://endoflife.date/go",
-      "retrievedAt": "2026-11-26T11:01:05+00:00",
+      "retrievedAt": "2026-11-27T09:23:11+00:00",
       "license": "MIT",
       "licenseUrl": "https://github.com/endoflife-date/endoflife.date/blob/master/LICENSE"
     }
@@ -17,7 +17,12 @@
       "name": "Go",
       "description": "Statically typed programming language designed at Google.",
       "category": "language",
-      "homepage": "https://go.dev/doc/devel/release#policy",
+      "releasePolicyUrl": "https://go.dev/doc/devel/release#policy",
+      "supportPolicy": {
+        "activeSupportLabel": null,
+        "eolLabel": "Supported",
+        "extendedSupportLabel": null
+      },
       "aliases": [
         "golang"
       ],
@@ -32,8 +37,14 @@
       "technologyId": "go",
       "name": "1.27",
       "releaseDate": "2026-08-19",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": null,
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": true,
       "status": "active",
       "sourceIds": [
         "endoflife-date-go"
@@ -44,8 +55,14 @@
       "technologyId": "go",
       "name": "1.26",
       "releaseDate": "2026-02-10",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": null,
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": true,
       "status": "active",
       "sourceIds": [
         "endoflife-date-go"
@@ -56,8 +73,14 @@
       "technologyId": "go",
       "name": "1.25",
       "releaseDate": "2025-08-12",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2026-08-19",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-go"
@@ -68,8 +91,14 @@
       "technologyId": "go",
       "name": "1.24",
       "releaseDate": "2025-02-11",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2026-02-10",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-go"
@@ -80,8 +109,14 @@
       "technologyId": "go",
       "name": "1.23",
       "releaseDate": "2024-08-13",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2025-08-12",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-go"
@@ -92,8 +127,14 @@
       "technologyId": "go",
       "name": "1.22",
       "releaseDate": "2024-02-06",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2025-02-11",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-go"
@@ -104,8 +145,14 @@
       "technologyId": "go",
       "name": "1.21",
       "releaseDate": "2023-08-08",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2024-08-13",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-go"
@@ -116,8 +163,14 @@
       "technologyId": "go",
       "name": "1.20",
       "releaseDate": "2023-02-01",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2024-02-06",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-go"
@@ -128,8 +181,14 @@
       "technologyId": "go",
       "name": "1.19",
       "releaseDate": "2022-08-02",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2023-09-06",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-go"
@@ -140,8 +199,14 @@
       "technologyId": "go",
       "name": "1.18",
       "releaseDate": "2022-03-15",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2023-02-01",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-go"
@@ -152,8 +217,14 @@
       "technologyId": "go",
       "name": "1.17",
       "releaseDate": "2021-08-16",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2022-08-02",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-go"
@@ -164,8 +235,14 @@
       "technologyId": "go",
       "name": "1.16",
       "releaseDate": "2021-02-16",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2022-03-15",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-go"
@@ -176,8 +253,14 @@
       "technologyId": "go",
       "name": "1.15",
       "releaseDate": "2020-08-11",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2021-08-16",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-go"
@@ -188,8 +271,14 @@
       "technologyId": "go",
       "name": "1.14",
       "releaseDate": "2020-02-25",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2021-02-16",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-go"
@@ -200,8 +289,14 @@
       "technologyId": "go",
       "name": "1.13",
       "releaseDate": "2019-09-03",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2020-08-11",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-go"
@@ -212,8 +307,14 @@
       "technologyId": "go",
       "name": "1.12",
       "releaseDate": "2019-02-25",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2020-02-25",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-go"
@@ -224,8 +325,14 @@
       "technologyId": "go",
       "name": "1.11",
       "releaseDate": "2018-08-24",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2019-09-03",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-go"
@@ -236,8 +343,14 @@
       "technologyId": "go",
       "name": "1.10",
       "releaseDate": "2018-02-16",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2019-02-25",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-go"
@@ -248,8 +361,14 @@
       "technologyId": "go",
       "name": "1.9",
       "releaseDate": "2017-08-24",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2018-08-24",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-go"
@@ -260,8 +379,14 @@
       "technologyId": "go",
       "name": "1.8",
       "releaseDate": "2017-02-16",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2018-02-16",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-go"
@@ -272,8 +397,14 @@
       "technologyId": "go",
       "name": "1.7",
       "releaseDate": "2016-08-15",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2017-08-24",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-go"
@@ -284,8 +415,14 @@
       "technologyId": "go",
       "name": "1.6",
       "releaseDate": "2016-02-17",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2017-02-16",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-go"
@@ -296,8 +433,14 @@
       "technologyId": "go",
       "name": "1.5",
       "releaseDate": "2015-08-19",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2016-08-15",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-go"
@@ -308,8 +451,14 @@
       "technologyId": "go",
       "name": "1.4",
       "releaseDate": "2014-12-10",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2016-02-17",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-go"
@@ -320,8 +469,14 @@
       "technologyId": "go",
       "name": "1.3",
       "releaseDate": "2014-06-18",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2015-08-19",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-go"
@@ -332,8 +487,14 @@
       "technologyId": "go",
       "name": "1.2",
       "releaseDate": "2013-12-01",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2014-12-10",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-go"

@@ -65,7 +65,7 @@ def validate_dataset(dataset: Any) -> None:
         {"schemaVersion", "generatedAt", "sources", "technologies", "releaseCycles", "events"},
         "dataset",
     )
-    if dataset["schemaVersion"] != "0.1.0":
+    if dataset["schemaVersion"] != "0.2.0":
         raise DatasetValidationError("schemaVersion: unsupported version")
     _datetime(dataset["generatedAt"], "generatedAt")
 
@@ -94,7 +94,16 @@ def validate_dataset(dataset: Any) -> None:
         location = f"technologies[{index}]"
         _require_keys(
             technology,
-            {"id", "name", "description", "category", "homepage", "aliases", "sourceIds"},
+            {
+                "id",
+                "name",
+                "description",
+                "category",
+                "releasePolicyUrl",
+                "supportPolicy",
+                "aliases",
+                "sourceIds",
+            },
             location,
         )
         technology_id = _identifier(technology["id"], f"{location}.id")
@@ -110,7 +119,23 @@ def validate_dataset(dataset: Any) -> None:
             "tool",
         }:
             raise DatasetValidationError(f"{location}.category: invalid category")
-        _url(technology["homepage"], f"{location}.homepage")
+        if technology["releasePolicyUrl"] is not None:
+            _url(technology["releasePolicyUrl"], f"{location}.releasePolicyUrl")
+        support_policy = technology["supportPolicy"]
+        if not isinstance(support_policy, dict):
+            raise DatasetValidationError(f"{location}.supportPolicy: expected an object")
+        _require_keys(
+            support_policy,
+            {"activeSupportLabel", "eolLabel", "extendedSupportLabel"},
+            f"{location}.supportPolicy",
+        )
+        for label in ("activeSupportLabel", "extendedSupportLabel"):
+            if support_policy[label] is not None and not isinstance(support_policy[label], str):
+                raise DatasetValidationError(
+                    f"{location}.supportPolicy.{label}: expected text or null"
+                )
+        if not isinstance(support_policy["eolLabel"], str) or not support_policy["eolLabel"]:
+            raise DatasetValidationError(f"{location}.supportPolicy.eolLabel: expected text")
         _validate_sources(technology["sourceIds"], source_ids, f"{location}.sourceIds")
 
     cycle_ids: set[str] = set()
@@ -123,8 +148,14 @@ def validate_dataset(dataset: Any) -> None:
                 "technologyId",
                 "name",
                 "releaseDate",
+                "ltsStartDate",
+                "activeSupportEndDate",
+                "activeSupportStatus",
                 "eolDate",
+                "extendedSupportEndDate",
+                "extendedSupportStatus",
                 "isLts",
+                "isMaintained",
                 "status",
                 "sourceIds",
             },
@@ -140,8 +171,17 @@ def validate_dataset(dataset: Any) -> None:
             raise DatasetValidationError(f"{location}.status: invalid status")
         if cycle["isLts"] is not None and not isinstance(cycle["isLts"], bool):
             raise DatasetValidationError(f"{location}.isLts: expected boolean or null")
+        if cycle["isMaintained"] is not None and not isinstance(cycle["isMaintained"], bool):
+            raise DatasetValidationError(f"{location}.isMaintained: expected boolean or null")
+        support_statuses = {"active", "ended", "not-applicable", "unknown"}
+        for field in ("activeSupportStatus", "extendedSupportStatus"):
+            if cycle[field] not in support_statuses:
+                raise DatasetValidationError(f"{location}.{field}: invalid support status")
         _date(cycle["releaseDate"], f"{location}.releaseDate")
+        _date(cycle["ltsStartDate"], f"{location}.ltsStartDate")
+        _date(cycle["activeSupportEndDate"], f"{location}.activeSupportEndDate")
         _date(cycle["eolDate"], f"{location}.eolDate")
+        _date(cycle["extendedSupportEndDate"], f"{location}.extendedSupportEndDate")
         _validate_sources(cycle["sourceIds"], source_ids, f"{location}.sourceIds")
 
     event_ids: set[str] = set()
@@ -169,7 +209,14 @@ def validate_dataset(dataset: Any) -> None:
             raise DatasetValidationError(f"{location}.technologyId: unknown technology")
         if event["releaseCycleId"] is not None and event["releaseCycleId"] not in cycle_ids:
             raise DatasetValidationError(f"{location}.releaseCycleId: unknown cycle")
-        if event["type"] not in {"release", "support-start", "end-of-life", "milestone"}:
+        if event["type"] not in {
+            "release",
+            "lts-start",
+            "active-support-end",
+            "end-of-life",
+            "extended-support-end",
+            "milestone",
+        }:
             raise DatasetValidationError(f"{location}.type: invalid event type")
         if event["dateStatus"] not in {"occurred", "scheduled", "estimated", "unknown"}:
             raise DatasetValidationError(f"{location}.dateStatus: invalid date status")

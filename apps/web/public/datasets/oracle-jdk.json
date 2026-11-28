@@ -1,12 +1,12 @@
 {
-  "schemaVersion": "0.1.0",
-  "generatedAt": "2026-11-26T11:01:05+00:00",
+  "schemaVersion": "0.2.0",
+  "generatedAt": "2026-11-27T09:23:11+00:00",
   "sources": [
     {
       "id": "endoflife-date-oracle-jdk",
       "name": "endoflife.date — Oracle JDK",
       "url": "https://endoflife.date/oracle-jdk",
-      "retrievedAt": "2026-11-26T11:01:05+00:00",
+      "retrievedAt": "2026-11-27T09:23:11+00:00",
       "license": "MIT",
       "licenseUrl": "https://github.com/endoflife-date/endoflife.date/blob/master/LICENSE"
     }
@@ -17,7 +17,12 @@
       "name": "Oracle JDK",
       "description": "Oracle distribution of the Java Development Kit.",
       "category": "language",
-      "homepage": "https://www.oracle.com/java/technologies/java-se-support-roadmap.html",
+      "releasePolicyUrl": "https://www.oracle.com/java/technologies/java-se-support-roadmap.html",
+      "supportPolicy": {
+        "activeSupportLabel": null,
+        "eolLabel": "Premier Support",
+        "extendedSupportLabel": "Extended Support"
+      },
       "aliases": [
         "oracle-java"
       ],
@@ -32,8 +37,14 @@
       "technologyId": "oracle-jdk",
       "name": "27",
       "releaseDate": "2026-09-15",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2027-03-31",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": true,
       "status": "active",
       "sourceIds": [
         "endoflife-date-oracle-jdk"
@@ -44,8 +55,14 @@
       "technologyId": "oracle-jdk",
       "name": "26",
       "releaseDate": "2026-03-17",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2026-09-18",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-oracle-jdk"
@@ -56,8 +73,14 @@
       "technologyId": "oracle-jdk",
       "name": "25",
       "releaseDate": "2025-09-16",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2030-09-30",
+      "extendedSupportEndDate": "2033-09-30",
+      "extendedSupportStatus": "active",
       "isLts": true,
+      "isMaintained": true,
       "status": "active",
       "sourceIds": [
         "endoflife-date-oracle-jdk"
@@ -68,8 +91,14 @@
       "technologyId": "oracle-jdk",
       "name": "24",
       "releaseDate": "2025-03-18",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2025-09-16",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-oracle-jdk"
@@ -80,8 +109,14 @@
       "technologyId": "oracle-jdk",
       "name": "23",
       "releaseDate": "2024-09-17",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2025-03-18",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-oracle-jdk"
@@ -92,8 +127,14 @@
       "technologyId": "oracle-jdk",
       "name": "22",
       "releaseDate": "2024-03-19",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2024-09-17",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-oracle-jdk"
@@ -104,8 +145,14 @@
       "technologyId": "oracle-jdk",
       "name": "21",
       "releaseDate": "2023-09-19",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2028-09-30",
+      "extendedSupportEndDate": "2031-09-30",
+      "extendedSupportStatus": "active",
       "isLts": true,
+      "isMaintained": true,
       "status": "active",
       "sourceIds": [
         "endoflife-date-oracle-jdk"
@@ -116,8 +163,14 @@
       "technologyId": "oracle-jdk",
       "name": "20",
       "releaseDate": "2023-03-21",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2023-09-19",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-oracle-jdk"
@@ -128,8 +181,14 @@
       "technologyId": "oracle-jdk",
       "name": "19",
       "releaseDate": "2022-09-20",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2023-03-21",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-oracle-jdk"
@@ -140,8 +199,14 @@
       "technologyId": "oracle-jdk",
       "name": "18",
       "releaseDate": "2022-03-22",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2022-09-20",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-oracle-jdk"
@@ -152,8 +217,14 @@
       "technologyId": "oracle-jdk",
       "name": "17",
       "releaseDate": "2021-09-14",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2026-09-30",
+      "extendedSupportEndDate": "2029-09-30",
+      "extendedSupportStatus": "active",
       "isLts": true,
+      "isMaintained": true,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-oracle-jdk"
@@ -164,8 +235,14 @@
       "technologyId": "oracle-jdk",
       "name": "16",
       "releaseDate": "2021-03-16",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2021-09-14",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-oracle-jdk"
@@ -176,8 +253,14 @@
       "technologyId": "oracle-jdk",
       "name": "15",
       "releaseDate": "2020-09-15",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2021-03-16",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-oracle-jdk"
@@ -188,8 +271,14 @@
       "technologyId": "oracle-jdk",
       "name": "14",
       "releaseDate": "2020-03-17",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2020-09-16",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-oracle-jdk"
@@ -200,8 +289,14 @@
       "technologyId": "oracle-jdk",
       "name": "13",
       "releaseDate": "2019-09-17",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2020-03-17",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-oracle-jdk"
@@ -212,8 +307,14 @@
       "technologyId": "oracle-jdk",
       "name": "12",
       "releaseDate": "2019-03-19",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2019-09-17",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-oracle-jdk"
@@ -224,8 +325,14 @@
       "technologyId": "oracle-jdk",
       "name": "11",
       "releaseDate": "2018-09-25",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2023-09-30",
+      "extendedSupportEndDate": "2032-01-31",
+      "extendedSupportStatus": "active",
       "isLts": true,
+      "isMaintained": true,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-oracle-jdk"
@@ -236,8 +343,14 @@
       "technologyId": "oracle-jdk",
       "name": "10",
       "releaseDate": "2018-03-20",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2018-09-25",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-oracle-jdk"
@@ -248,8 +361,14 @@
       "technologyId": "oracle-jdk",
       "name": "9",
       "releaseDate": "2017-09-21",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2018-03-20",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-oracle-jdk"
@@ -260,8 +379,14 @@
       "technologyId": "oracle-jdk",
       "name": "8",
       "releaseDate": "2014-03-18",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2022-03-31",
+      "extendedSupportEndDate": "2030-12-31",
+      "extendedSupportStatus": "active",
       "isLts": true,
+      "isMaintained": true,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-oracle-jdk"
@@ -272,8 +397,14 @@
       "technologyId": "oracle-jdk",
       "name": "7",
       "releaseDate": "2011-07-11",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2019-07-31",
+      "extendedSupportEndDate": "2022-07-19",
+      "extendedSupportStatus": "ended",
       "isLts": true,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-oracle-jdk"
@@ -284,8 +415,14 @@
       "technologyId": "oracle-jdk",
       "name": "6",
       "releaseDate": "2006-12-12",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2018-12-31",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-oracle-jdk"
@@ -296,8 +433,14 @@
       "technologyId": "oracle-jdk",
       "name": "5",
       "releaseDate": "2004-09-30",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2009-10-30",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-oracle-jdk"
@@ -308,8 +451,14 @@
       "technologyId": "oracle-jdk",
       "name": "1.4",
       "releaseDate": "2002-02-13",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2008-10-30",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-oracle-jdk"
@@ -320,8 +469,14 @@
       "technologyId": "oracle-jdk",
       "name": "1.3",
       "releaseDate": "2000-05-08",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2006-03-31",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-oracle-jdk"
@@ -332,8 +487,14 @@
       "technologyId": "oracle-jdk",
       "name": "1.2",
       "releaseDate": "1998-12-04",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2003-11-30",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-oracle-jdk"
@@ -344,8 +505,14 @@
       "technologyId": "oracle-jdk",
       "name": "1.1",
       "releaseDate": "1997-02-18",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2002-10-09",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-oracle-jdk"
@@ -356,8 +523,14 @@
       "technologyId": "oracle-jdk",
       "name": "1.0",
       "releaseDate": "1996-01-23",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "1996-05-07",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-oracle-jdk"
@@ -432,6 +605,18 @@
       "type": "end-of-life",
       "title": "Oracle JDK 25 end of life",
       "date": "2030-09-30",
+      "dateStatus": "scheduled",
+      "sourceIds": [
+        "endoflife-date-oracle-jdk"
+      ]
+    },
+    {
+      "id": "oracle-jdk-25-extended-support-end",
+      "technologyId": "oracle-jdk",
+      "releaseCycleId": "oracle-jdk-25",
+      "type": "extended-support-end",
+      "title": "Oracle JDK 25 extended support ends",
+      "date": "2033-09-30",
       "dateStatus": "scheduled",
       "sourceIds": [
         "endoflife-date-oracle-jdk"
@@ -534,6 +719,18 @@
       ]
     },
     {
+      "id": "oracle-jdk-21-extended-support-end",
+      "technologyId": "oracle-jdk",
+      "releaseCycleId": "oracle-jdk-21",
+      "type": "extended-support-end",
+      "title": "Oracle JDK 21 extended support ends",
+      "date": "2031-09-30",
+      "dateStatus": "scheduled",
+      "sourceIds": [
+        "endoflife-date-oracle-jdk"
+      ]
+    },
+    {
       "id": "oracle-jdk-20-release",
       "technologyId": "oracle-jdk",
       "releaseCycleId": "oracle-jdk-20",
@@ -625,6 +822,18 @@
       "title": "Oracle JDK 17 end of life",
       "date": "2026-09-30",
       "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-oracle-jdk"
+      ]
+    },
+    {
+      "id": "oracle-jdk-17-extended-support-end",
+      "technologyId": "oracle-jdk",
+      "releaseCycleId": "oracle-jdk-17",
+      "type": "extended-support-end",
+      "title": "Oracle JDK 17 extended support ends",
+      "date": "2029-09-30",
+      "dateStatus": "scheduled",
       "sourceIds": [
         "endoflife-date-oracle-jdk"
       ]
@@ -774,6 +983,18 @@
       ]
     },
     {
+      "id": "oracle-jdk-11-extended-support-end",
+      "technologyId": "oracle-jdk",
+      "releaseCycleId": "oracle-jdk-11",
+      "type": "extended-support-end",
+      "title": "Oracle JDK 11 extended support ends",
+      "date": "2032-01-31",
+      "dateStatus": "scheduled",
+      "sourceIds": [
+        "endoflife-date-oracle-jdk"
+      ]
+    },
+    {
       "id": "oracle-jdk-10-release",
       "technologyId": "oracle-jdk",
       "releaseCycleId": "oracle-jdk-10",
@@ -846,6 +1067,18 @@
       ]
     },
     {
+      "id": "oracle-jdk-8-extended-support-end",
+      "technologyId": "oracle-jdk",
+      "releaseCycleId": "oracle-jdk-8",
+      "type": "extended-support-end",
+      "title": "Oracle JDK 8 extended support ends",
+      "date": "2030-12-31",
+      "dateStatus": "scheduled",
+      "sourceIds": [
+        "endoflife-date-oracle-jdk"
+      ]
+    },
+    {
       "id": "oracle-jdk-7-release",
       "technologyId": "oracle-jdk",
       "releaseCycleId": "oracle-jdk-7",
@@ -864,6 +1097,18 @@
       "type": "end-of-life",
       "title": "Oracle JDK 7 end of life",
       "date": "2019-07-31",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-oracle-jdk"
+      ]
+    },
+    {
+      "id": "oracle-jdk-7-extended-support-end",
+      "technologyId": "oracle-jdk",
+      "releaseCycleId": "oracle-jdk-7",
+      "type": "extended-support-end",
+      "title": "Oracle JDK 7 extended support ends",
+      "date": "2022-07-19",
       "dateStatus": "occurred",
       "sourceIds": [
         "endoflife-date-oracle-jdk"

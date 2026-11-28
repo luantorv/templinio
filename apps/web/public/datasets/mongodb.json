@@ -1,12 +1,12 @@
 {
-  "schemaVersion": "0.1.0",
-  "generatedAt": "2026-11-26T11:01:05+00:00",
+  "schemaVersion": "0.2.0",
+  "generatedAt": "2026-11-27T09:23:11+00:00",
   "sources": [
     {
       "id": "endoflife-date-mongodb",
       "name": "endoflife.date — MongoDB Server",
       "url": "https://endoflife.date/mongodb",
-      "retrievedAt": "2026-11-26T11:01:05+00:00",
+      "retrievedAt": "2026-11-27T09:23:11+00:00",
       "license": "MIT",
       "licenseUrl": "https://github.com/endoflife-date/endoflife.date/blob/master/LICENSE"
     }
@@ -17,7 +17,12 @@
       "name": "MongoDB Server",
       "description": "Document-oriented database for flexible application data.",
       "category": "database",
-      "homepage": "https://www.mongodb.com/legal/support-policy",
+      "releasePolicyUrl": "https://www.mongodb.com/legal/support-policy",
+      "supportPolicy": {
+        "activeSupportLabel": null,
+        "eolLabel": "Security Support",
+        "extendedSupportLabel": null
+      },
       "aliases": [
         "mongo"
       ],
@@ -32,8 +37,14 @@
       "technologyId": "mongodb",
       "name": "9.0",
       "releaseDate": "2026-09-30",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2031-10-31",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": true,
       "status": "active",
       "sourceIds": [
         "endoflife-date-mongodb"
@@ -44,8 +55,14 @@
       "technologyId": "mongodb",
       "name": "8.3",
       "releaseDate": "2026-05-31",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2029-10-31",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": true,
       "status": "active",
       "sourceIds": [
         "endoflife-date-mongodb"
@@ -56,8 +73,14 @@
       "technologyId": "mongodb",
       "name": "8.2",
       "releaseDate": "2025-09-30",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2026-07-31",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-mongodb"
@@ -68,8 +91,14 @@
       "technologyId": "mongodb",
       "name": "8.1",
       "releaseDate": "2025-06-30",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2025-09-30",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-mongodb"
@@ -80,8 +109,14 @@
       "technologyId": "mongodb",
       "name": "8.0",
       "releaseDate": "2024-10-31",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2029-10-31",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": true,
       "status": "active",
       "sourceIds": [
         "endoflife-date-mongodb"
@@ -92,8 +127,14 @@
       "technologyId": "mongodb",
       "name": "7.3",
       "releaseDate": "2024-03-31",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2024-10-02",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-mongodb"
@@ -104,8 +145,14 @@
       "technologyId": "mongodb",
       "name": "7.2",
       "releaseDate": "2024-01-31",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2024-03-27",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-mongodb"
@@ -116,8 +163,14 @@
       "technologyId": "mongodb",
       "name": "7.1",
       "releaseDate": "2023-10-31",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2024-01-23",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-mongodb"
@@ -128,8 +181,14 @@
       "technologyId": "mongodb",
       "name": "7.0",
       "releaseDate": "2023-08-31",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2027-08-31",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": true,
       "status": "active",
       "sourceIds": [
         "endoflife-date-mongodb"
@@ -140,8 +199,14 @@
       "technologyId": "mongodb",
       "name": "6.3",
       "releaseDate": "2023-04-30",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2023-08-31",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-mongodb"
@@ -152,8 +217,14 @@
       "technologyId": "mongodb",
       "name": "6.2",
       "releaseDate": "2023-02-28",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2023-04-24",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-mongodb"
@@ -164,8 +235,14 @@
       "technologyId": "mongodb",
       "name": "6.1",
       "releaseDate": "2022-10-31",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2023-02-09",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-mongodb"
@@ -176,8 +253,14 @@
       "technologyId": "mongodb",
       "name": "6.0",
       "releaseDate": "2022-07-31",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2025-07-31",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-mongodb"
@@ -188,8 +271,14 @@
       "technologyId": "mongodb",
       "name": "5.3",
       "releaseDate": "2022-03-31",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2022-07-19",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-mongodb"
@@ -200,8 +289,14 @@
       "technologyId": "mongodb",
       "name": "5.2",
       "releaseDate": "2022-01-31",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2022-03-23",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-mongodb"
@@ -212,8 +307,14 @@
       "technologyId": "mongodb",
       "name": "5.1",
       "releaseDate": "2021-11-30",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2022-01-19",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-mongodb"
@@ -224,8 +325,14 @@
       "technologyId": "mongodb",
       "name": "5.0",
       "releaseDate": "2021-07-31",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2024-10-31",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-mongodb"
@@ -236,8 +343,14 @@
       "technologyId": "mongodb",
       "name": "4.4",
       "releaseDate": "2020-07-31",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2024-02-29",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-mongodb"
@@ -248,8 +361,14 @@
       "technologyId": "mongodb",
       "name": "4.2",
       "releaseDate": "2019-08-31",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2023-04-30",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-mongodb"
@@ -260,8 +379,14 @@
       "technologyId": "mongodb",
       "name": "4.0",
       "releaseDate": "2018-06-30",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2022-04-30",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-mongodb"
@@ -272,8 +397,14 @@
       "technologyId": "mongodb",
       "name": "3.6",
       "releaseDate": "2017-11-30",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2021-04-30",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-mongodb"
@@ -284,8 +415,14 @@
       "technologyId": "mongodb",
       "name": "3.4",
       "releaseDate": "2016-11-30",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2020-01-31",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-mongodb"
@@ -296,8 +433,14 @@
       "technologyId": "mongodb",
       "name": "3.2",
       "releaseDate": "2015-12-31",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2018-09-30",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-mongodb"
@@ -308,8 +451,14 @@
       "technologyId": "mongodb",
       "name": "3.0",
       "releaseDate": "2015-03-31",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2018-02-28",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-mongodb"
@@ -320,8 +469,14 @@
       "technologyId": "mongodb",
       "name": "2.6",
       "releaseDate": "2014-04-07",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2016-10-31",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-mongodb"
@@ -332,8 +487,14 @@
       "technologyId": "mongodb",
       "name": "2.4",
       "releaseDate": "2013-03-18",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2013-03-31",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-mongodb"
@@ -344,8 +505,14 @@
       "technologyId": "mongodb",
       "name": "2.2",
       "releaseDate": "2012-08-28",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2014-02-28",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-mongodb"
@@ -356,8 +523,14 @@
       "technologyId": "mongodb",
       "name": "2.0",
       "releaseDate": "2011-09-11",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2013-03-31",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-mongodb"
@@ -368,8 +541,14 @@
       "technologyId": "mongodb",
       "name": "1.8",
       "releaseDate": "2011-03-16",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2012-09-30",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-mongodb"
@@ -380,8 +559,14 @@
       "technologyId": "mongodb",
       "name": "1.6",
       "releaseDate": "2010-08-05",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2012-02-28",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-mongodb"
@@ -392,8 +577,14 @@
       "technologyId": "mongodb",
       "name": "1.4",
       "releaseDate": "2010-03-25",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2012-09-30",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-mongodb"
@@ -404,8 +595,14 @@
       "technologyId": "mongodb",
       "name": "1.2",
       "releaseDate": "2009-12-10",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2011-06-30",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-mongodb"
@@ -416,8 +613,14 @@
       "technologyId": "mongodb",
       "name": "1.0",
       "releaseDate": "2009-08-27",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2010-08-31",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-mongodb"

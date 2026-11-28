@@ -1,12 +1,12 @@
 {
-  "schemaVersion": "0.1.0",
-  "generatedAt": "2026-11-26T11:01:05+00:00",
+  "schemaVersion": "0.2.0",
+  "generatedAt": "2026-11-27T09:23:11+00:00",
   "sources": [
     {
       "id": "endoflife-date-dotnet",
       "name": "endoflife.date — Microsoft .NET",
       "url": "https://endoflife.date/dotnet",
-      "retrievedAt": "2026-11-26T11:01:05+00:00",
+      "retrievedAt": "2026-11-27T09:23:11+00:00",
       "license": "MIT",
       "licenseUrl": "https://github.com/endoflife-date/endoflife.date/blob/master/LICENSE"
     }
@@ -17,7 +17,12 @@
       "name": "Microsoft .NET",
       "description": "Cross-platform developer platform maintained by Microsoft.",
       "category": "framework",
-      "homepage": "https://dotnet.microsoft.com/platform/support/policy/dotnet-core",
+      "releasePolicyUrl": "https://dotnet.microsoft.com/platform/support/policy/dotnet-core",
+      "supportPolicy": {
+        "activeSupportLabel": null,
+        "eolLabel": "Support Status",
+        "extendedSupportLabel": null
+      },
       "aliases": [
         "dotnetcore"
       ],
@@ -32,8 +37,14 @@
       "technologyId": "dotnet",
       "name": "11",
       "releaseDate": "2026-11-10",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2028-11-14",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": true,
       "status": "active",
       "sourceIds": [
         "endoflife-date-dotnet"
@@ -44,8 +55,14 @@
       "technologyId": "dotnet",
       "name": "10",
       "releaseDate": "2025-11-11",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2028-11-14",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": true,
+      "isMaintained": true,
       "status": "active",
       "sourceIds": [
         "endoflife-date-dotnet"
@@ -56,8 +73,14 @@
       "technologyId": "dotnet",
       "name": "9",
       "releaseDate": "2024-11-12",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2026-11-10",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-dotnet"
@@ -68,8 +91,14 @@
       "technologyId": "dotnet",
       "name": "8",
       "releaseDate": "2023-11-14",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2026-11-10",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": true,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-dotnet"
@@ -80,8 +109,14 @@
       "technologyId": "dotnet",
       "name": "7",
       "releaseDate": "2022-11-08",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2024-05-14",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-dotnet"
@@ -92,8 +127,14 @@
       "technologyId": "dotnet",
       "name": "6",
       "releaseDate": "2021-11-08",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2024-11-12",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": true,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-dotnet"
@@ -104,8 +145,14 @@
       "technologyId": "dotnet",
       "name": "5",
       "releaseDate": "2020-11-10",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2022-05-10",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-dotnet"
@@ -116,8 +163,14 @@
       "technologyId": "dotnet",
       "name": "3.1",
       "releaseDate": "2019-12-03",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2022-12-13",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": true,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-dotnet"
@@ -128,8 +181,14 @@
       "technologyId": "dotnet",
       "name": "3.0",
       "releaseDate": "2019-09-23",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2020-03-03",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-dotnet"
@@ -140,8 +199,14 @@
       "technologyId": "dotnet",
       "name": "2.2",
       "releaseDate": "2018-12-04",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2019-12-23",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-dotnet"
@@ -152,8 +217,14 @@
       "technologyId": "dotnet",
       "name": "2.1",
       "releaseDate": "2018-05-30",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2021-08-21",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": true,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-dotnet"
@@ -164,8 +235,14 @@
       "technologyId": "dotnet",
       "name": "2.0",
       "releaseDate": "2017-08-14",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2018-10-01",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-dotnet"
@@ -176,8 +253,14 @@
       "technologyId": "dotnet",
       "name": "1.1",
       "releaseDate": "2016-11-16",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2019-06-27",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-dotnet"
@@ -188,8 +271,14 @@
       "technologyId": "dotnet",
       "name": "1.0",
       "releaseDate": "2016-06-27",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "not-applicable",
       "eolDate": "2019-06-27",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-dotnet"

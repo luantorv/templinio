@@ -1,0 +1,140 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:templinio:schema:lifecycle:0.2.0",
+  "title": "Templinio lifecycle dataset",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "generatedAt",
+    "sources",
+    "technologies",
+    "releaseCycles",
+    "events"
+  ],
+  "properties": {
+    "schemaVersion": { "const": "0.2.0" },
+    "generatedAt": { "type": "string", "format": "date-time" },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/source" }
+    },
+    "technologies": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/technology" }
+    },
+    "releaseCycles": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/releaseCycle" }
+    },
+    "events": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/event" }
+    }
+  },
+  "$defs": {
+    "identifier": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[a-z0-9]+(?:[.-][a-z0-9]+)*$"
+    },
+    "dateOrNull": {
+      "oneOf": [
+        { "type": "string", "format": "date" },
+        { "type": "null" }
+      ]
+    },
+    "sourceIds": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/identifier" }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "url", "retrievedAt", "license", "licenseUrl"],
+      "properties": {
+        "id": { "$ref": "#/$defs/identifier" },
+        "name": { "type": "string", "minLength": 1 },
+        "url": { "type": "string", "format": "uri" },
+        "retrievedAt": { "type": "string", "format": "date-time" },
+        "license": { "type": "string", "minLength": 1 },
+        "licenseUrl": { "type": "string", "format": "uri" }
+      }
+    },
+    "technology": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "description", "category", "releasePolicyUrl", "supportPolicy", "aliases", "sourceIds"],
+      "properties": {
+        "id": { "$ref": "#/$defs/identifier" },
+        "name": { "type": "string", "minLength": 1 },
+        "description": { "type": "string", "minLength": 1 },
+        "category": {
+          "enum": ["runtime", "language", "framework", "database", "operating-system", "tool"]
+        },
+        "releasePolicyUrl": {
+          "oneOf": [
+            { "type": "string", "format": "uri" },
+            { "type": "null" }
+          ]
+        },
+        "supportPolicy": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["activeSupportLabel", "eolLabel", "extendedSupportLabel"],
+          "properties": {
+            "activeSupportLabel": { "type": ["string", "null"] },
+            "eolLabel": { "type": "string", "minLength": 1 },
+            "extendedSupportLabel": { "type": ["string", "null"] }
+          }
+        },
+        "aliases": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "sourceIds": { "$ref": "#/$defs/sourceIds" }
+      }
+    },
+    "releaseCycle": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "technologyId", "name", "releaseDate", "ltsStartDate", "activeSupportEndDate", "activeSupportStatus", "eolDate", "extendedSupportEndDate", "extendedSupportStatus", "isLts", "isMaintained", "status", "sourceIds"],
+      "properties": {
+        "id": { "$ref": "#/$defs/identifier" },
+        "technologyId": { "$ref": "#/$defs/identifier" },
+        "name": { "type": "string", "minLength": 1 },
+        "releaseDate": { "$ref": "#/$defs/dateOrNull" },
+        "ltsStartDate": { "$ref": "#/$defs/dateOrNull" },
+        "activeSupportEndDate": { "$ref": "#/$defs/dateOrNull" },
+        "activeSupportStatus": { "enum": ["active", "ended", "not-applicable", "unknown"] },
+        "eolDate": { "$ref": "#/$defs/dateOrNull" },
+        "extendedSupportEndDate": { "$ref": "#/$defs/dateOrNull" },
+        "extendedSupportStatus": { "enum": ["active", "ended", "not-applicable", "unknown"] },
+        "isLts": { "type": ["boolean", "null"] },
+        "isMaintained": { "type": ["boolean", "null"] },
+        "status": { "enum": ["active", "end-of-life", "scheduled", "unknown"] },
+        "sourceIds": { "$ref": "#/$defs/sourceIds" }
+      }
+    },
+    "event": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "technologyId", "releaseCycleId", "type", "title", "date", "dateStatus", "sourceIds"],
+      "properties": {
+        "id": { "$ref": "#/$defs/identifier" },
+        "technologyId": { "$ref": "#/$defs/identifier" },
+        "releaseCycleId": {
+          "oneOf": [
+            { "$ref": "#/$defs/identifier" },
+            { "type": "null" }
+          ]
+        },
+        "type": { "enum": ["release", "lts-start", "active-support-end", "end-of-life", "extended-support-end", "milestone"] },
+        "title": { "type": "string", "minLength": 1 },
+        "date": { "$ref": "#/$defs/dateOrNull" },
+        "dateStatus": { "enum": ["occurred", "scheduled", "estimated", "unknown"] },
+        "sourceIds": { "$ref": "#/$defs/sourceIds" }
+      }
+    }
+  }
+}

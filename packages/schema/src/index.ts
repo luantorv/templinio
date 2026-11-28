@@ -24,7 +24,12 @@ export const technologySchema = z.object({
   name: z.string().min(1),
   description: z.string().min(1),
   category: z.enum(["runtime", "language", "framework", "database", "operating-system", "tool"]),
-  homepage: z.string().url(),
+  releasePolicyUrl: z.string().url().nullable(),
+  supportPolicy: z.object({
+    activeSupportLabel: z.string().min(1).nullable(),
+    eolLabel: z.string().min(1),
+    extendedSupportLabel: z.string().min(1).nullable(),
+  }),
   aliases: z.array(z.string().min(1)).default([]),
   sourceIds: z.array(identifier).min(1),
 });
@@ -34,8 +39,14 @@ export const releaseCycleSchema = z.object({
   technologyId: identifier,
   name: z.string().min(1),
   releaseDate: isoDate.nullable(),
+  ltsStartDate: isoDate.nullable(),
+  activeSupportEndDate: isoDate.nullable(),
+  activeSupportStatus: z.enum(["active", "ended", "not-applicable", "unknown"]),
   eolDate: isoDate.nullable(),
+  extendedSupportEndDate: isoDate.nullable(),
+  extendedSupportStatus: z.enum(["active", "ended", "not-applicable", "unknown"]),
   isLts: z.boolean().nullable(),
+  isMaintained: z.boolean().nullable(),
   status: z.enum(["active", "end-of-life", "scheduled", "unknown"]),
   sourceIds: z.array(identifier).min(1),
 });
@@ -44,7 +55,14 @@ export const eventSchema = z.object({
   id: identifier,
   technologyId: identifier,
   releaseCycleId: identifier.nullable(),
-  type: z.enum(["release", "support-start", "end-of-life", "milestone"]),
+  type: z.enum([
+    "release",
+    "lts-start",
+    "active-support-end",
+    "end-of-life",
+    "extended-support-end",
+    "milestone",
+  ]),
   title: z.string().min(1),
   date: isoDate.nullable(),
   dateStatus: z.enum(["occurred", "scheduled", "estimated", "unknown"]),
@@ -53,7 +71,7 @@ export const eventSchema = z.object({
 
 export const templinioDatasetSchema = z
   .object({
-    schemaVersion: z.literal("0.1.0"),
+    schemaVersion: z.literal("0.2.0"),
     generatedAt: isoDateTime,
     sources: z.array(sourceSchema).min(1),
     technologies: z.array(technologySchema).min(1),

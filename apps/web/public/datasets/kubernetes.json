@@ -1,12 +1,12 @@
 {
-  "schemaVersion": "0.1.0",
-  "generatedAt": "2026-11-26T11:01:05+00:00",
+  "schemaVersion": "0.2.0",
+  "generatedAt": "2026-11-27T09:23:11+00:00",
   "sources": [
     {
       "id": "endoflife-date-kubernetes",
       "name": "endoflife.date — Kubernetes",
       "url": "https://endoflife.date/kubernetes",
-      "retrievedAt": "2026-11-26T11:01:05+00:00",
+      "retrievedAt": "2026-11-27T09:23:11+00:00",
       "license": "MIT",
       "licenseUrl": "https://github.com/endoflife-date/endoflife.date/blob/master/LICENSE"
     }
@@ -17,7 +17,12 @@
       "name": "Kubernetes",
       "description": "Open-source system for orchestrating containerized applications.",
       "category": "tool",
-      "homepage": "https://kubernetes.io/releases/patch-releases/",
+      "releasePolicyUrl": "https://kubernetes.io/releases/patch-releases/",
+      "supportPolicy": {
+        "activeSupportLabel": "Active Support",
+        "eolLabel": "Maintenance Support",
+        "extendedSupportLabel": null
+      },
       "aliases": [
         "k8s"
       ],
@@ -32,8 +37,14 @@
       "technologyId": "kubernetes",
       "name": "1.37",
       "releaseDate": "2026-08-26",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2027-08-28",
+      "activeSupportStatus": "active",
       "eolDate": "2027-10-28",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": true,
       "status": "active",
       "sourceIds": [
         "endoflife-date-kubernetes"
@@ -44,8 +55,14 @@
       "technologyId": "kubernetes",
       "name": "1.36",
       "releaseDate": "2026-04-22",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2027-04-28",
+      "activeSupportStatus": "active",
       "eolDate": "2027-06-28",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": true,
       "status": "active",
       "sourceIds": [
         "endoflife-date-kubernetes"
@@ -56,8 +73,14 @@
       "technologyId": "kubernetes",
       "name": "1.35",
       "releaseDate": "2025-12-17",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2026-12-28",
+      "activeSupportStatus": "active",
       "eolDate": "2027-02-28",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": true,
       "status": "active",
       "sourceIds": [
         "endoflife-date-kubernetes"
@@ -68,8 +91,14 @@
       "technologyId": "kubernetes",
       "name": "1.34",
       "releaseDate": "2025-08-27",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2026-08-27",
+      "activeSupportStatus": "ended",
       "eolDate": "2026-10-27",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-kubernetes"
@@ -80,8 +109,14 @@
       "technologyId": "kubernetes",
       "name": "1.33",
       "releaseDate": "2025-04-23",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2026-04-28",
+      "activeSupportStatus": "ended",
       "eolDate": "2026-06-28",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-kubernetes"
@@ -92,8 +127,14 @@
       "technologyId": "kubernetes",
       "name": "1.32",
       "releaseDate": "2024-12-11",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2025-12-28",
+      "activeSupportStatus": "ended",
       "eolDate": "2026-02-28",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-kubernetes"
@@ -104,8 +145,14 @@
       "technologyId": "kubernetes",
       "name": "1.31",
       "releaseDate": "2024-08-13",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2025-08-28",
+      "activeSupportStatus": "ended",
       "eolDate": "2025-11-11",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-kubernetes"
@@ -116,8 +163,14 @@
       "technologyId": "kubernetes",
       "name": "1.30",
       "releaseDate": "2024-04-17",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2025-04-28",
+      "activeSupportStatus": "ended",
       "eolDate": "2025-07-15",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-kubernetes"
@@ -128,8 +181,14 @@
       "technologyId": "kubernetes",
       "name": "1.29",
       "releaseDate": "2023-12-13",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2024-12-28",
+      "activeSupportStatus": "ended",
       "eolDate": "2025-02-28",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-kubernetes"
@@ -140,8 +199,14 @@
       "technologyId": "kubernetes",
       "name": "1.28",
       "releaseDate": "2023-08-15",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2024-08-28",
+      "activeSupportStatus": "ended",
       "eolDate": "2024-10-28",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-kubernetes"
@@ -152,8 +217,14 @@
       "technologyId": "kubernetes",
       "name": "1.27",
       "releaseDate": "2023-04-11",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2024-04-28",
+      "activeSupportStatus": "ended",
       "eolDate": "2024-06-28",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-kubernetes"
@@ -164,8 +235,14 @@
       "technologyId": "kubernetes",
       "name": "1.26",
       "releaseDate": "2022-12-08",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2023-12-28",
+      "activeSupportStatus": "ended",
       "eolDate": "2024-02-28",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-kubernetes"
@@ -176,8 +253,14 @@
       "technologyId": "kubernetes",
       "name": "1.25",
       "releaseDate": "2022-08-23",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2023-08-27",
+      "activeSupportStatus": "ended",
       "eolDate": "2023-10-27",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-kubernetes"
@@ -188,8 +271,14 @@
       "technologyId": "kubernetes",
       "name": "1.24",
       "releaseDate": "2022-05-03",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2023-05-28",
+      "activeSupportStatus": "ended",
       "eolDate": "2023-07-28",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-kubernetes"
@@ -200,8 +289,14 @@
       "technologyId": "kubernetes",
       "name": "1.23",
       "releaseDate": "2021-12-07",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2022-12-28",
+      "activeSupportStatus": "ended",
       "eolDate": "2023-02-28",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-kubernetes"
@@ -212,8 +307,14 @@
       "technologyId": "kubernetes",
       "name": "1.22",
       "releaseDate": "2021-08-04",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2022-08-28",
+      "activeSupportStatus": "ended",
       "eolDate": "2022-10-28",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-kubernetes"
@@ -224,8 +325,14 @@
       "technologyId": "kubernetes",
       "name": "1.21",
       "releaseDate": "2021-04-08",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2022-04-28",
+      "activeSupportStatus": "ended",
       "eolDate": "2022-06-28",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-kubernetes"
@@ -236,8 +343,14 @@
       "technologyId": "kubernetes",
       "name": "1.20",
       "releaseDate": "2020-12-08",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2021-12-28",
+      "activeSupportStatus": "ended",
       "eolDate": "2022-02-28",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-kubernetes"
@@ -248,8 +361,14 @@
       "technologyId": "kubernetes",
       "name": "1.19",
       "releaseDate": "2020-08-26",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2021-08-28",
+      "activeSupportStatus": "ended",
       "eolDate": "2021-10-28",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-kubernetes"
@@ -260,8 +379,14 @@
       "technologyId": "kubernetes",
       "name": "1.18",
       "releaseDate": "2020-03-25",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2021-04-28",
+      "activeSupportStatus": "ended",
       "eolDate": "2021-06-18",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-kubernetes"
@@ -272,8 +397,14 @@
       "technologyId": "kubernetes",
       "name": "1.17",
       "releaseDate": "2019-12-07",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "ended",
       "eolDate": "2020-12-25",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-kubernetes"
@@ -284,8 +415,14 @@
       "technologyId": "kubernetes",
       "name": "1.16",
       "releaseDate": "2019-09-18",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "ended",
       "eolDate": "2020-08-04",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-kubernetes"
@@ -301,6 +438,18 @@
       "title": "Kubernetes 1.37 released",
       "date": "2026-08-26",
       "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-kubernetes"
+      ]
+    },
+    {
+      "id": "kubernetes-1-37-active-support-end",
+      "technologyId": "kubernetes",
+      "releaseCycleId": "kubernetes-1-37",
+      "type": "active-support-end",
+      "title": "Kubernetes 1.37 active support ends",
+      "date": "2027-08-28",
+      "dateStatus": "scheduled",
       "sourceIds": [
         "endoflife-date-kubernetes"
       ]
@@ -330,6 +479,18 @@
       ]
     },
     {
+      "id": "kubernetes-1-36-active-support-end",
+      "technologyId": "kubernetes",
+      "releaseCycleId": "kubernetes-1-36",
+      "type": "active-support-end",
+      "title": "Kubernetes 1.36 active support ends",
+      "date": "2027-04-28",
+      "dateStatus": "scheduled",
+      "sourceIds": [
+        "endoflife-date-kubernetes"
+      ]
+    },
+    {
       "id": "kubernetes-1-36-eol",
       "technologyId": "kubernetes",
       "releaseCycleId": "kubernetes-1-36",
@@ -354,6 +515,18 @@
       ]
     },
     {
+      "id": "kubernetes-1-35-active-support-end",
+      "technologyId": "kubernetes",
+      "releaseCycleId": "kubernetes-1-35",
+      "type": "active-support-end",
+      "title": "Kubernetes 1.35 active support ends",
+      "date": "2026-12-28",
+      "dateStatus": "scheduled",
+      "sourceIds": [
+        "endoflife-date-kubernetes"
+      ]
+    },
+    {
       "id": "kubernetes-1-35-eol",
       "technologyId": "kubernetes",
       "releaseCycleId": "kubernetes-1-35",
@@ -372,6 +545,18 @@
       "type": "release",
       "title": "Kubernetes 1.34 released",
       "date": "2025-08-27",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-kubernetes"
+      ]
+    },
+    {
+      "id": "kubernetes-1-34-active-support-end",
+      "technologyId": "kubernetes",
+      "releaseCycleId": "kubernetes-1-34",
+      "type": "active-support-end",
+      "title": "Kubernetes 1.34 active support ends",
+      "date": "2026-08-27",
       "dateStatus": "occurred",
       "sourceIds": [
         "endoflife-date-kubernetes"
@@ -402,6 +587,18 @@
       ]
     },
     {
+      "id": "kubernetes-1-33-active-support-end",
+      "technologyId": "kubernetes",
+      "releaseCycleId": "kubernetes-1-33",
+      "type": "active-support-end",
+      "title": "Kubernetes 1.33 active support ends",
+      "date": "2026-04-28",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-kubernetes"
+      ]
+    },
+    {
       "id": "kubernetes-1-33-eol",
       "technologyId": "kubernetes",
       "releaseCycleId": "kubernetes-1-33",
@@ -420,6 +617,18 @@
       "type": "release",
       "title": "Kubernetes 1.32 released",
       "date": "2024-12-11",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-kubernetes"
+      ]
+    },
+    {
+      "id": "kubernetes-1-32-active-support-end",
+      "technologyId": "kubernetes",
+      "releaseCycleId": "kubernetes-1-32",
+      "type": "active-support-end",
+      "title": "Kubernetes 1.32 active support ends",
+      "date": "2025-12-28",
       "dateStatus": "occurred",
       "sourceIds": [
         "endoflife-date-kubernetes"
@@ -450,6 +659,18 @@
       ]
     },
     {
+      "id": "kubernetes-1-31-active-support-end",
+      "technologyId": "kubernetes",
+      "releaseCycleId": "kubernetes-1-31",
+      "type": "active-support-end",
+      "title": "Kubernetes 1.31 active support ends",
+      "date": "2025-08-28",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-kubernetes"
+      ]
+    },
+    {
       "id": "kubernetes-1-31-eol",
       "technologyId": "kubernetes",
       "releaseCycleId": "kubernetes-1-31",
@@ -468,6 +689,18 @@
       "type": "release",
       "title": "Kubernetes 1.30 released",
       "date": "2024-04-17",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-kubernetes"
+      ]
+    },
+    {
+      "id": "kubernetes-1-30-active-support-end",
+      "technologyId": "kubernetes",
+      "releaseCycleId": "kubernetes-1-30",
+      "type": "active-support-end",
+      "title": "Kubernetes 1.30 active support ends",
+      "date": "2025-04-28",
       "dateStatus": "occurred",
       "sourceIds": [
         "endoflife-date-kubernetes"
@@ -498,6 +731,18 @@
       ]
     },
     {
+      "id": "kubernetes-1-29-active-support-end",
+      "technologyId": "kubernetes",
+      "releaseCycleId": "kubernetes-1-29",
+      "type": "active-support-end",
+      "title": "Kubernetes 1.29 active support ends",
+      "date": "2024-12-28",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-kubernetes"
+      ]
+    },
+    {
       "id": "kubernetes-1-29-eol",
       "technologyId": "kubernetes",
       "releaseCycleId": "kubernetes-1-29",
@@ -516,6 +761,18 @@
       "type": "release",
       "title": "Kubernetes 1.28 released",
       "date": "2023-08-15",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-kubernetes"
+      ]
+    },
+    {
+      "id": "kubernetes-1-28-active-support-end",
+      "technologyId": "kubernetes",
+      "releaseCycleId": "kubernetes-1-28",
+      "type": "active-support-end",
+      "title": "Kubernetes 1.28 active support ends",
+      "date": "2024-08-28",
       "dateStatus": "occurred",
       "sourceIds": [
         "endoflife-date-kubernetes"
@@ -546,6 +803,18 @@
       ]
     },
     {
+      "id": "kubernetes-1-27-active-support-end",
+      "technologyId": "kubernetes",
+      "releaseCycleId": "kubernetes-1-27",
+      "type": "active-support-end",
+      "title": "Kubernetes 1.27 active support ends",
+      "date": "2024-04-28",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-kubernetes"
+      ]
+    },
+    {
       "id": "kubernetes-1-27-eol",
       "technologyId": "kubernetes",
       "releaseCycleId": "kubernetes-1-27",
@@ -564,6 +833,18 @@
       "type": "release",
       "title": "Kubernetes 1.26 released",
       "date": "2022-12-08",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-kubernetes"
+      ]
+    },
+    {
+      "id": "kubernetes-1-26-active-support-end",
+      "technologyId": "kubernetes",
+      "releaseCycleId": "kubernetes-1-26",
+      "type": "active-support-end",
+      "title": "Kubernetes 1.26 active support ends",
+      "date": "2023-12-28",
       "dateStatus": "occurred",
       "sourceIds": [
         "endoflife-date-kubernetes"
@@ -594,6 +875,18 @@
       ]
     },
     {
+      "id": "kubernetes-1-25-active-support-end",
+      "technologyId": "kubernetes",
+      "releaseCycleId": "kubernetes-1-25",
+      "type": "active-support-end",
+      "title": "Kubernetes 1.25 active support ends",
+      "date": "2023-08-27",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-kubernetes"
+      ]
+    },
+    {
       "id": "kubernetes-1-25-eol",
       "technologyId": "kubernetes",
       "releaseCycleId": "kubernetes-1-25",
@@ -612,6 +905,18 @@
       "type": "release",
       "title": "Kubernetes 1.24 released",
       "date": "2022-05-03",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-kubernetes"
+      ]
+    },
+    {
+      "id": "kubernetes-1-24-active-support-end",
+      "technologyId": "kubernetes",
+      "releaseCycleId": "kubernetes-1-24",
+      "type": "active-support-end",
+      "title": "Kubernetes 1.24 active support ends",
+      "date": "2023-05-28",
       "dateStatus": "occurred",
       "sourceIds": [
         "endoflife-date-kubernetes"
@@ -642,6 +947,18 @@
       ]
     },
     {
+      "id": "kubernetes-1-23-active-support-end",
+      "technologyId": "kubernetes",
+      "releaseCycleId": "kubernetes-1-23",
+      "type": "active-support-end",
+      "title": "Kubernetes 1.23 active support ends",
+      "date": "2022-12-28",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-kubernetes"
+      ]
+    },
+    {
       "id": "kubernetes-1-23-eol",
       "technologyId": "kubernetes",
       "releaseCycleId": "kubernetes-1-23",
@@ -660,6 +977,18 @@
       "type": "release",
       "title": "Kubernetes 1.22 released",
       "date": "2021-08-04",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-kubernetes"
+      ]
+    },
+    {
+      "id": "kubernetes-1-22-active-support-end",
+      "technologyId": "kubernetes",
+      "releaseCycleId": "kubernetes-1-22",
+      "type": "active-support-end",
+      "title": "Kubernetes 1.22 active support ends",
+      "date": "2022-08-28",
       "dateStatus": "occurred",
       "sourceIds": [
         "endoflife-date-kubernetes"
@@ -690,6 +1019,18 @@
       ]
     },
     {
+      "id": "kubernetes-1-21-active-support-end",
+      "technologyId": "kubernetes",
+      "releaseCycleId": "kubernetes-1-21",
+      "type": "active-support-end",
+      "title": "Kubernetes 1.21 active support ends",
+      "date": "2022-04-28",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-kubernetes"
+      ]
+    },
+    {
       "id": "kubernetes-1-21-eol",
       "technologyId": "kubernetes",
       "releaseCycleId": "kubernetes-1-21",
@@ -708,6 +1049,18 @@
       "type": "release",
       "title": "Kubernetes 1.20 released",
       "date": "2020-12-08",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-kubernetes"
+      ]
+    },
+    {
+      "id": "kubernetes-1-20-active-support-end",
+      "technologyId": "kubernetes",
+      "releaseCycleId": "kubernetes-1-20",
+      "type": "active-support-end",
+      "title": "Kubernetes 1.20 active support ends",
+      "date": "2021-12-28",
       "dateStatus": "occurred",
       "sourceIds": [
         "endoflife-date-kubernetes"
@@ -738,6 +1091,18 @@
       ]
     },
     {
+      "id": "kubernetes-1-19-active-support-end",
+      "technologyId": "kubernetes",
+      "releaseCycleId": "kubernetes-1-19",
+      "type": "active-support-end",
+      "title": "Kubernetes 1.19 active support ends",
+      "date": "2021-08-28",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-kubernetes"
+      ]
+    },
+    {
       "id": "kubernetes-1-19-eol",
       "technologyId": "kubernetes",
       "releaseCycleId": "kubernetes-1-19",
@@ -756,6 +1121,18 @@
       "type": "release",
       "title": "Kubernetes 1.18 released",
       "date": "2020-03-25",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-kubernetes"
+      ]
+    },
+    {
+      "id": "kubernetes-1-18-active-support-end",
+      "technologyId": "kubernetes",
+      "releaseCycleId": "kubernetes-1-18",
+      "type": "active-support-end",
+      "title": "Kubernetes 1.18 active support ends",
+      "date": "2021-04-28",
       "dateStatus": "occurred",
       "sourceIds": [
         "endoflife-date-kubernetes"
@@ -786,6 +1163,18 @@
       ]
     },
     {
+      "id": "kubernetes-1-17-active-support-end",
+      "technologyId": "kubernetes",
+      "releaseCycleId": "kubernetes-1-17",
+      "type": "active-support-end",
+      "title": "Kubernetes 1.17 active support ends",
+      "date": null,
+      "dateStatus": "unknown",
+      "sourceIds": [
+        "endoflife-date-kubernetes"
+      ]
+    },
+    {
       "id": "kubernetes-1-17-eol",
       "technologyId": "kubernetes",
       "releaseCycleId": "kubernetes-1-17",
@@ -805,6 +1194,18 @@
       "title": "Kubernetes 1.16 released",
       "date": "2019-09-18",
       "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-kubernetes"
+      ]
+    },
+    {
+      "id": "kubernetes-1-16-active-support-end",
+      "technologyId": "kubernetes",
+      "releaseCycleId": "kubernetes-1-16",
+      "type": "active-support-end",
+      "title": "Kubernetes 1.16 active support ends",
+      "date": null,
+      "dateStatus": "unknown",
       "sourceIds": [
         "endoflife-date-kubernetes"
       ]

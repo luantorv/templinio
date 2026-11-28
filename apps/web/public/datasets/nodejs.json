@@ -1,12 +1,12 @@
 {
-  "schemaVersion": "0.1.0",
-  "generatedAt": "2026-11-26T11:01:05+00:00",
+  "schemaVersion": "0.2.0",
+  "generatedAt": "2026-11-27T09:23:11+00:00",
   "sources": [
     {
       "id": "endoflife-date-nodejs",
       "name": "endoflife.date — Node.js",
       "url": "https://endoflife.date/nodejs",
-      "retrievedAt": "2026-11-26T11:01:05+00:00",
+      "retrievedAt": "2026-11-27T09:23:11+00:00",
       "license": "MIT",
       "licenseUrl": "https://github.com/endoflife-date/endoflife.date/blob/master/LICENSE"
     }
@@ -17,7 +17,12 @@
       "name": "Node.js",
       "description": "JavaScript runtime built on the V8 engine.",
       "category": "runtime",
-      "homepage": "https://nodejs.org/en/about/previous-releases",
+      "releasePolicyUrl": "https://nodejs.org/en/about/previous-releases",
+      "supportPolicy": {
+        "activeSupportLabel": "Active Support",
+        "eolLabel": "Security Support",
+        "extendedSupportLabel": "Commercial Support"
+      },
       "aliases": [
         "node"
       ],
@@ -32,8 +37,14 @@
       "technologyId": "nodejs",
       "name": "26",
       "releaseDate": "2026-05-05",
+      "ltsStartDate": "2026-10-28",
+      "activeSupportEndDate": "2027-10-27",
+      "activeSupportStatus": "active",
       "eolDate": "2029-04-30",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": true,
+      "isMaintained": true,
       "status": "active",
       "sourceIds": [
         "endoflife-date-nodejs"
@@ -44,8 +55,14 @@
       "technologyId": "nodejs",
       "name": "25",
       "releaseDate": "2025-10-15",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2026-04-01",
+      "activeSupportStatus": "ended",
       "eolDate": "2026-06-01",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-nodejs"
@@ -56,8 +73,14 @@
       "technologyId": "nodejs",
       "name": "24",
       "releaseDate": "2025-05-06",
+      "ltsStartDate": "2025-10-28",
+      "activeSupportEndDate": "2026-10-20",
+      "activeSupportStatus": "ended",
       "eolDate": "2028-04-30",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": true,
+      "isMaintained": true,
       "status": "active",
       "sourceIds": [
         "endoflife-date-nodejs"
@@ -68,8 +91,14 @@
       "technologyId": "nodejs",
       "name": "23",
       "releaseDate": "2024-10-16",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2025-04-01",
+      "activeSupportStatus": "ended",
       "eolDate": "2025-06-01",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-nodejs"
@@ -80,8 +109,14 @@
       "technologyId": "nodejs",
       "name": "22",
       "releaseDate": "2024-04-24",
+      "ltsStartDate": "2024-10-29",
+      "activeSupportEndDate": "2025-10-21",
+      "activeSupportStatus": "ended",
       "eolDate": "2027-04-30",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "active",
       "isLts": true,
+      "isMaintained": true,
       "status": "active",
       "sourceIds": [
         "endoflife-date-nodejs"
@@ -92,8 +127,14 @@
       "technologyId": "nodejs",
       "name": "21",
       "releaseDate": "2023-10-17",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2024-04-01",
+      "activeSupportStatus": "ended",
       "eolDate": "2024-06-01",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-nodejs"
@@ -104,8 +145,14 @@
       "technologyId": "nodejs",
       "name": "20",
       "releaseDate": "2023-04-18",
+      "ltsStartDate": "2023-10-24",
+      "activeSupportEndDate": "2024-10-22",
+      "activeSupportStatus": "ended",
       "eolDate": "2026-04-30",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "active",
       "isLts": true,
+      "isMaintained": true,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-nodejs"
@@ -116,8 +163,14 @@
       "technologyId": "nodejs",
       "name": "19",
       "releaseDate": "2022-10-18",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2023-04-01",
+      "activeSupportStatus": "ended",
       "eolDate": "2023-06-01",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-nodejs"
@@ -128,8 +181,14 @@
       "technologyId": "nodejs",
       "name": "18",
       "releaseDate": "2022-04-19",
+      "ltsStartDate": "2022-10-25",
+      "activeSupportEndDate": "2023-10-18",
+      "activeSupportStatus": "ended",
       "eolDate": "2025-04-30",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "active",
       "isLts": true,
+      "isMaintained": true,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-nodejs"
@@ -140,8 +199,14 @@
       "technologyId": "nodejs",
       "name": "17",
       "releaseDate": "2021-10-19",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2022-04-01",
+      "activeSupportStatus": "ended",
       "eolDate": "2022-06-01",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-nodejs"
@@ -152,8 +217,14 @@
       "technologyId": "nodejs",
       "name": "16",
       "releaseDate": "2021-04-20",
+      "ltsStartDate": "2021-10-26",
+      "activeSupportEndDate": "2022-10-18",
+      "activeSupportStatus": "ended",
       "eolDate": "2023-09-11",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "active",
       "isLts": true,
+      "isMaintained": true,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-nodejs"
@@ -164,8 +235,14 @@
       "technologyId": "nodejs",
       "name": "15",
       "releaseDate": "2020-10-20",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2021-04-01",
+      "activeSupportStatus": "ended",
       "eolDate": "2021-06-01",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-nodejs"
@@ -176,8 +253,14 @@
       "technologyId": "nodejs",
       "name": "14",
       "releaseDate": "2020-04-21",
+      "ltsStartDate": "2020-10-27",
+      "activeSupportEndDate": "2021-10-19",
+      "activeSupportStatus": "ended",
       "eolDate": "2023-04-30",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "active",
       "isLts": true,
+      "isMaintained": true,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-nodejs"
@@ -188,8 +271,14 @@
       "technologyId": "nodejs",
       "name": "13",
       "releaseDate": "2019-10-22",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2020-04-01",
+      "activeSupportStatus": "ended",
       "eolDate": "2020-06-01",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-nodejs"
@@ -200,8 +289,14 @@
       "technologyId": "nodejs",
       "name": "12",
       "releaseDate": "2019-04-23",
+      "ltsStartDate": "2019-10-21",
+      "activeSupportEndDate": "2020-10-20",
+      "activeSupportStatus": "ended",
       "eolDate": "2022-04-30",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "active",
       "isLts": true,
+      "isMaintained": true,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-nodejs"
@@ -212,8 +307,14 @@
       "technologyId": "nodejs",
       "name": "11",
       "releaseDate": "2018-10-23",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2019-04-01",
+      "activeSupportStatus": "ended",
       "eolDate": "2019-06-30",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-nodejs"
@@ -224,8 +325,14 @@
       "technologyId": "nodejs",
       "name": "10",
       "releaseDate": "2018-04-24",
+      "ltsStartDate": "2018-10-30",
+      "activeSupportEndDate": "2020-05-19",
+      "activeSupportStatus": "ended",
       "eolDate": "2021-04-30",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": true,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-nodejs"
@@ -236,8 +343,14 @@
       "technologyId": "nodejs",
       "name": "9",
       "releaseDate": "2017-10-31",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2018-06-30",
+      "activeSupportStatus": "ended",
       "eolDate": "2018-06-30",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-nodejs"
@@ -248,8 +361,14 @@
       "technologyId": "nodejs",
       "name": "8",
       "releaseDate": "2017-05-30",
+      "ltsStartDate": "2017-10-31",
+      "activeSupportEndDate": "2019-01-01",
+      "activeSupportStatus": "ended",
       "eolDate": "2019-12-31",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": true,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-nodejs"
@@ -260,8 +379,14 @@
       "technologyId": "nodejs",
       "name": "7",
       "releaseDate": "2016-10-25",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2017-06-30",
+      "activeSupportStatus": "ended",
       "eolDate": "2017-06-30",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-nodejs"
@@ -272,8 +397,14 @@
       "technologyId": "nodejs",
       "name": "6",
       "releaseDate": "2016-04-26",
+      "ltsStartDate": "2016-10-18",
+      "activeSupportEndDate": "2018-04-30",
+      "activeSupportStatus": "ended",
       "eolDate": "2019-04-30",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": true,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-nodejs"
@@ -284,8 +415,14 @@
       "technologyId": "nodejs",
       "name": "5",
       "releaseDate": "2015-10-30",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2016-06-30",
+      "activeSupportStatus": "ended",
       "eolDate": "2016-06-30",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-nodejs"
@@ -296,8 +433,14 @@
       "technologyId": "nodejs",
       "name": "4",
       "releaseDate": "2015-09-09",
+      "ltsStartDate": "2015-10-01",
+      "activeSupportEndDate": "2017-04-01",
+      "activeSupportStatus": "ended",
       "eolDate": "2018-04-30",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": true,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-nodejs"
@@ -308,8 +451,14 @@
       "technologyId": "nodejs",
       "name": "3",
       "releaseDate": "2015-08-04",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "ended",
       "eolDate": null,
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "unknown",
       "sourceIds": [
         "endoflife-date-nodejs"
@@ -320,8 +469,14 @@
       "technologyId": "nodejs",
       "name": "2",
       "releaseDate": "2015-05-04",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "ended",
       "eolDate": null,
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "unknown",
       "sourceIds": [
         "endoflife-date-nodejs"
@@ -332,8 +487,14 @@
       "technologyId": "nodejs",
       "name": "1",
       "releaseDate": "2015-01-20",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "ended",
       "eolDate": null,
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "unknown",
       "sourceIds": [
         "endoflife-date-nodejs"
@@ -349,6 +510,30 @@
       "title": "Node.js 26 released",
       "date": "2026-05-05",
       "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-26-lts-start",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-26",
+      "type": "lts-start",
+      "title": "Node.js 26 LTS starts",
+      "date": "2026-10-28",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-26-active-support-end",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-26",
+      "type": "active-support-end",
+      "title": "Node.js 26 active support ends",
+      "date": "2027-10-27",
+      "dateStatus": "scheduled",
       "sourceIds": [
         "endoflife-date-nodejs"
       ]
@@ -372,6 +557,18 @@
       "type": "release",
       "title": "Node.js 25 released",
       "date": "2025-10-15",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-25-active-support-end",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-25",
+      "type": "active-support-end",
+      "title": "Node.js 25 active support ends",
+      "date": "2026-04-01",
       "dateStatus": "occurred",
       "sourceIds": [
         "endoflife-date-nodejs"
@@ -402,6 +599,30 @@
       ]
     },
     {
+      "id": "nodejs-24-lts-start",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-24",
+      "type": "lts-start",
+      "title": "Node.js 24 LTS starts",
+      "date": "2025-10-28",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-24-active-support-end",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-24",
+      "type": "active-support-end",
+      "title": "Node.js 24 active support ends",
+      "date": "2026-10-20",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
       "id": "nodejs-24-eol",
       "technologyId": "nodejs",
       "releaseCycleId": "nodejs-24",
@@ -420,6 +641,18 @@
       "type": "release",
       "title": "Node.js 23 released",
       "date": "2024-10-16",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-23-active-support-end",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-23",
+      "type": "active-support-end",
+      "title": "Node.js 23 active support ends",
+      "date": "2025-04-01",
       "dateStatus": "occurred",
       "sourceIds": [
         "endoflife-date-nodejs"
@@ -450,6 +683,30 @@
       ]
     },
     {
+      "id": "nodejs-22-lts-start",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-22",
+      "type": "lts-start",
+      "title": "Node.js 22 LTS starts",
+      "date": "2024-10-29",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-22-active-support-end",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-22",
+      "type": "active-support-end",
+      "title": "Node.js 22 active support ends",
+      "date": "2025-10-21",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
       "id": "nodejs-22-eol",
       "technologyId": "nodejs",
       "releaseCycleId": "nodejs-22",
@@ -462,12 +719,36 @@
       ]
     },
     {
+      "id": "nodejs-22-extended-support-end",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-22",
+      "type": "extended-support-end",
+      "title": "Node.js 22 extended support ends",
+      "date": null,
+      "dateStatus": "unknown",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
       "id": "nodejs-21-release",
       "technologyId": "nodejs",
       "releaseCycleId": "nodejs-21",
       "type": "release",
       "title": "Node.js 21 released",
       "date": "2023-10-17",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-21-active-support-end",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-21",
+      "type": "active-support-end",
+      "title": "Node.js 21 active support ends",
+      "date": "2024-04-01",
       "dateStatus": "occurred",
       "sourceIds": [
         "endoflife-date-nodejs"
@@ -498,6 +779,30 @@
       ]
     },
     {
+      "id": "nodejs-20-lts-start",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-20",
+      "type": "lts-start",
+      "title": "Node.js 20 LTS starts",
+      "date": "2023-10-24",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-20-active-support-end",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-20",
+      "type": "active-support-end",
+      "title": "Node.js 20 active support ends",
+      "date": "2024-10-22",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
       "id": "nodejs-20-eol",
       "technologyId": "nodejs",
       "releaseCycleId": "nodejs-20",
@@ -510,12 +815,36 @@
       ]
     },
     {
+      "id": "nodejs-20-extended-support-end",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-20",
+      "type": "extended-support-end",
+      "title": "Node.js 20 extended support ends",
+      "date": null,
+      "dateStatus": "unknown",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
       "id": "nodejs-19-release",
       "technologyId": "nodejs",
       "releaseCycleId": "nodejs-19",
       "type": "release",
       "title": "Node.js 19 released",
       "date": "2022-10-18",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-19-active-support-end",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-19",
+      "type": "active-support-end",
+      "title": "Node.js 19 active support ends",
+      "date": "2023-04-01",
       "dateStatus": "occurred",
       "sourceIds": [
         "endoflife-date-nodejs"
@@ -546,6 +875,30 @@
       ]
     },
     {
+      "id": "nodejs-18-lts-start",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-18",
+      "type": "lts-start",
+      "title": "Node.js 18 LTS starts",
+      "date": "2022-10-25",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-18-active-support-end",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-18",
+      "type": "active-support-end",
+      "title": "Node.js 18 active support ends",
+      "date": "2023-10-18",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
       "id": "nodejs-18-eol",
       "technologyId": "nodejs",
       "releaseCycleId": "nodejs-18",
@@ -558,12 +911,36 @@
       ]
     },
     {
+      "id": "nodejs-18-extended-support-end",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-18",
+      "type": "extended-support-end",
+      "title": "Node.js 18 extended support ends",
+      "date": null,
+      "dateStatus": "unknown",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
       "id": "nodejs-17-release",
       "technologyId": "nodejs",
       "releaseCycleId": "nodejs-17",
       "type": "release",
       "title": "Node.js 17 released",
       "date": "2021-10-19",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-17-active-support-end",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-17",
+      "type": "active-support-end",
+      "title": "Node.js 17 active support ends",
+      "date": "2022-04-01",
       "dateStatus": "occurred",
       "sourceIds": [
         "endoflife-date-nodejs"
@@ -594,6 +971,30 @@
       ]
     },
     {
+      "id": "nodejs-16-lts-start",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-16",
+      "type": "lts-start",
+      "title": "Node.js 16 LTS starts",
+      "date": "2021-10-26",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-16-active-support-end",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-16",
+      "type": "active-support-end",
+      "title": "Node.js 16 active support ends",
+      "date": "2022-10-18",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
       "id": "nodejs-16-eol",
       "technologyId": "nodejs",
       "releaseCycleId": "nodejs-16",
@@ -606,12 +1007,36 @@
       ]
     },
     {
+      "id": "nodejs-16-extended-support-end",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-16",
+      "type": "extended-support-end",
+      "title": "Node.js 16 extended support ends",
+      "date": null,
+      "dateStatus": "unknown",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
       "id": "nodejs-15-release",
       "technologyId": "nodejs",
       "releaseCycleId": "nodejs-15",
       "type": "release",
       "title": "Node.js 15 released",
       "date": "2020-10-20",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-15-active-support-end",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-15",
+      "type": "active-support-end",
+      "title": "Node.js 15 active support ends",
+      "date": "2021-04-01",
       "dateStatus": "occurred",
       "sourceIds": [
         "endoflife-date-nodejs"
@@ -642,6 +1067,30 @@
       ]
     },
     {
+      "id": "nodejs-14-lts-start",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-14",
+      "type": "lts-start",
+      "title": "Node.js 14 LTS starts",
+      "date": "2020-10-27",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-14-active-support-end",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-14",
+      "type": "active-support-end",
+      "title": "Node.js 14 active support ends",
+      "date": "2021-10-19",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
       "id": "nodejs-14-eol",
       "technologyId": "nodejs",
       "releaseCycleId": "nodejs-14",
@@ -654,12 +1103,36 @@
       ]
     },
     {
+      "id": "nodejs-14-extended-support-end",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-14",
+      "type": "extended-support-end",
+      "title": "Node.js 14 extended support ends",
+      "date": null,
+      "dateStatus": "unknown",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
       "id": "nodejs-13-release",
       "technologyId": "nodejs",
       "releaseCycleId": "nodejs-13",
       "type": "release",
       "title": "Node.js 13 released",
       "date": "2019-10-22",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-13-active-support-end",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-13",
+      "type": "active-support-end",
+      "title": "Node.js 13 active support ends",
+      "date": "2020-04-01",
       "dateStatus": "occurred",
       "sourceIds": [
         "endoflife-date-nodejs"
@@ -690,6 +1163,30 @@
       ]
     },
     {
+      "id": "nodejs-12-lts-start",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-12",
+      "type": "lts-start",
+      "title": "Node.js 12 LTS starts",
+      "date": "2019-10-21",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-12-active-support-end",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-12",
+      "type": "active-support-end",
+      "title": "Node.js 12 active support ends",
+      "date": "2020-10-20",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
       "id": "nodejs-12-eol",
       "technologyId": "nodejs",
       "releaseCycleId": "nodejs-12",
@@ -702,12 +1199,36 @@
       ]
     },
     {
+      "id": "nodejs-12-extended-support-end",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-12",
+      "type": "extended-support-end",
+      "title": "Node.js 12 extended support ends",
+      "date": null,
+      "dateStatus": "unknown",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
       "id": "nodejs-11-release",
       "technologyId": "nodejs",
       "releaseCycleId": "nodejs-11",
       "type": "release",
       "title": "Node.js 11 released",
       "date": "2018-10-23",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-11-active-support-end",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-11",
+      "type": "active-support-end",
+      "title": "Node.js 11 active support ends",
+      "date": "2019-04-01",
       "dateStatus": "occurred",
       "sourceIds": [
         "endoflife-date-nodejs"
@@ -738,6 +1259,30 @@
       ]
     },
     {
+      "id": "nodejs-10-lts-start",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-10",
+      "type": "lts-start",
+      "title": "Node.js 10 LTS starts",
+      "date": "2018-10-30",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-10-active-support-end",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-10",
+      "type": "active-support-end",
+      "title": "Node.js 10 active support ends",
+      "date": "2020-05-19",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
       "id": "nodejs-10-eol",
       "technologyId": "nodejs",
       "releaseCycleId": "nodejs-10",
@@ -756,6 +1301,18 @@
       "type": "release",
       "title": "Node.js 9 released",
       "date": "2017-10-31",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-9-active-support-end",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-9",
+      "type": "active-support-end",
+      "title": "Node.js 9 active support ends",
+      "date": "2018-06-30",
       "dateStatus": "occurred",
       "sourceIds": [
         "endoflife-date-nodejs"
@@ -786,6 +1343,30 @@
       ]
     },
     {
+      "id": "nodejs-8-lts-start",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-8",
+      "type": "lts-start",
+      "title": "Node.js 8 LTS starts",
+      "date": "2017-10-31",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-8-active-support-end",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-8",
+      "type": "active-support-end",
+      "title": "Node.js 8 active support ends",
+      "date": "2019-01-01",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
       "id": "nodejs-8-eol",
       "technologyId": "nodejs",
       "releaseCycleId": "nodejs-8",
@@ -804,6 +1385,18 @@
       "type": "release",
       "title": "Node.js 7 released",
       "date": "2016-10-25",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-7-active-support-end",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-7",
+      "type": "active-support-end",
+      "title": "Node.js 7 active support ends",
+      "date": "2017-06-30",
       "dateStatus": "occurred",
       "sourceIds": [
         "endoflife-date-nodejs"
@@ -834,6 +1427,30 @@
       ]
     },
     {
+      "id": "nodejs-6-lts-start",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-6",
+      "type": "lts-start",
+      "title": "Node.js 6 LTS starts",
+      "date": "2016-10-18",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-6-active-support-end",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-6",
+      "type": "active-support-end",
+      "title": "Node.js 6 active support ends",
+      "date": "2018-04-30",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
       "id": "nodejs-6-eol",
       "technologyId": "nodejs",
       "releaseCycleId": "nodejs-6",
@@ -852,6 +1469,18 @@
       "type": "release",
       "title": "Node.js 5 released",
       "date": "2015-10-30",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-5-active-support-end",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-5",
+      "type": "active-support-end",
+      "title": "Node.js 5 active support ends",
+      "date": "2016-06-30",
       "dateStatus": "occurred",
       "sourceIds": [
         "endoflife-date-nodejs"
@@ -882,6 +1511,30 @@
       ]
     },
     {
+      "id": "nodejs-4-lts-start",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-4",
+      "type": "lts-start",
+      "title": "Node.js 4 LTS starts",
+      "date": "2015-10-01",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-4-active-support-end",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-4",
+      "type": "active-support-end",
+      "title": "Node.js 4 active support ends",
+      "date": "2017-04-01",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
       "id": "nodejs-4-eol",
       "technologyId": "nodejs",
       "releaseCycleId": "nodejs-4",
@@ -901,6 +1554,18 @@
       "title": "Node.js 3 released",
       "date": "2015-08-04",
       "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-3-active-support-end",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-3",
+      "type": "active-support-end",
+      "title": "Node.js 3 active support ends",
+      "date": null,
+      "dateStatus": "unknown",
       "sourceIds": [
         "endoflife-date-nodejs"
       ]
@@ -930,6 +1595,18 @@
       ]
     },
     {
+      "id": "nodejs-2-active-support-end",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-2",
+      "type": "active-support-end",
+      "title": "Node.js 2 active support ends",
+      "date": null,
+      "dateStatus": "unknown",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
       "id": "nodejs-2-eol",
       "technologyId": "nodejs",
       "releaseCycleId": "nodejs-2",
@@ -949,6 +1626,18 @@
       "title": "Node.js 1 released",
       "date": "2015-01-20",
       "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-nodejs"
+      ]
+    },
+    {
+      "id": "nodejs-1-active-support-end",
+      "technologyId": "nodejs",
+      "releaseCycleId": "nodejs-1",
+      "type": "active-support-end",
+      "title": "Node.js 1 active support ends",
+      "date": null,
+      "dateStatus": "unknown",
       "sourceIds": [
         "endoflife-date-nodejs"
       ]

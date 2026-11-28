@@ -7,7 +7,8 @@ from __future__ import annotations
 from pathlib import Path
 from typing import Any
 
-from .io import publish_json
+from .io import publish_json, publish_text
+from .markdown import render_markdown
 from .normalize import normalize_endoflife_product
 from .validate import DatasetValidationError, validate_dataset
 
@@ -70,7 +71,7 @@ def merge_datasets(datasets: list[dict[str, Any]]) -> dict[str, Any]:
         raise DatasetValidationError("catalog: expected at least one dataset")
 
     merged = {
-        "schemaVersion": "0.1.0",
+        "schemaVersion": "0.2.0",
         "generatedAt": max(dataset["generatedAt"] for dataset in datasets),
         "sources": [],
         "technologies": [],
@@ -90,4 +91,6 @@ def publish_catalog(datasets: list[dict[str, Any]], destination: Path) -> None:
     for dataset in datasets:
         technology_id = dataset["technologies"][0]["id"]
         publish_json(dataset, destination / f"{technology_id}.json")
+        publish_text(render_markdown(dataset), destination / f"{technology_id}.md")
+    publish_text(render_markdown(aggregate), destination / "catalog.md")
     publish_json(aggregate, destination / "catalog.json")

@@ -1,12 +1,12 @@
 {
-  "schemaVersion": "0.1.0",
-  "generatedAt": "2026-11-26T11:01:05+00:00",
+  "schemaVersion": "0.2.0",
+  "generatedAt": "2026-11-27T09:23:11+00:00",
   "sources": [
     {
       "id": "endoflife-date-mysql",
       "name": "endoflife.date — MySQL",
       "url": "https://endoflife.date/mysql",
-      "retrievedAt": "2026-11-26T11:01:05+00:00",
+      "retrievedAt": "2026-11-27T09:23:11+00:00",
       "license": "MIT",
       "licenseUrl": "https://github.com/endoflife-date/endoflife.date/blob/master/LICENSE"
     }
@@ -17,7 +17,12 @@
       "name": "MySQL",
       "description": "Open-source relational database management system.",
       "category": "database",
-      "homepage": "https://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf",
+      "releasePolicyUrl": "https://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf",
+      "supportPolicy": {
+        "activeSupportLabel": "Premier Support",
+        "eolLabel": "Extended Support",
+        "extendedSupportLabel": null
+      },
       "aliases": [],
       "sourceIds": [
         "endoflife-date-mysql"
@@ -30,8 +35,14 @@
       "technologyId": "mysql",
       "name": "26.10",
       "releaseDate": "2026-10-20",
+      "ltsStartDate": null,
+      "activeSupportEndDate": null,
+      "activeSupportStatus": "active",
       "eolDate": null,
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": true,
       "status": "active",
       "sourceIds": [
         "endoflife-date-mysql"
@@ -42,8 +53,14 @@
       "technologyId": "mysql",
       "name": "26.7",
       "releaseDate": "2026-07-28",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2026-10-20",
+      "activeSupportStatus": "ended",
       "eolDate": "2026-10-20",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-mysql"
@@ -54,8 +71,14 @@
       "technologyId": "mysql",
       "name": "9.7",
       "releaseDate": "2026-04-21",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2031-04-30",
+      "activeSupportStatus": "active",
       "eolDate": "2034-04-30",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": true,
+      "isMaintained": true,
       "status": "active",
       "sourceIds": [
         "endoflife-date-mysql"
@@ -66,8 +89,14 @@
       "technologyId": "mysql",
       "name": "9.6",
       "releaseDate": "2026-01-20",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2026-04-21",
+      "activeSupportStatus": "ended",
       "eolDate": "2026-04-21",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-mysql"
@@ -78,8 +107,14 @@
       "technologyId": "mysql",
       "name": "9.5",
       "releaseDate": "2025-10-21",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2026-01-20",
+      "activeSupportStatus": "ended",
       "eolDate": "2026-01-20",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-mysql"
@@ -90,8 +125,14 @@
       "technologyId": "mysql",
       "name": "9.4",
       "releaseDate": "2025-07-22",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2025-10-21",
+      "activeSupportStatus": "ended",
       "eolDate": "2025-10-21",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-mysql"
@@ -102,8 +143,14 @@
       "technologyId": "mysql",
       "name": "9.3",
       "releaseDate": "2025-04-15",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2025-07-22",
+      "activeSupportStatus": "ended",
       "eolDate": "2025-07-22",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-mysql"
@@ -114,8 +161,14 @@
       "technologyId": "mysql",
       "name": "9.2",
       "releaseDate": "2025-01-21",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2025-04-15",
+      "activeSupportStatus": "ended",
       "eolDate": "2025-04-15",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-mysql"
@@ -126,8 +179,14 @@
       "technologyId": "mysql",
       "name": "9.1",
       "releaseDate": "2024-10-15",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2025-01-21",
+      "activeSupportStatus": "ended",
       "eolDate": "2025-01-21",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-mysql"
@@ -138,8 +197,14 @@
       "technologyId": "mysql",
       "name": "9.0",
       "releaseDate": "2024-07-01",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2024-10-15",
+      "activeSupportStatus": "ended",
       "eolDate": "2024-10-15",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-mysql"
@@ -150,8 +215,14 @@
       "technologyId": "mysql",
       "name": "8.4",
       "releaseDate": "2024-04-30",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2029-04-30",
+      "activeSupportStatus": "active",
       "eolDate": "2032-04-30",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": true,
+      "isMaintained": true,
       "status": "active",
       "sourceIds": [
         "endoflife-date-mysql"
@@ -162,8 +233,14 @@
       "technologyId": "mysql",
       "name": "8.3",
       "releaseDate": "2024-01-16",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2024-04-30",
+      "activeSupportStatus": "ended",
       "eolDate": "2024-04-30",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-mysql"
@@ -174,8 +251,14 @@
       "technologyId": "mysql",
       "name": "8.2",
       "releaseDate": "2023-10-25",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2024-01-16",
+      "activeSupportStatus": "ended",
       "eolDate": "2024-01-16",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-mysql"
@@ -186,8 +269,14 @@
       "technologyId": "mysql",
       "name": "8.1",
       "releaseDate": "2023-07-18",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2023-10-25",
+      "activeSupportStatus": "ended",
       "eolDate": "2023-10-25",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-mysql"
@@ -198,8 +287,14 @@
       "technologyId": "mysql",
       "name": "8.0",
       "releaseDate": "2018-04-19",
+      "ltsStartDate": "2023-07-18",
+      "activeSupportEndDate": "2025-04-30",
+      "activeSupportStatus": "ended",
       "eolDate": "2026-04-30",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": true,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-mysql"
@@ -210,8 +305,14 @@
       "technologyId": "mysql",
       "name": "5.7",
       "releaseDate": "2015-10-09",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2020-10-31",
+      "activeSupportStatus": "ended",
       "eolDate": "2023-10-31",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-mysql"
@@ -222,8 +323,14 @@
       "technologyId": "mysql",
       "name": "5.6",
       "releaseDate": "2013-02-01",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2018-02-28",
+      "activeSupportStatus": "ended",
       "eolDate": "2021-02-28",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-mysql"
@@ -234,8 +341,14 @@
       "technologyId": "mysql",
       "name": "5.5",
       "releaseDate": "2010-12-03",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2015-12-31",
+      "activeSupportStatus": "ended",
       "eolDate": "2018-12-31",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-mysql"
@@ -246,8 +359,14 @@
       "technologyId": "mysql",
       "name": "5.1",
       "releaseDate": "2008-12-08",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2013-12-31",
+      "activeSupportStatus": "ended",
       "eolDate": "2013-12-31",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-mysql"
@@ -258,8 +377,14 @@
       "technologyId": "mysql",
       "name": "5.0",
       "releaseDate": "2005-10-24",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2011-12-31",
+      "activeSupportStatus": "ended",
       "eolDate": "2011-12-31",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-mysql"
@@ -270,8 +395,14 @@
       "technologyId": "mysql",
       "name": "4.1",
       "releaseDate": "2004-10-23",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2006-12-31",
+      "activeSupportStatus": "ended",
       "eolDate": "2009-12-31",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-mysql"
@@ -282,8 +413,14 @@
       "technologyId": "mysql",
       "name": "4.0",
       "releaseDate": "2003-03-15",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2006-09-30",
+      "activeSupportStatus": "ended",
       "eolDate": "2008-09-30",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-mysql"
@@ -294,8 +431,14 @@
       "technologyId": "mysql",
       "name": "3.23",
       "releaseDate": "2001-01-17",
+      "ltsStartDate": null,
+      "activeSupportEndDate": "2006-07-31",
+      "activeSupportStatus": "ended",
       "eolDate": "2006-12-31",
+      "extendedSupportEndDate": null,
+      "extendedSupportStatus": "not-applicable",
       "isLts": false,
+      "isMaintained": false,
       "status": "end-of-life",
       "sourceIds": [
         "endoflife-date-mysql"
@@ -311,6 +454,18 @@
       "title": "MySQL 26.10 released",
       "date": "2026-10-20",
       "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-mysql"
+      ]
+    },
+    {
+      "id": "mysql-26-10-active-support-end",
+      "technologyId": "mysql",
+      "releaseCycleId": "mysql-26-10",
+      "type": "active-support-end",
+      "title": "MySQL 26.10 active support ends",
+      "date": null,
+      "dateStatus": "unknown",
       "sourceIds": [
         "endoflife-date-mysql"
       ]
@@ -334,6 +489,18 @@
       "type": "release",
       "title": "MySQL 26.7 released",
       "date": "2026-07-28",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-mysql"
+      ]
+    },
+    {
+      "id": "mysql-26-7-active-support-end",
+      "technologyId": "mysql",
+      "releaseCycleId": "mysql-26-7",
+      "type": "active-support-end",
+      "title": "MySQL 26.7 active support ends",
+      "date": "2026-10-20",
       "dateStatus": "occurred",
       "sourceIds": [
         "endoflife-date-mysql"
@@ -364,6 +531,18 @@
       ]
     },
     {
+      "id": "mysql-9-7-active-support-end",
+      "technologyId": "mysql",
+      "releaseCycleId": "mysql-9-7",
+      "type": "active-support-end",
+      "title": "MySQL 9.7 active support ends",
+      "date": "2031-04-30",
+      "dateStatus": "scheduled",
+      "sourceIds": [
+        "endoflife-date-mysql"
+      ]
+    },
+    {
       "id": "mysql-9-7-eol",
       "technologyId": "mysql",
       "releaseCycleId": "mysql-9-7",
@@ -382,6 +561,18 @@
       "type": "release",
       "title": "MySQL 9.6 released",
       "date": "2026-01-20",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-mysql"
+      ]
+    },
+    {
+      "id": "mysql-9-6-active-support-end",
+      "technologyId": "mysql",
+      "releaseCycleId": "mysql-9-6",
+      "type": "active-support-end",
+      "title": "MySQL 9.6 active support ends",
+      "date": "2026-04-21",
       "dateStatus": "occurred",
       "sourceIds": [
         "endoflife-date-mysql"
@@ -412,6 +603,18 @@
       ]
     },
     {
+      "id": "mysql-9-5-active-support-end",
+      "technologyId": "mysql",
+      "releaseCycleId": "mysql-9-5",
+      "type": "active-support-end",
+      "title": "MySQL 9.5 active support ends",
+      "date": "2026-01-20",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-mysql"
+      ]
+    },
+    {
       "id": "mysql-9-5-eol",
       "technologyId": "mysql",
       "releaseCycleId": "mysql-9-5",
@@ -430,6 +633,18 @@
       "type": "release",
       "title": "MySQL 9.4 released",
       "date": "2025-07-22",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-mysql"
+      ]
+    },
+    {
+      "id": "mysql-9-4-active-support-end",
+      "technologyId": "mysql",
+      "releaseCycleId": "mysql-9-4",
+      "type": "active-support-end",
+      "title": "MySQL 9.4 active support ends",
+      "date": "2025-10-21",
       "dateStatus": "occurred",
       "sourceIds": [
         "endoflife-date-mysql"
@@ -460,6 +675,18 @@
       ]
     },
     {
+      "id": "mysql-9-3-active-support-end",
+      "technologyId": "mysql",
+      "releaseCycleId": "mysql-9-3",
+      "type": "active-support-end",
+      "title": "MySQL 9.3 active support ends",
+      "date": "2025-07-22",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-mysql"
+      ]
+    },
+    {
       "id": "mysql-9-3-eol",
       "technologyId": "mysql",
       "releaseCycleId": "mysql-9-3",
@@ -478,6 +705,18 @@
       "type": "release",
       "title": "MySQL 9.2 released",
       "date": "2025-01-21",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-mysql"
+      ]
+    },
+    {
+      "id": "mysql-9-2-active-support-end",
+      "technologyId": "mysql",
+      "releaseCycleId": "mysql-9-2",
+      "type": "active-support-end",
+      "title": "MySQL 9.2 active support ends",
+      "date": "2025-04-15",
       "dateStatus": "occurred",
       "sourceIds": [
         "endoflife-date-mysql"
@@ -508,6 +747,18 @@
       ]
     },
     {
+      "id": "mysql-9-1-active-support-end",
+      "technologyId": "mysql",
+      "releaseCycleId": "mysql-9-1",
+      "type": "active-support-end",
+      "title": "MySQL 9.1 active support ends",
+      "date": "2025-01-21",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-mysql"
+      ]
+    },
+    {
       "id": "mysql-9-1-eol",
       "technologyId": "mysql",
       "releaseCycleId": "mysql-9-1",
@@ -526,6 +777,18 @@
       "type": "release",
       "title": "MySQL 9.0 released",
       "date": "2024-07-01",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-mysql"
+      ]
+    },
+    {
+      "id": "mysql-9-0-active-support-end",
+      "technologyId": "mysql",
+      "releaseCycleId": "mysql-9-0",
+      "type": "active-support-end",
+      "title": "MySQL 9.0 active support ends",
+      "date": "2024-10-15",
       "dateStatus": "occurred",
       "sourceIds": [
         "endoflife-date-mysql"
@@ -556,6 +819,18 @@
       ]
     },
     {
+      "id": "mysql-8-4-active-support-end",
+      "technologyId": "mysql",
+      "releaseCycleId": "mysql-8-4",
+      "type": "active-support-end",
+      "title": "MySQL 8.4 active support ends",
+      "date": "2029-04-30",
+      "dateStatus": "scheduled",
+      "sourceIds": [
+        "endoflife-date-mysql"
+      ]
+    },
+    {
       "id": "mysql-8-4-eol",
       "technologyId": "mysql",
       "releaseCycleId": "mysql-8-4",
@@ -574,6 +849,18 @@
       "type": "release",
       "title": "MySQL 8.3 released",
       "date": "2024-01-16",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-mysql"
+      ]
+    },
+    {
+      "id": "mysql-8-3-active-support-end",
+      "technologyId": "mysql",
+      "releaseCycleId": "mysql-8-3",
+      "type": "active-support-end",
+      "title": "MySQL 8.3 active support ends",
+      "date": "2024-04-30",
       "dateStatus": "occurred",
       "sourceIds": [
         "endoflife-date-mysql"
@@ -604,6 +891,18 @@
       ]
     },
     {
+      "id": "mysql-8-2-active-support-end",
+      "technologyId": "mysql",
+      "releaseCycleId": "mysql-8-2",
+      "type": "active-support-end",
+      "title": "MySQL 8.2 active support ends",
+      "date": "2024-01-16",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-mysql"
+      ]
+    },
+    {
       "id": "mysql-8-2-eol",
       "technologyId": "mysql",
       "releaseCycleId": "mysql-8-2",
@@ -622,6 +921,18 @@
       "type": "release",
       "title": "MySQL 8.1 released",
       "date": "2023-07-18",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-mysql"
+      ]
+    },
+    {
+      "id": "mysql-8-1-active-support-end",
+      "technologyId": "mysql",
+      "releaseCycleId": "mysql-8-1",
+      "type": "active-support-end",
+      "title": "MySQL 8.1 active support ends",
+      "date": "2023-10-25",
       "dateStatus": "occurred",
       "sourceIds": [
         "endoflife-date-mysql"
@@ -652,6 +963,30 @@
       ]
     },
     {
+      "id": "mysql-8-0-lts-start",
+      "technologyId": "mysql",
+      "releaseCycleId": "mysql-8-0",
+      "type": "lts-start",
+      "title": "MySQL 8.0 LTS starts",
+      "date": "2023-07-18",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-mysql"
+      ]
+    },
+    {
+      "id": "mysql-8-0-active-support-end",
+      "technologyId": "mysql",
+      "releaseCycleId": "mysql-8-0",
+      "type": "active-support-end",
+      "title": "MySQL 8.0 active support ends",
+      "date": "2025-04-30",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-mysql"
+      ]
+    },
+    {
       "id": "mysql-8-0-eol",
       "technologyId": "mysql",
       "releaseCycleId": "mysql-8-0",
@@ -670,6 +1005,18 @@
       "type": "release",
       "title": "MySQL 5.7 released",
       "date": "2015-10-09",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-mysql"
+      ]
+    },
+    {
+      "id": "mysql-5-7-active-support-end",
+      "technologyId": "mysql",
+      "releaseCycleId": "mysql-5-7",
+      "type": "active-support-end",
+      "title": "MySQL 5.7 active support ends",
+      "date": "2020-10-31",
       "dateStatus": "occurred",
       "sourceIds": [
         "endoflife-date-mysql"
@@ -700,6 +1047,18 @@
       ]
     },
     {
+      "id": "mysql-5-6-active-support-end",
+      "technologyId": "mysql",
+      "releaseCycleId": "mysql-5-6",
+      "type": "active-support-end",
+      "title": "MySQL 5.6 active support ends",
+      "date": "2018-02-28",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-mysql"
+      ]
+    },
+    {
       "id": "mysql-5-6-eol",
       "technologyId": "mysql",
       "releaseCycleId": "mysql-5-6",
@@ -718,6 +1077,18 @@
       "type": "release",
       "title": "MySQL 5.5 released",
       "date": "2010-12-03",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-mysql"
+      ]
+    },
+    {
+      "id": "mysql-5-5-active-support-end",
+      "technologyId": "mysql",
+      "releaseCycleId": "mysql-5-5",
+      "type": "active-support-end",
+      "title": "MySQL 5.5 active support ends",
+      "date": "2015-12-31",
       "dateStatus": "occurred",
       "sourceIds": [
         "endoflife-date-mysql"
@@ -748,6 +1119,18 @@
       ]
     },
     {
+      "id": "mysql-5-1-active-support-end",
+      "technologyId": "mysql",
+      "releaseCycleId": "mysql-5-1",
+      "type": "active-support-end",
+      "title": "MySQL 5.1 active support ends",
+      "date": "2013-12-31",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-mysql"
+      ]
+    },
+    {
       "id": "mysql-5-1-eol",
       "technologyId": "mysql",
       "releaseCycleId": "mysql-5-1",
@@ -766,6 +1149,18 @@
       "type": "release",
       "title": "MySQL 5.0 released",
       "date": "2005-10-24",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-mysql"
+      ]
+    },
+    {
+      "id": "mysql-5-0-active-support-end",
+      "technologyId": "mysql",
+      "releaseCycleId": "mysql-5-0",
+      "type": "active-support-end",
+      "title": "MySQL 5.0 active support ends",
+      "date": "2011-12-31",
       "dateStatus": "occurred",
       "sourceIds": [
         "endoflife-date-mysql"
@@ -796,6 +1191,18 @@
       ]
     },
     {
+      "id": "mysql-4-1-active-support-end",
+      "technologyId": "mysql",
+      "releaseCycleId": "mysql-4-1",
+      "type": "active-support-end",
+      "title": "MySQL 4.1 active support ends",
+      "date": "2006-12-31",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-mysql"
+      ]
+    },
+    {
       "id": "mysql-4-1-eol",
       "technologyId": "mysql",
       "releaseCycleId": "mysql-4-1",
@@ -820,6 +1227,18 @@
       ]
     },
     {
+      "id": "mysql-4-0-active-support-end",
+      "technologyId": "mysql",
+      "releaseCycleId": "mysql-4-0",
+      "type": "active-support-end",
+      "title": "MySQL 4.0 active support ends",
+      "date": "2006-09-30",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-mysql"
+      ]
+    },
+    {
       "id": "mysql-4-0-eol",
       "technologyId": "mysql",
       "releaseCycleId": "mysql-4-0",
@@ -838,6 +1257,18 @@
       "type": "release",
       "title": "MySQL 3.23 released",
       "date": "2001-01-17",
+      "dateStatus": "occurred",
+      "sourceIds": [
+        "endoflife-date-mysql"
+      ]
+    },
+    {
+      "id": "mysql-3-23-active-support-end",
+      "technologyId": "mysql",
+      "releaseCycleId": "mysql-3-23",
+      "type": "active-support-end",
+      "title": "MySQL 3.23 active support ends",
+      "date": "2006-07-31",
       "dateStatus": "occurred",
       "sourceIds": [
         "endoflife-date-mysql"
